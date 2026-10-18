@@ -1,0 +1,29 @@
+\section{Method}
+\label{sec:method}
+\subsection{Problem Setup}
+Define the inputs, outputs, assumptions, and evaluation objective.
+For example, let $\mathcal{D}=\{(x_i,y_i)\}_{i=1}^{N}$ be a dataset and
+let $f_\theta$ be a model with parameters $\theta$.
+
+\subsection{Proposed Approach}
+Describe \methodname{} precisely enough to reproduce it. Explain each
+design choice and distinguish new components from established ones.
+The following is an illustrative objective, to replace or remove:
+\begin{equation}
+  \label{eq:objective}
+  \mathcal{L}(\theta)=\frac{1}{N}\sum_{i=1}^{N}
+  \ell\bigl(f_\theta(x_i),y_i\bigr).
+\end{equation}
+Define the loss $\ell$ and any constraints when adapting
+Equation~\eqref{eq:objective} to the actual method.
+
+\begin{figure}[t]
+  \centering
+  % Replace the box with:
+  % \includegraphics[width=\linewidth]{figures/overview.pdf}
+  \fbox{\parbox[c][0.9in][c]{0.9\linewidth}{\centering
+    Method overview figure\\Input $\rightarrow$ Model $\rightarrow$ Output}}
+  \caption{Placeholder for a method overview. Explain each component
+  and any symbols used in the final figure.}
+  \label{fig:overview}
+\end{figure}

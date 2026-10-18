@@ -1,0 +1,35 @@
+\section{Experiments}
+\label{sec:experiments}
+\subsection{Experimental Setup}
+% Include dataset provenance and licenses, split construction, leakage
+% checks, baselines, metric definitions, seeds, and evaluation protocol.
+Describe datasets, baselines, and metrics. State how hyperparameters
+were selected and keep the test set separate from model selection.
+Report model versions, hardware, and computational budget.
+
+\subsection{Main Results}
+Table~\ref{tab:results} provides a layout for results. Dashes are placeholders;
+no experimental results are claimed. Specify whether uncertainty is a
+standard deviation, standard error, or confidence interval, and report
+the number of independent runs.
+
+\begin{table}[t]
+  \centering
+  \caption{Example layout only. Replace metric names, units, and entries
+  with measured results. Arrows indicate the preferred direction.}
+  \label{tab:results}
+  \begin{tabular}{lcc}
+    \toprule
+    Method & Score $\uparrow$ & Cost $\downarrow$ \\
+    \midrule
+    Baseline A & --- & --- \\
+    Baseline B & --- & --- \\
+    \methodname{} & --- & --- \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Ablations and Analysis}
+Isolate the effect of key components under comparable budgets.
+Include representative failure cases and discuss variability or
+negative findings that affect the interpretation of the results.

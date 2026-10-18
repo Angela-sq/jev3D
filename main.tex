@@ -1,0 +1,63 @@
+% Generic AI workshop draft. Replace this layout with the venue's official
+% style before submitting. Overleaf: main.tex, pdfLaTeX, BibTeX.
+\documentclass[10pt,twocolumn]{article}
+\usepackage[letterpaper,margin=0.75in,columnsep=0.25in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+
+% Change to \anonymousfalse for an attributed draft.
+\newif\ifanonymous
+\anonymoustrue
+\newcommand{\papertitle}{Your Research Paper Title}
+\newcommand{\methodname}{MethodName}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+
+\title{\papertitle}
+\ifanonymous
+  \author{Anonymous Authors}
+\else
+  \author{First Author\thanks{Correspondence: author@example.com.}
+    \quad Second Author\\Institution Name}
+\fi
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% Aim for 150--200 words unless the selected workshop specifies otherwise.
+Describe the problem and why it matters. State the limitation of existing
+approaches, summarize the proposed idea, and report the main empirical or
+theoretical finding once available. Close with the implication and scope
+of the result. This paragraph is a writing prompt, not a research claim.
+\end{abstract}
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-method}
+\input{sections/04-experiments}
+\input{sections/05-discussion}
+
+\ifanonymous\else
+\section*{Acknowledgments}
+% Add contributors, funding, and disclosures for the attributed version.
+\fi
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\input{sections/06-appendix}
+\end{document}

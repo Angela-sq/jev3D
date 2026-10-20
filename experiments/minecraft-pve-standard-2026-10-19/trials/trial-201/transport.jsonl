@@ -1,0 +1,4 @@
+{"args": ["begin", "201"], "request_ns": 1792483396315084000, "response_ns": 1792483397375547000, "image": "obs-0000.png"}
+{"args": ["observe"], "request_ns": 1792483405030901000, "response_ns": 1792483405213317000, "image": "obs-0001.png"}
+{"args": ["act", "{\"dx\": 150, \"dy\": 0, \"ms\": 100}"], "request_ns": 1792483414658964000, "response_ns": 1792483415090547000, "image": "obs-0002.png"}
+{"args": ["act", "{\"dx\": 300, \"dy\": 0, \"ms\": 100, \"buttons\": [3]}"], "request_ns": 1792483426534722000, "response_ns": 1792483426693578000, "image": "obs-0003.png"}

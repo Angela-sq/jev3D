@@ -1,0 +1,50 @@
+{
+  "task": "91de5bf2-50c3-4cf7-97a6-3a0fc6825391",
+  "note": "The trial ended on timeout.\n\n**Outcome:** The screen reads \"TRIAL END: TIMEOUT\". I never landed a confirmed hit. Health stayed at full the whole time and I was never attacked.\n\n**What happened:** The only mob I saw was a single spider. It appeared briefly three times: on a hilltop at the start, right beside me in a hollow, and later in tall grass below a ridge. Each time it moved out of view before I could close in. In daylight it did not approach me, so I had to hunt it across hilly terrain with tall grass, and the clock ran out while I was scanning.\n\n**Input notes:** Camera and movement inputs applied as expected. One attack swing was issued at the spider in the grass but no hit was visible. Dark patches of dirt in the grass looked similar to the spider at a distance, which cost time on a false lead.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481042310279000,
+  "agent_end_ns": 1792481150338522000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 36,
+  "violations": [],
+  "num_turns": 37,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "B",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 18,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

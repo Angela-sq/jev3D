@@ -1,0 +1,51 @@
+{
+  "task": "f1e6a09d-58a9-4fed-8515-a59b46ec4d61",
+  "note": "The trial ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Cave Spider\".\n\n**Visual account of the outcome:**\n- At start, a spider was visible a few blocks ahead on the grass. I selected the sword and waited out the countdown.\n- My first attack step forward lost sight of it. The next screenshot showed a poison status icon and yellowed hearts, so the cave spider had reached me and bitten me while out of frame.\n- Two camera turns to the right failed to bring it back into view before the health bar emptied. The spider was never visible again after the first contact.\n\n**Input problem noted:** the first turn of 180 horizontal units shifted the view far less than expected, which slowed the search for the mob. No other input failures were observed.\n\nThe trial is over, so no further actions are being issued.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483768286758000,
+  "agent_end_ns": 1792483807167482000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 10,
+  "violations": [],
+  "num_turns": 11,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 223,
+    "amends": 23,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

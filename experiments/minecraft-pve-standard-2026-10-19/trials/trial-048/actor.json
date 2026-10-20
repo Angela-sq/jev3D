@@ -1,0 +1,50 @@
+{
+  "task": "0536177f-c9e0-44dc-bfa7-dec02f26e947",
+  "note": "Trial 48 is over. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Vindicator\".\n\nWhat I saw:\n- At start, a single vindicator stood on a grassy rise a few blocks ahead, directly in view.\n- After the countdown the health bar showed full hearts and the mob was still at range.\n- My first move was one forward-plus-jump input toward it. The very next screenshot was the death screen, so the vindicator closed and killed me between those two frames with no visible intermediate state.\n\nInput problems: none observed. Both actions returned screenshots normally. The outcome happened faster than one observe-act cycle allowed me to react, so I never got to swing or raise the shield.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483017192229000,
+  "agent_end_ns": 1792483039634883000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 6,
+  "violations": [],
+  "num_turns": 7,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 48,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

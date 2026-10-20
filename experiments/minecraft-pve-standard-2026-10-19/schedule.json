@@ -1,0 +1,1212 @@
+{
+  "schedule_seed": 20261019,
+  "sites": [
+    {
+      "site": "A",
+      "x": 240.5,
+      "z": -240.5,
+      "description": "grassland terrace"
+    },
+    {
+      "site": "B",
+      "x": 270.5,
+      "z": -210.5,
+      "description": "grassland slope"
+    },
+    {
+      "site": "C",
+      "x": 215.5,
+      "z": -190.5,
+      "description": "grassland edge"
+    }
+  ],
+  "mobs": [
+    "zombie",
+    "husk",
+    "skeleton",
+    "stray",
+    "spider",
+    "cave_spider",
+    "creeper",
+    "witch",
+    "pillager",
+    "vindicator"
+  ],
+  "trials": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 1,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 2,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 3,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 4,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 5,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 6,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 7,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 8,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 9,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 10,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 11,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 12,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 13,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 14,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 15,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 16,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 17,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 18,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 19,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 20,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 21,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 22,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 23,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 24,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 25,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 26,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 27,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 28,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 29,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 30,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 31,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 32,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 33,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 34,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 35,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 36,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 37,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 38,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 39,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 40,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 41,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 42,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 43,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 44,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 45,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 46,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 47,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 48,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 49,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 50,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    }
+  ],
+  "reruns": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 101,
+      "rerun_of": 1,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 102,
+      "rerun_of": 2,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 103,
+      "rerun_of": 3,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 104,
+      "rerun_of": 4,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 105,
+      "rerun_of": 5,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 106,
+      "rerun_of": 6,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 107,
+      "rerun_of": 7,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 108,
+      "rerun_of": 8,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 109,
+      "rerun_of": 9,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 110,
+      "rerun_of": 10,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 111,
+      "rerun_of": 11,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 112,
+      "rerun_of": 12,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 113,
+      "rerun_of": 13,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 114,
+      "rerun_of": 14,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 115,
+      "rerun_of": 15,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 116,
+      "rerun_of": 16,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 117,
+      "rerun_of": 17,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 118,
+      "rerun_of": 18,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 119,
+      "rerun_of": 19,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 120,
+      "rerun_of": 20,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 121,
+      "rerun_of": 21,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 122,
+      "rerun_of": 22,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 123,
+      "rerun_of": 23,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 124,
+      "rerun_of": 24,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 125,
+      "rerun_of": 25,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 126,
+      "rerun_of": 26,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 127,
+      "rerun_of": 27,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 128,
+      "rerun_of": 28,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 129,
+      "rerun_of": 29,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 130,
+      "rerun_of": 30,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 131,
+      "rerun_of": 31,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 132,
+      "rerun_of": 32,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 133,
+      "rerun_of": 33,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 134,
+      "rerun_of": 34,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 135,
+      "rerun_of": 35,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 136,
+      "rerun_of": 36,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 137,
+      "rerun_of": 37,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 138,
+      "rerun_of": 38,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 139,
+      "rerun_of": 39,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 140,
+      "rerun_of": 40,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 141,
+      "rerun_of": 41,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 142,
+      "rerun_of": 42,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 143,
+      "rerun_of": 43,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 144,
+      "rerun_of": 44,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 145,
+      "rerun_of": 45,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 146,
+      "rerun_of": 46,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 147,
+      "rerun_of": 47,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 148,
+      "rerun_of": 48,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 149,
+      "rerun_of": 49,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 150,
+      "rerun_of": 50,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    }
+  ],
+  "amendments": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 201,
+      "amends": 1,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 205,
+      "amends": 5,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 215,
+      "amends": 15,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 217,
+      "amends": 17,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 218,
+      "amends": 18,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 219,
+      "amends": 19,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 223,
+      "amends": 23,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 235,
+      "amends": 35,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 240,
+      "amends": 40,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 249,
+      "amends": 49,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 301,
+      "amends": 1,
+      "rerun_of": 201,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 305,
+      "amends": 5,
+      "rerun_of": 205,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 315,
+      "amends": 15,
+      "rerun_of": 215,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 317,
+      "amends": 17,
+      "rerun_of": 217,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 318,
+      "amends": 18,
+      "rerun_of": 218,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 319,
+      "amends": 19,
+      "rerun_of": 219,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 323,
+      "amends": 23,
+      "rerun_of": 223,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 335,
+      "amends": 35,
+      "rerun_of": 235,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 340,
+      "amends": 40,
+      "rerun_of": 240,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 349,
+      "amends": 49,
+      "rerun_of": 249,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    }
+  ],
+  "calibration": [
+    {
+      "trial_id": 901,
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 0,
+      "scored": false,
+      "model": "claude-fable-5-1",
+      "reasoning_effort": "medium"
+    }
+  ]
+}

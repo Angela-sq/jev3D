@@ -1,0 +1,50 @@
+{
+  "task": "fcbce463-33bf-48f8-afad-84fd1fcd0ba8",
+  "note": "Trial 46 ended in death.\n\n**Outcome:** The screen reads \"TRIAL END: DEATH\" with the message that the player was shot by a Skeleton. No kills were observed.\n\n**What happened:** A skeleton was visible far ahead on a hill at the start. After I moved forward, it briefly appeared close on the right, but my turn overshot and I lost sight of it among the jungle trees. It kept hitting me with arrows while I searched. I located it once at range, sprinted toward it, then lost it again behind a tree trunk. Health dropped from full to one heart within about four actions. Raising the shield while advancing did not block the arrows, suggesting the shots were coming from an angle I was not facing. I died while turning around with the shield up.\n\n**Input notes:** No command errors. Camera turns felt smaller than expected for the dx values used, which contributed to losing track of the skeleton. The screenshot after the fatal hit shows the end screen, so no further actions were issued.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482895903938000,
+  "agent_end_ns": 1792482973668656000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 46,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "expected_scored": 50,
+  "completed_scored": 50,
+  "overall": {
+    "attempts": 50,
+    "outcomes": {
+      "death": 42,
+      "target_lost": 5,
+      "timeout": 3
+    },
+    "valid_trials": 50,
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.07134759913335872
+    ],
+    "median_game_seconds": 25.125,
+    "median_damage_dealt_stat": 0.0,
+    "trials_with_damage_dealt": 3
+  },
+  "by_mob": {
+    "zombie": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 18.85,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 1
+    },
+    "husk": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 4,
+        "timeout": 1
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 20.1,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 1
+    },
+    "skeleton": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 46.4,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "stray": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 34.85,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "spider": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 29.15,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "cave_spider": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 4,
+        "timeout": 1
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 17.15,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "creeper": {
+      "attempts": 5,
+      "outcomes": {
+        "target_lost": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 4.85,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "witch": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 15.8,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 1
+    },
+    "pillager": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 4,
+        "timeout": 1
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 39.7,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "vindicator": {
+      "attempts": 5,
+      "outcomes": {
+        "death": 5
+      },
+      "valid_trials": 5,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "median_game_seconds": 5.1,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    }
+  },
+  "by_site": {
+    "A": {
+      "attempts": 17,
+      "outcomes": {
+        "death": 15,
+        "target_lost": 2
+      },
+      "valid_trials": 17,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.1843181350088518
+      ],
+      "median_game_seconds": 22.1,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 3
+    },
+    "B": {
+      "attempts": 17,
+      "outcomes": {
+        "target_lost": 2,
+        "death": 14,
+        "timeout": 1
+      },
+      "valid_trials": 17,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.1843181350088518
+      ],
+      "median_game_seconds": 17.0,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    },
+    "C": {
+      "attempts": 16,
+      "outcomes": {
+        "death": 13,
+        "timeout": 2,
+        "target_lost": 1
+      },
+      "valid_trials": 16,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.1936076805344365
+      ],
+      "median_game_seconds": 34.875,
+      "median_damage_dealt_stat": 0.0,
+      "trials_with_damage_dealt": 0
+    }
+  },
+  "calibration": {
+    "attempts": 1,
+    "outcomes": {
+      "death": 1
+    },
+    "valid_trials": 1,
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.7934506856227626
+    ],
+    "median_game_seconds": 17.6,
+    "median_damage_dealt_stat": 0.0,
+    "trials_with_damage_dealt": 0
+  },
+  "technical_reruns": [],
+  "superseded_by_amendment": [
+    1,
+    5,
+    15,
+    17,
+    18,
+    19,
+    23,
+    35,
+    40,
+    49
+  ],
+  "observation_to_action_median_ms": 5031.016325500001,
+  "observation_to_action_max_ms": 16962.769595,
+  "median_action_execution_fraction_wall": 0.07201694888066855,
+  "escaped_trials": [
+    6,
+    215,
+    217,
+    36
+  ],
+  "intruder_trials": [],
+  "audit_errors": [],
+  "evidence_checks": [
+    {
+      "trial_id": 901,
+      "video_seconds": 23.530726,
+      "frames": 351,
+      "screenshots": 5,
+      "action_fraction": 0.08825331998221715
+    },
+    {
+      "trial_id": 1,
+      "video_seconds": 95.8,
+      "frames": 1437,
+      "screenshots": 18,
+      "action_fraction": 0.11028320208067309
+    },
+    {
+      "trial_id": 2,
+      "video_seconds": 40.707333,
+      "frames": 610,
+      "screenshots": 8,
+      "action_fraction": 0.11536462832999508
+    },
+    {
+      "trial_id": 3,
+      "video_seconds": 48.808989,
+      "frames": 724,
+      "screenshots": 9,
+      "action_fraction": 0.12052088912511634
+    },
+    {
+      "trial_id": 4,
+      "video_seconds": 10.6106,
+      "frames": 159,
+      "screenshots": 3,
+      "action_fraction": 0.06424405542143365
+    },
+    {
+      "trial_id": 5,
+      "video_seconds": 95.866667,
+      "frames": 1438,
+      "screenshots": 19,
+      "action_fraction": 0.05054997183497027
+    },
+    {
+      "trial_id": 6,
+      "video_seconds": 10.853933,
+      "frames": 161,
+      "screenshots": 3,
+      "action_fraction": 0.0
+    },
+    {
+      "trial_id": 7,
+      "video_seconds": 55.304348,
+      "frames": 848,
+      "screenshots": 11,
+      "action_fraction": 0.08246145798310073
+    },
+    {
+      "trial_id": 8,
+      "video_seconds": 19.085733,
+      "frames": 286,
+      "screenshots": 5,
+      "action_fraction": 0.11254810254192321
+    },
+    {
+      "trial_id": 9,
+      "video_seconds": 25.933333,
+      "frames": 389,
+      "screenshots": 6,
+      "action_fraction": 0.07556300617443631
+    },
+    {
+      "trial_id": 10,
+      "video_seconds": 56.629213,
+      "frames": 840,
+      "screenshots": 11,
+      "action_fraction": 0.11344635323672703
+    },
+    {
+      "trial_id": 11,
+      "video_seconds": 18.485133,
+      "frames": 277,
+      "screenshots": 4,
+      "action_fraction": 0.14289257695770094
+    },
+    {
+      "trial_id": 12,
+      "video_seconds": 33.318436,
+      "frames": 497,
+      "screenshots": 7,
+      "action_fraction": 0.031010072342476165
+    },
+    {
+      "trial_id": 13,
+      "video_seconds": 40.4404,
+      "frames": 606,
+      "screenshots": 8,
+      "action_fraction": 0.04888062339997273
+    },
+    {
+      "trial_id": 14,
+      "video_seconds": 40.866667,
+      "frames": 613,
+      "screenshots": 9,
+      "action_fraction": 0.0504605359067442
+    },
+    {
+      "trial_id": 15,
+      "video_seconds": 95.864789,
+      "frames": 2836,
+      "screenshots": 19,
+      "action_fraction": 0.10613038286279254
+    },
+    {
+      "trial_id": 16,
+      "video_seconds": 24.804469,
+      "frames": 370,
+      "screenshots": 6,
+      "action_fraction": 0.05520987151649519
+    },
+    {
+      "trial_id": 17,
+      "video_seconds": 96.0,
+      "frames": 1392,
+      "screenshots": 20,
+      "action_fraction": 0.0617948951335565
+    },
+    {
+      "trial_id": 18,
+      "video_seconds": 95.866667,
+      "frames": 1438,
+      "screenshots": 18,
+      "action_fraction": 0.07201694888066855
+    },
+    {
+      "trial_id": 19,
+      "video_seconds": 95.962533,
+      "frames": 1438,
+      "screenshots": 19,
+      "action_fraction": 0.05671676638012843
+    },
+    {
+      "trial_id": 20,
+      "video_seconds": 11.533333,
+      "frames": 173,
+      "screenshots": 2,
+      "action_fraction": 0.0
+    },
+    {
+      "trial_id": 21,
+      "video_seconds": 10.857143,
+      "frames": 323,
+      "screenshots": 3,
+      "action_fraction": 0.0
+    },
+    {
+      "trial_id": 22,
+      "video_seconds": 71.2712,
+      "frames": 1068,
+      "screenshots": 13,
+      "action_fraction": 0.06448857868617947
+    },
+    {
+      "trial_id": 23,
+      "video_seconds": 95.8,
+      "frames": 1437,
+      "screenshots": 20,
+      "action_fraction": 0.06594040547185767
+    },
+    {
+      "trial_id": 24,
+      "video_seconds": 24.808989,
+      "frames": 368,
+      "screenshots": 6,
+      "action_fraction": 0.09971648926375949
+    },
+    {
+      "trial_id": 25,
+      "video_seconds": 44.044,
+      "frames": 660,
+      "screenshots": 9,
+      "action_fraction": 0.10487007287396602
+    },
+    {
+      "trial_id": 26,
+      "video_seconds": 49.550562,
+      "frames": 735,
+      "screenshots": 9,
+      "action_fraction": 0.09710037485912915
+    },
+    {
+      "trial_id": 27,
+      "video_seconds": 15.548867,
+      "frames": 233,
+      "screenshots": 4,
+      "action_fraction": 0.08645091076895878
+    },
+    {
+      "trial_id": 28,
+      "video_seconds": 21.692308,
+      "frames": 329,
+      "screenshots": 5,
+      "action_fraction": 0.13776521290661653
+    },
+    {
+      "trial_id": 29,
+      "video_seconds": 37.704333,
+      "frames": 565,
+      "screenshots": 9,
+      "action_fraction": 0.06826174907578393
+    },
+    {
+      "trial_id": 30,
+      "video_seconds": 26.494382,
+      "frames": 393,
+      "screenshots": 6,
+      "action_fraction": 0.12057750570901932
+    },
+    {
+      "trial_id": 31,
+      "video_seconds": 51.733333,
+      "frames": 776,
+      "screenshots": 12,
+      "action_fraction": 0.06768866399553386
+    },
+    {
+      "trial_id": 32,
+      "video_seconds": 21.6,
+      "frames": 324,
+      "screenshots": 3,
+      "action_fraction": 0.05740724876677577
+    },
+    {
+      "trial_id": 33,
+      "video_seconds": 10.740331,
+      "frames": 162,
+      "screenshots": 3,
+      "action_fraction": 0.06694487744167052
+    },
+    {
+      "trial_id": 34,
+      "video_seconds": 39.8,
+      "frames": 597,
+      "screenshots": 7,
+      "action_fraction": 0.06559482906460162
+    },
+    {
+      "trial_id": 35,
+      "video_seconds": 95.866667,
+      "frames": 1438,
+      "screenshots": 19,
+      "action_fraction": 0.09798982445281512
+    },
+    {
+      "trial_id": 36,
+      "video_seconds": 45.72067,
+      "frames": 682,
+      "screenshots": 9,
+      "action_fraction": 0.12839422446233603
+    },
+    {
+      "trial_id": 37,
+      "video_seconds": 95.866667,
+      "frames": 1438,
+      "screenshots": 18,
+      "action_fraction": 0.05040003117713412
+    },
+    {
+      "trial_id": 38,
+      "video_seconds": 28.022346,
+      "frames": 418,
+      "screenshots": 5,
+      "action_fraction": 0.06001741430047051
+    },
+    {
+      "trial_id": 39,
+      "video_seconds": 95.866667,
+      "frames": 1438,
+      "screenshots": 18,
+      "action_fraction": 0.06943642035631549
+    },
+    {
+      "trial_id": 40,
+      "video_seconds": 95.932584,
+      "frames": 1423,
+      "screenshots": 20,
+      "action_fraction": 0.0748437928328088
+    },
+    {
+      "trial_id": 41,
+      "video_seconds": 22.866667,
+      "frames": 343,
+      "screenshots": 5,
+      "action_fraction": 0.08064257040097257
+    },
+    {
+      "trial_id": 42,
+      "video_seconds": 40.533333,
+      "frames": 608,
+      "screenshots": 7,
+      "action_fraction": 0.07654800291156906
+    },
+    {
+      "trial_id": 43,
+      "video_seconds": 49.6496,
+      "frames": 744,
+      "screenshots": 9,
+      "action_fraction": 0.0738362263390003
+    },
+    {
+      "trial_id": 44,
+      "video_seconds": 10.6,
+      "frames": 159,
+      "screenshots": 3,
+      "action_fraction": 0.0
+    },
+    {
+      "trial_id": 45,
+      "video_seconds": 10.636364,
+      "frames": 156,
+      "screenshots": 3,
+      "action_fraction": 0.0
+    },
+    {
+      "trial_id": 46,
+      "video_seconds": 52.2522,
+      "frames": 783,
+      "screenshots": 9,
+      "action_fraction": 0.08562716519778533
+    },
+    {
+      "trial_id": 47,
+      "video_seconds": 25.325967,
+      "frames": 382,
+      "screenshots": 6,
+      "action_fraction": 0.07451789716651017
+    },
+    {
+      "trial_id": 48,
+      "video_seconds": 12.067039,
+      "frames": 180,
+      "screenshots": 3,
+      "action_fraction": 0.1802514633500119
+    },
+    {
+      "trial_id": 49,
+      "video_seconds": 96.0,
+      "frames": 1440,
+      "screenshots": 18,
+      "action_fraction": 0.07476351680713333
+    },
+    {
+      "trial_id": 50,
+      "video_seconds": 30.2,
+      "frames": 453,
+      "screenshots": 7,
+      "action_fraction": 0.09431089866902059
+    },
+    {
+      "trial_id": 201,
+      "video_seconds": 23.0,
+      "frames": 345,
+      "screenshots": 4,
+      "action_fraction": 0.012102752802022079
+    },
+    {
+      "trial_id": 205,
+      "video_seconds": 37.856354,
+      "frames": 571,
+      "screenshots": 8,
+      "action_fraction": 0.05460487037221422
+    },
+    {
+      "trial_id": 215,
+      "video_seconds": 96.0,
+      "frames": 1440,
+      "screenshots": 16,
+      "action_fraction": 0.09347099452766337
+    },
+    {
+      "trial_id": 217,
+      "video_seconds": 33.921788,
+      "frames": 506,
+      "screenshots": 7,
+      "action_fraction": 0.04438163722876874
+    },
+    {
+      "trial_id": 218,
+      "video_seconds": 17.6176,
+      "frames": 264,
+      "screenshots": 4,
+      "action_fraction": 0.026293423579301988
+    },
+    {
+      "trial_id": 219,
+      "video_seconds": 49.694915,
+      "frames": 733,
+      "screenshots": 10,
+      "action_fraction": 0.07692047959105949
+    },
+    {
+      "trial_id": 223,
+      "video_seconds": 23.123596,
+      "frames": 343,
+      "screenshots": 5,
+      "action_fraction": 0.07947861482068032
+    },
+    {
+      "trial_id": 235,
+      "video_seconds": 25.025,
+      "frames": 375,
+      "screenshots": 6,
+      "action_fraction": 0.05099254032417937
+    },
+    {
+      "trial_id": 240,
+      "video_seconds": 31.666667,
+      "frames": 475,
+      "screenshots": 7,
+      "action_fraction": 0.04305656412650766
+    },
+    {
+      "trial_id": 249,
+      "video_seconds": 35.133333,
+      "frames": 527,
+      "screenshots": 8,
+      "action_fraction": 0.05998271589702066
+    }
+  ],
+  "missing_trial_ids": [],
+  "limitations": [
+    "Fixed scenarios at three sites; repeated layouts are not independent terrain samples.",
+    "Five trials per mob: per-mob intervals are wide.",
+    "Latency includes model reasoning, orchestration, screenshot transport and tool execution.",
+    "Inputs release after at most one second; shield and movement are not held while thinking.",
+    "No human, scripted, no-action or unlimited-time comparison included.",
+    "Software-rendered VM; not pooled with the Astra cohorts."
+  ]
+}

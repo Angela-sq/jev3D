@@ -1,0 +1,50 @@
+{
+  "task": "7fa6a929-1cab-4d27-9c72-94565a701f69",
+  "note": "The trial ended on timeout.\n\n**Outcome:** The screen shows \"TRIAL END: TIMEOUT\". The lone spider was never engaged. I took no visible damage, with full hearts throughout.\n\n**What happened:**\n- The spider started far ahead on a hill, and the daylight kept it passive, so it never approached me.\n- I lost sight of it after climbing the hill and spent most of the trial turning in place to scan for it.\n- I spotted it only near the end, closed in, and swung once, but the timer expired on that same action. The final frame shows the spider still standing in the grass.\n\n**Input observations:** Camera turns felt small per call, even at the maximum horizontal mouse delta, which made the scan slow. Keys and the attack button otherwise responded as expected. No errors were returned by the tools.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483042921330000,
+  "agent_end_ns": 1792483152507582000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 36,
+  "violations": [],
+  "num_turns": 37,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 49,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "6640651d-945b-45ac-b22e-20726fe19416",
+  "note": "Trial 37 ended with TRIAL END: TIMEOUT. The pillager was still alive and standing a few blocks in front of me when the screen froze.\n\nWhat happened, visually:\n- During the countdown a single mob was visible on top of the tree straight ahead. When combat started it was gone from view, and I spent most of the trial rotating through a full circle without seeing it.\n- Partway through the scan my health dropped twice from unseen hits, and an arrow appeared lodged near my shield, so it was clearly a ranged attacker.\n- Looking up and to the right finally revealed a pillager with a crossbow in the grass about eight blocks away. I aimed and sprinted at it, and the timeout screen appeared on that very action before I could reach melee range.\n\nOutcome: no kills observed. I ended with roughly seven and a half of ten hearts showing after two crossbow hits.\n\nInput problems: none. Every act call returned a new screenshot and the camera and movement responded as expected. The loss came from spending too long scanning at eye level while the pillager stayed hidden behind foliage and above my sightline.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482261552333000,
+  "agent_end_ns": 1792482376184238000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 36,
+  "violations": [],
+  "num_turns": 37,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 37,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

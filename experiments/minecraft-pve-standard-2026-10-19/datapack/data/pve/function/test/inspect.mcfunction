@@ -1,0 +1,5 @@
+tellraw @a ["PVE_INSPECT|mob|",{"nbt":"id","entity":"@e[tag=pve_enemy,limit=1]"},"|pos|",{"nbt":"Pos","entity":"@e[tag=pve_enemy,limit=1]"},"|player|",{"nbt":"Pos","entity":"@p"},"|equipment|",{"nbt":"equipment","entity":"@e[tag=pve_enemy,limit=1]"},"|effects|",{"nbt":"active_effects","entity":"@e[tag=pve_enemy,limit=1]"},"|health|",{"nbt":"Health","entity":"@e[tag=pve_enemy,limit=1]"},"|count|",{"score":{"name":"#n","objective":"pve"}}]
+execute store result score #n pve if entity @e[tag=pve_enemy]
+tellraw @a ["PVE_COUNT|",{"score":{"name":"#n","objective":"pve"}},"|others|"]
+execute store result score #n pve if entity @e[type=!player,tag=!pve_enemy,distance=..80]
+tellraw @a ["PVE_OTHERS|",{"score":{"name":"#n","objective":"pve"}}]

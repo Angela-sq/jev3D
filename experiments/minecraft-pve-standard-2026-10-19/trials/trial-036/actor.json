@@ -1,0 +1,50 @@
+{
+  "task": "56c18cce-78ea-416e-9aa6-fe2901890d9d",
+  "note": "Trial 36 ended in death. The screen reads \"TRIAL END: DEATH\" with the message that the player was shot by a Pillager.\n\nWhat I saw: a single crossbow pillager stood on a raised ledge directly ahead. I advanced with the shield raised and jumped toward the ledge, but health fell quickly from full to about half a heart over four actions, which suggests the arrows were landing despite the shield being held. On the jump-and-attack action the view suddenly showed stone walls, meaning I dropped into a pit near the ledge and lost sight of the pillager. Two more hits finished me before I could climb out. No kills were visibly confirmed.\n\nInput notes: all act calls returned screenshots normally. The shield button did not appear to prevent damage, though I cannot tell from screenshots alone whether that was due to timing, the pillager's angle, or the shield not actually being raised.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482197683340000,
+  "agent_end_ns": 1792482258248905000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "pillager",
+    "site": "B",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 36,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

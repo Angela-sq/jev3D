@@ -1,0 +1,50 @@
+{
+  "task": "3cf46924-718c-4a05-8f2f-b1a2faf88d95",
+  "note": "The trial ended with a timeout.\n\n**Outcome:** The screen shows \"TRIAL END: TIMEOUT\". I kept full health throughout and took no visible damage.\n\n**What happened:** The only hostile I spotted was a single creeper in the jungle terrain. I landed one sword swing on it, after which it appeared to be launched into the air and then vanished from view. I spent the rest of the time turning in place and scanning, but never saw it or any other mob again before the clock ran out. I cannot confirm whether the creeper died.\n\n**Input observations:** Camera turns were inconsistent in magnitude, so aiming was imprecise. The creeper's erratic movement after the hit, apparently airborne and out of sight across several frames, made it hard to re-acquire. No other input problems noticed.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480214990350000,
+  "agent_end_ns": 1792480322988614000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 38,
+  "violations": [],
+  "num_turns": 39,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 5,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "6a96ad69-f8c5-43cf-8784-8d5ed4022411",
+  "note": "The trial ended before combat began.\n\n- **First screenshot:** a \"Get ready\" countdown with a single creeper standing roughly 10 blocks ahead in the grass. I had the iron sword selected and the shield in the offhand.\n- **Second screenshot:** taken immediately after one observe call during the countdown. The overlay reads \"TRIAL END: TARGET_LOST\" and the creeper is no longer visible anywhere in view.\n\nI issued no movement or attack inputs. The only call between begin and the end screen was a single observe, so the ending was not caused by anything I did. Visually, the creeper vanished during the countdown, which is what the \"target lost\" message appears to describe. I cannot tell from the screenshots why it disappeared, such as despawning, falling into terrain, or being removed by the trial setup. No input problems occurred on my side.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481269080186000,
+  "agent_end_ns": 1792481306254960000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 4,
+  "violations": [],
+  "num_turns": 5,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 20,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

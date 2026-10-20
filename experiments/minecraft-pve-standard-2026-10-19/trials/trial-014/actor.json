@@ -1,0 +1,50 @@
+{
+  "task": "336bea35-a5fb-42ab-93ee-cc16b0c2f3e2",
+  "note": "Trial 14 ended in death.\n\n**Outcome:** The screen reads \"TRIAL END: DEATH\" with the message that the player was killed by the witch using magic. The witch is still standing on the dirt ledge in front of the player at the end.\n\n**What happened:** The witch started on top of a tree directly ahead, dropped down beside the player within seconds of \"FIGHT\", and poisoned the player almost immediately. I landed several sword swings while the hearts turned yellow-green and drained from full to nearly empty over about four actions. The witch was knocked back once but was still standing, and a final potion hit finished the player before the next swing connected.\n\n**Input problems:** None observed. Camera turns and attack presses registered as expected on each screenshot. The loss came from the fast poison and harming potions outrunning the sword damage at close range, not from a control failure.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480718075772000,
+  "agent_end_ns": 1792480771291472000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 14,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

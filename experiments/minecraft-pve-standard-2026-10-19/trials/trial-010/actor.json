@@ -1,0 +1,50 @@
+{
+  "task": "12011dbd-305a-43ee-8bc1-6029496b695f",
+  "note": "The trial ended in death. The screen reads \"TRIAL END: DEATH\" with the message that I was shot by the skeleton.\n\n**What happened visually:**\n- One skeleton was in view from the start, about eight blocks ahead.\n- It kept a three to four block gap the whole fight, strafing sideways and repeatedly slipping out of my view to the left and then far to the right.\n- My health dropped steadily from ten hearts to one over about six actions, and I never got within sword reach.\n- The final screenshot shows the skeleton still standing, so I observed no kill.\n\n**Input problems observed:**\n- Camera turns seemed smaller than expected. A dx of 110 moved the view only a modest amount, and it took a dx of 300 to recenter the skeleton.\n- The shield appeared raised in several screenshots but my health still fell during those frames, so blocking did not seem to stop the arrows, possibly because the skeleton was off to the side of my facing.\n- Sprint-forward actions did not visibly close the distance, which suggests either the skeleton was backing up at matching speed or the forward movement was shorter than the hold time implied.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480500936267000,
+  "agent_end_ns": 1792480574906667000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 22,
+  "violations": [],
+  "num_turns": 23,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 10,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

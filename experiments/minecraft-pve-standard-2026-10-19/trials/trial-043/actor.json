@@ -1,0 +1,50 @@
+{
+  "task": "db79f4df-d1ca-4b00-a579-567fccd804ef",
+  "note": "Trial 43 ended in death. The screen reads \"TRIAL END: DEATH\" with the message that I was shot by a Stray.\n\nWhat happened:\n- The lone visible hostile was a Stray archer, spotted ahead at the start. I sprinted toward it, but it kept backing off while firing.\n- Each arrow volley removed roughly two hearts, and my health dropped from full to one heart across five exchanges before the shield went up.\n- None of my sword swings landed from what I could see. The Stray stayed two to four blocks away the entire fight.\n\nInput problems observed:\n- Camera turns were inconsistent. A -120 dx moved the view only slightly, while -300 overshot far past the target, so I repeatedly ended up aiming off to one side.\n- Because of the aiming overshoot I wasted several actions re-centering instead of closing distance, and I raised the shield too late.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482766002694000,
+  "agent_end_ns": 1792482831430522000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 43,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

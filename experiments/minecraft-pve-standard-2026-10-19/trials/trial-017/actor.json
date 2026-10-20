@@ -1,0 +1,50 @@
+{
+  "task": "9ef40211-c7ae-4df1-b4a2-3a78ce3f59d1",
+  "note": "Trial 17 ended on the 90-second timeout.\n\n**What happened on screen:**\n- Combat opened with a spider charging down the hill in front of me. I landed roughly three sword swings and it disappeared from view, with what looked like a drop on the ground, though I cannot confirm the kill from the screenshots alone.\n- I then swept the camera in a full circle. The landscape was open grass, water, and trees with no hostiles visible for most of the sweep.\n- Late in the sweep a second spider appeared on the hilltop to the upper left. I advanced toward it with the shield raised, but it moved out of sight behind the ridge before I could close the distance.\n- While backing up to get a view of the hilltop, the screen showed \"TRIAL END: TIMEOUT\". My health bar stayed full the whole trial.\n\n**Input problems:** None observed. Camera turns, movement, shield, and attack inputs all registered as expected. The main cost was time spent on the 360-degree scan with small turn increments and the shield blocking the view while approaching.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480926511192000,
+  "agent_end_ns": 1792481038888655000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 40,
+  "violations": [],
+  "num_turns": 41,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 17,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

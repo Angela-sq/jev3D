@@ -1,0 +1,50 @@
+{
+  "task": "adfc34b4-0b7f-4601-b232-0340587448e9",
+  "note": "Trial 2 ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was shot by Stray\".\n\nWhat happened, from the screenshots:\n- **The enemy was a Stray**, a ranged skeleton variant whose arrows apply Slowness. It stood on a raised dirt ledge a few blocks ahead at the start.\n- **My approach stalled.** Across two forward moves, the view barely changed, which suggests I was bumping into the ledge instead of climbing it. Health fell from full to about three hearts during that time.\n- **Slowness compounded the problem.** Once hit, closing the gap became much slower, and the Stray kept its distance and kept firing.\n- **Shield came too late.** I raised it only at one heart. The final arrow landed while I was still advancing behind it, possibly from an angle the shield did not cover.\n\nNo input problems were observed. All act calls returned fresh screenshots and the camera and movement responded as expected. The one mistake was tactical: I should have jumped the ledge and raised the shield on the first approach, before taking damage.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480061406140000,
+  "agent_end_ns": 1792480117769317000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 16,
+  "violations": [],
+  "num_turns": 17,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 2,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

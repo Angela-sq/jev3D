@@ -1,0 +1,50 @@
+{
+  "task": "58d603fd-aad9-4e85-86e5-092b8909d3ad",
+  "note": "Trial 32 ended in death almost immediately. Here is what the screenshots showed:\n\n- **Start:** a zombie stood on a grassy hill directly ahead during the \"Get ready\" countdown.\n- **Second frame:** after one 800 ms idle action, the view was pressed against a stone wall with only about two hearts remaining. No mobs were visible in frame, so I could not see what was hitting me.\n- **Third frame:** before the turn-around action could reveal anything, the screen read \"TRIAL END: DEATH\" with the chat message that the player was slain by a Zombie.\n\nNo input errors occurred. The tool accepted all three commands and returned screenshots each time. The loss came from taking heavy damage during or right after the countdown while facing away from the attacker, leaving no time to engage.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481946285602000,
+  "agent_end_ns": 1792481993445000000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 6,
+  "violations": [],
+  "num_turns": 7,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 32,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

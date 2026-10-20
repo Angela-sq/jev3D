@@ -1,0 +1,50 @@
+{
+  "task": "260db5c7-317a-4edb-a15b-8cb34a383bb1",
+  "note": "Trial 3 ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the chat line \"angelasq was shot by Pillager\". The lone visible hostile was a crossbow pillager perched on top of a tree directly ahead of the spawn point. It was never reached or hit.\n\n**What happened:**\n- The player spawned facing a stone ledge with the pillager elevated on the tree canopy. Forward and forward-left movement, including a jump, did not visibly change position, so the ledge appeared to block the approach.\n- Health fell from full to half a heart over four screenshots while trying to close distance. The pillager fired steadily from above.\n- Raising the shield while facing the pillager did not visibly stop the damage, probably because the bolts were coming from a steep upward angle and the view was not tilted up enough until the final action.\n- The last action tilted the view up with the shield held, but the fatal bolt landed before it took effect.\n\n**Input problems:** No command errors. The main issue was ineffective movement, with the character seemingly stuck against the stone block in front of spawn for several actions while under fire.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480121114221000,
+  "agent_end_ns": 1792480184646922000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 3,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "task": "e7c76d44-ba7b-4484-8858-9d3d5a4efb64",
+  "note": "Trial ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Spider\".\n\nVisual account:\n- At combat start a spider was directly ahead at the crosshair. I stepped forward and swung once, and it vanished from view immediately after.\n- While I turned to re-acquire it, health dropped from full to four hearts and then to under two hearts across three screenshots. An arrow stuck in the ground also appeared, so a skeleton was likely firing from out of frame, though I never saw it.\n- I never got the spider back in frame. Its dark shape appeared only at the left edge once. My last action raised the shield while turning, and the trial ended with the spider getting the kill.\n\nNo input problems were observed. Every act call returned a new screenshot, and camera turns and the sword swing registered on screen. The outcome came from losing track of a fast mob at night and taking damage from two directions.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483851740030000,
+  "agent_end_ns": 1792483898187969000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "A",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 240,
+    "amends": 40,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

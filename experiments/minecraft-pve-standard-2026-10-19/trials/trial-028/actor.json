@@ -1,0 +1,50 @@
+{
+  "task": "19173b4c-8e1a-4bfa-b056-208753824779",
+  "note": "The trial ended in death. The screen reads \"TRIAL END: DEATH\" with the message that the player was killed by the witch using magic.\n\nWhat happened visually:\n- The witch spawned on a raised ledge directly ahead of the starting position.\n- My first forward jump put me briefly level with the witch and poisoned at about half health, with the poison icon showing in the top right.\n- My attack press showed me back below the ledge and did not land. Health kept dropping from poison and a splash potion.\n- On the next jump attempt the death screen appeared, so the witch was never hit.\n\nInput problems: none observed. Every action returned a fresh screenshot and the inputs matched what I sent. The loss came from health draining very fast, from full to dead across roughly three actions, while I was stuck below the ledge.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481740024889000,
+  "agent_end_ns": 1792481774306723000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 10,
+  "violations": [],
+  "num_turns": 11,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 28,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

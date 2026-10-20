@@ -1,0 +1,50 @@
+{
+  "task": "135c0d88-6ae4-4a7a-9203-5e2d936b8c57",
+  "note": "Trial 6 ended in death.\n\n**What happened:** The first screenshot after \"FIGHT\" showed a single mob standing centered a few blocks ahead in the grass. I issued one sprint-forward action toward it. The very next screenshot read \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Vindicator\". Health went from full hearts to dead between two consecutive observations, so no intermediate combat frames were visible.\n\n**Input problems:** None observed. The sprint action was accepted and the camera and movement responded normally. The trial simply ended before a second decision could be made, so I could not attack or raise the shield.\n\n**Outcome:** Loss by death to a Vindicator. No kills were observed.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480326389272000,
+  "agent_end_ns": 1792480347571666000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 6,
+  "violations": [],
+  "num_turns": 7,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 6,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

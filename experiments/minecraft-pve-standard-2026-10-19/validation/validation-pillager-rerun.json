@@ -1,0 +1,86 @@
+[
+  {
+    "mob": "pillager",
+    "site": "A",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -180,
+      "outcome": "death",
+      "ticks": 85,
+      "game_seconds": 4.25,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:03:44] [Render thread/INFO]: [System] [CHAT] PVE_END|-180|2|85|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "pillager",
+    "site": "B",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -181,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:03:57] [Render thread/INFO]: [System] [CHAT] PVE_END|-181|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "pillager",
+    "site": "C",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -182,
+      "outcome": "target_lost",
+      "ticks": 85,
+      "game_seconds": 4.25,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:04:10] [Render thread/INFO]: [System] [CHAT] PVE_END|-182|5|85|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  }
+]

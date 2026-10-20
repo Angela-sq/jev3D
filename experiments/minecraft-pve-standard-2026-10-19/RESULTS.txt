@@ -1,0 +1,46 @@
+Standard PvE benchmark, Claude Fable 5.1 — completed 2026-10-20 (with Amendment 1)
+
+PRIMARY RESULT (50 conditions; spider and cave_spider use the Amendment 1 night trials 2NN):
+0 wins, 42 deaths, 3 timeouts, 5 target_lost. Win rate 0/50, Wilson 95% interval 0%–7.1%.
+No technical failures, no reruns. Audit (analyze.py): no errors, 0 tool-use violations.
+Model reported: claude-fable-5-1 only. Player damage dealt > 0 in 3 trials (38 zombie,
+47 husk, 50 witch); no mob was killed.
+
+Mob           N  Wins  Deaths  Timeouts  Lost  Median game s
+zombie        5     0       5         0     0  18.9
+husk          5     0       4         1     0  20.1
+skeleton      5     0       5         0     0  46.4
+stray         5     0       5         0     0  34.9
+spider        5     0       5         0     0  29.2   (night, Amendment 1)
+cave_spider   5     0       4         1     0  17.2   (night, Amendment 1)
+creeper       5     0       0         0     5   4.9
+witch         5     0       5         0     0  15.8
+pillager      5     0       4         1     0  39.7
+vindicator    5     0       5         0     0   5.1
+
+Site A 17: 15 deaths, 2 lost. Site B 17: 14 deaths, 1 timeout, 2 lost.
+Site C 16: 13 deaths, 2 timeouts, 1 lost.
+
+Original daylight cohort (trials 1–50 as first run, before Amendment 1): 0 wins, 33 deaths,
+12 timeouts, 5 target_lost. All 10 daylight spider/cave_spider trials timed out with zero
+damage taken, because both mobs are neutral in daylight. They remain in results.csv.
+
+Timing: median observation-to-action delay 5.0 s (max 17.0 s); median 5.5 actions per trial;
+inputs were being executed during a median 7.5% of battle wall time. The game runs while the
+model thinks, so most of each fight passes with no input. This measures the whole system
+(model + Claude Code tool loop + VM transport), not model reasoning alone.
+
+AMENDMENT 1 (see PROTOCOL.md): spider and cave_spider rerun at midnight with player night
+vision, same conditions, trials 201–249. 9 of 10 attacked and killed the player; in trial 215
+(cave_spider, site C) the spider never attacked (0 damage taken) and the trial timed out.
+Night screenshots are darker and show the border stripes more strongly than noon ones.
+
+Creeper: all 5 creepers exploded next to the player (target_lost, median 4.9 s); the player
+survived every explosion (health left 5.8–16.4 of 20). Escape flag (mob >30 blocks from the player) in the primary result: trials 6 (vindicator),
+36 (pillager), 215 and 217 (night spiders).
+
+Calibration trial 901 (zombie, site A, unscored): death at 17.6 s.
+Not pooled with the Astra cohorts (different mobs, schedule, VM, driver).
+
+Evidence: trials/trial-NNN/ (video.mp4, screenshots, actions, events, transcript, actor.json).
+Videos are Git-ignored (2.1 GB total for trials/, 0.6 GB without videos); a git push alone does not back them up.

@@ -1,0 +1,50 @@
+{
+  "task": "44f5f88b-0eb8-485c-b225-90a068206669",
+  "note": "The trial ended with \"TRIAL END: TIMEOUT\" on screen.\n\n**What happened visually:**\n- A spider was straight ahead at the start. I walked up and struck it twice. After the second hit it was no longer in view and a small dropped item appeared on the ground, so it was likely killed, though I did not observe a death animation.\n- Scanning the surroundings showed only one other figure: a green creeper-like mob standing across a lake. I sprinted toward it, but a red vignette and the blue border wall appeared, meaning the world border stopped me at the shoreline with the mob still beyond it.\n- While turning back to search the rest of the arena, the 90-second game-time limit expired. My health stayed full the whole trial.\n\n**Input problems:** None. All actions registered as expected. The trial consumed most of its time traveling toward an unreachable mob and scanning the horizon rather than fighting.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792479947964262000,
+  "agent_end_ns": 1792480057963435000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 36,
+  "violations": [],
+  "num_turns": 37,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 1,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

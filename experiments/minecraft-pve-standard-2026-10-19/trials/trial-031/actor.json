@@ -1,0 +1,50 @@
+{
+  "task": "1f51d257-f77c-4099-82de-af56fc9796a2",
+  "note": "Trial 31 ended in death.\n\n**Outcome:** The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Zombie\".\n\n**What happened:**\n- During the countdown a zombie was visible in the treetops ahead, but after the \"FIGHT\" banner it was no longer in view.\n- I spent several turns rotating right to locate it. Each turn moved the camera only about 30 degrees, so the scan was slow.\n- Health began dropping while nothing was on screen. By the time the zombie appeared at the right edge of the frame, health was already down to about four and a half hearts.\n- Two attack swings while turning toward it did not land. The next screenshot showed the death screen, and no kill was observed.\n\n**Input issue:** Camera rotation per action was small relative to the dx value sent, which made locating an off-screen attacker take too long. A faster initial sweep or an immediate shield raise when damage appeared would have been the better play.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481875988992000,
+  "agent_end_ns": 1792481942957298000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 24,
+  "violations": [],
+  "num_turns": 25,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "zombie",
+    "site": "C",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 31,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

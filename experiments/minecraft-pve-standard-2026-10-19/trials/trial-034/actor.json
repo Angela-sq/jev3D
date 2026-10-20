@@ -1,0 +1,50 @@
+{
+  "task": "86601b30-d91f-449a-adcf-3c379313786b",
+  "note": "Trial 34 ended in death.\n\n**What happened:** The single visible enemy was a pillager with a crossbow standing on a one-block ledge directly ahead. I sprinted at it and reached melee range within two moves, but each crossbow bolt took roughly two hearts through iron armor. Health dropped from full to about two and a half hearts over three hits while I swung three times. The final screen read \"TRIAL END: DEATH\" with the chat line saying I was shot by the pillager, which was still standing.\n\n**Input observations:** All act calls returned screenshots normally. Camera and movement responded as expected. I could not confirm visually whether any of my sword swings landed, since the pillager showed no clear hit reaction in the frames I saw.\n\n**Likely mistake:** I closed distance without raising the shield, and the ledge put the pillager slightly above sword reach for the early swings. Blocking during the approach and only swinging once level with it would have been safer.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482022629285000,
+  "agent_end_ns": 1792482077524699000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 34,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

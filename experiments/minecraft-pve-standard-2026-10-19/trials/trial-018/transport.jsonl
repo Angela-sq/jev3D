@@ -1,0 +1,18 @@
+{"args": ["begin", "18"], "request_ns": 1792481045799167000, "response_ns": 1792481046845480000, "image": "obs-0000.png"}
+{"args": ["observe"], "request_ns": 1792481051712573000, "response_ns": 1792481051847817000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"ms\":600,\"dx\":0,\"dy\":-20}"], "request_ns": 1792481056921322000, "response_ns": 1792481057830029000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"ms\":700,\"dx\":0,\"dy\":0}"], "request_ns": 1792481062231301000, "response_ns": 1792481063267027000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":-120,\"dy\":0}"], "request_ns": 1792481068414725000, "response_ns": 1792481068828451000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":-150,\"dy\":0}"], "request_ns": 1792481074029272000, "response_ns": 1792481074445977000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[1],\"ms\":150,\"dx\":-90,\"dy\":15}"], "request_ns": 1792481078877597000, "response_ns": 1792481079353945000, "image": "obs-0006.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":0,\"dy\":60}"], "request_ns": 1792481084576594000, "response_ns": 1792481084989839000, "image": "obs-0007.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":180,\"dy\":-20}"], "request_ns": 1792481089238887000, "response_ns": 1792481089649282000, "image": "obs-0008.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":200,\"dy\":0}"], "request_ns": 1792481093775112000, "response_ns": 1792481094173486000, "image": "obs-0009.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":200,\"dy\":0}"], "request_ns": 1792481098752602000, "response_ns": 1792481099156399000, "image": "obs-0010.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"ms\":800,\"dx\":0,\"dy\":0}"], "request_ns": 1792481103923811000, "response_ns": 1792481105072243000, "image": "obs-0011.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":220,\"dy\":10}"], "request_ns": 1792481109909007000, "response_ns": 1792481110330426000, "image": "obs-0012.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"buttons\":[1],\"ms\":400,\"dx\":25,\"dy\":30}"], "request_ns": 1792481116284460000, "response_ns": 1792481117021349000, "image": "obs-0013.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":0,\"dy\":80}"], "request_ns": 1792481122809234000, "response_ns": 1792481123219250000, "image": "obs-0014.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"ms\":500,\"dx\":-15,\"dy\":0}"], "request_ns": 1792481128555416000, "response_ns": 1792481129382427000, "image": "obs-0015.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"ms\":700,\"dx\":-20,\"dy\":0}"], "request_ns": 1792481135370065000, "response_ns": 1792481136398901000, "image": "obs-0016.png"}
+{"args": ["act", "{\"keys\":[],\"ms\":100,\"dx\":-160,\"dy\":0}"], "request_ns": 1792481141154463000, "response_ns": 1792481141563916000, "image": "obs-0017.png"}

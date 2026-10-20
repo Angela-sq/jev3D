@@ -1,0 +1,6 @@
+!**/events.log
+!**/video.log
+!**/supervisor.log
+*.tar.gz
+**/video.mp4
+**/transcript.jsonl

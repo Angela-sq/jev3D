@@ -1,0 +1,50 @@
+{
+  "task": "a44b01a4-6ef3-4e67-bfc7-a3b71e4ec691",
+  "note": "Trial 29 ended. The screen shows \"TRIAL END: TARGET_LOST\".\n\n**What happened:** At the start a single creeper was visible atop a wooded hill ahead. After a brief scan to the right, I turned back and walked toward it, but it had disappeared behind the leaves. I backed up to open ground and was rotating to scan for it or other mobs when the trial ended with the target-lost message. No mob was ever within melee range, so no attacks were made and I took no damage as far as the health bar showed.\n\n**Input problems:** None observed. Camera turns and movement responded as expected, though the first forward walk appeared to make little progress, likely blocked by the hill or foliage.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481777565797000,
+  "agent_end_ns": 1792481828036513000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "creeper",
+    "site": "C",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 29,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

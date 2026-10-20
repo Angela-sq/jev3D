@@ -1,0 +1,50 @@
+{
+  "task": "d2bc2c8f-1350-4784-a216-cb9483d3b34b",
+  "note": "Trial 901 ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the message \"angelasq was slain by Zombie.\" A zombie is visible standing beside me on the grass block at the end.\n\n**What happened visually:** At the start, one zombie was visible straight ahead in the distance. After one forward move the view tilted up and the zombie vanished from sight. On the next forward step the health bar dropped from about nine hearts to four while I was in tall grass with nothing visible on screen. I turned around with the shield raised to find the attacker, and the trial ended before the next decision.\n\n**Input problems:** None that I could confirm. The camera pitch after the first move looked higher than expected, which may have been a jump onto the raised block rather than an input issue. The zombie closed and attacked from outside my field of view, so I never had a screenshot with it in melee range to attack.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792479881881184000,
+  "agent_end_ns": 1792479916634649000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 10,
+  "violations": [],
+  "num_turns": 11,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "trial_id": 901,
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 0,
+    "scored": false,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

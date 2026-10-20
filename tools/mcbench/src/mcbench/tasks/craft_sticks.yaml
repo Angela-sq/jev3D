@@ -1,0 +1,16 @@
+id: craft_sticks
+category: planning
+difficulty: 2
+goal_text: Craft at least 4 sticks starting from the log in your inventory. Open your inventory with the inventory key.
+time_limit_s: 90
+setup_commands:
+  - /give @s minecraft:oak_log 1
+success:
+  - {inventory: stick, op: ">=", value: 4}
+dev_seeds: [711, 712, 713]
+heldout_seeds: [1061, 1062]
+heldout_variant:
+  setup_commands:
+    - /give @s minecraft:birch_log 1
+oracle:
+  commands: [/give @s minecraft:stick 4]

@@ -1,0 +1,32 @@
+id: survive_mobs
+category: survival
+difficulty: 2
+goal_text: Stay alive for 45 seconds. Zombies are coming. You have a sword and a shield.
+time_limit_s: 45
+params:
+  a: {polar: {dist: [8, 12], angle: [-60, 60]}}
+  b: {polar: {dist: [8, 12], angle: [120, 240]}}
+setup_commands:
+  - /time set 18000
+  - /effect give @s minecraft:night_vision 99999 0 true
+  - /give @s minecraft:iron_sword
+  - /replaceitem entity @s weapon.offhand minecraft:shield
+  - /summon minecraft:zombie ~{a_dx} ~ ~{a_dz}
+  - /summon minecraft:zombie ~{b_dx} ~ ~{b_dz}
+success:
+  - {survive_s: 45}
+failure:
+  - {dead: true}
+dev_seeds: [501, 502, 503]
+heldout_seeds: [941, 942]
+heldout_variant:
+  setup_commands:
+    - /time set 18000
+    - /effect give @s minecraft:night_vision 99999 0 true
+    - /give @s minecraft:iron_sword
+    - /replaceitem entity @s weapon.offhand minecraft:shield
+    - /summon minecraft:zombie ~{a_dx} ~ ~{a_dz}
+    - /summon minecraft:zombie ~{b_dx} ~ ~{b_dz}
+    - /summon minecraft:skeleton ~{b_dz} ~ ~{a_dx}
+oracle:
+  commands: ["/kill @e[type=!player]"]

@@ -1,0 +1,11 @@
+# Full benchmark: every validated task, 3 dev + 2 held-out seeds, both timing modes.
+# Needs --yes. Finished episodes are skipped on resume, so reuse the same run_id to continue.
+run_id: full-v1
+tasks: all
+splits: [dev, heldout]
+modes: [charged, paused]
+max_calls_episode: 400
+max_calls_run: 17000
+max_calls_global: 40000
+confirm_threshold: 500
+agent: {type: fable, history: 5}

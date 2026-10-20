@@ -1,0 +1,31 @@
+{
+  "task": "craft_table",
+  "category": "planning",
+  "difficulty": 2,
+  "seed": 401,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 1800,
+  "game_seconds": 90.0,
+  "decisions": 12,
+  "calls": 12,
+  "input_tokens": 26659,
+  "output_tokens": 5266,
+  "format_errors": 0,
+  "latency_mean_s": 7.303666666666666,
+  "latency_p90_s": 15.0225,
+  "wall_latency_mean_s": 9.35792027056838,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.5947899999999999,
+  "extra": {
+    "values": {},
+    "goal_text": "Craft a crafting table using the logs in your inventory. Open your inventory with the inventory key."
+  }
+}

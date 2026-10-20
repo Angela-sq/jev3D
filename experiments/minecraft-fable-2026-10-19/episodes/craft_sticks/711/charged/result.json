@@ -1,0 +1,31 @@
+{
+  "task": "craft_sticks",
+  "category": "planning",
+  "difficulty": 2,
+  "seed": 711,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 1800,
+  "game_seconds": 90.0,
+  "decisions": 10,
+  "calls": 10,
+  "input_tokens": 22328,
+  "output_tokens": 5734,
+  "format_errors": 0,
+  "latency_mean_s": 9.2591,
+  "latency_p90_s": 14.201099999999999,
+  "wall_latency_mean_s": 10.211837824899703,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.565185,
+  "extra": {
+    "values": {},
+    "goal_text": "Craft at least 4 sticks starting from the log in your inventory. Open your inventory with the inventory key."
+  }
+}

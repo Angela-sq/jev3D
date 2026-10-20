@@ -14,3 +14,8 @@ GitHub evidence download (all experiment files, including videos/world archive):
 https://github.com/Angela-sq/jev3D/releases/tag/minecraft-pve-2026-10-19
 The release also includes corrected-trial-011.mp4 for quick viewing.
 Trial 11: movement/jump around 9 seconds, attack around 19–21 seconds.
+
+Minecraft pixel-control benchmark (mcbench), Claude Fable 5.1
+Results: minecraft-fable-2026-10-19/RESULTS.txt and report.pdf
+19 tasks, one episode each: 3 passed, 16 failed (10 timeouts, 6 deaths).
+Code: tools/mcbench/. Separate setup from the PvE cohorts; do not pool.

@@ -1,0 +1,36 @@
+{
+  "task": "survive_mobs",
+  "category": "survival",
+  "difficulty": 2,
+  "seed": 501,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "dead",
+  "steps": 185,
+  "game_seconds": 9.25,
+  "decisions": 3,
+  "calls": 3,
+  "input_tokens": 6327,
+  "output_tokens": 540,
+  "format_errors": 0,
+  "latency_mean_s": 2.720333333333334,
+  "latency_p90_s": 3.3676000000000004,
+  "wall_latency_mean_s": 3.8611700135904052,
+  "final_health": 20.0,
+  "damage_taken": 22.5,
+  "damage_dealt": 0.0,
+  "deaths": 1,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.1031175,
+  "extra": {
+    "values": {
+      "a_dx": 9,
+      "a_dz": 6,
+      "b_dx": 7,
+      "b_dz": -5
+    },
+    "goal_text": "Stay alive for 45 seconds. Zombies are coming. You have a sword and a shield."
+  }
+}

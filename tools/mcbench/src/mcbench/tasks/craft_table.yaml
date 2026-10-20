@@ -1,0 +1,16 @@
+id: craft_table
+category: planning
+difficulty: 2
+goal_text: Craft a crafting table using the logs in your inventory. Open your inventory with the inventory key.
+time_limit_s: 90
+setup_commands:
+  - /give @s minecraft:oak_log 2
+success:
+  - {inventory: crafting_table, op: ">=", value: 1}
+dev_seeds: [401, 402, 403]
+heldout_seeds: [931, 932]
+heldout_variant:
+  setup_commands:
+    - /give @s minecraft:birch_log 2
+oracle:
+  commands: [/give @s minecraft:crafting_table]

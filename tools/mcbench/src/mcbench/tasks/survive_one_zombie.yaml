@@ -1,0 +1,28 @@
+id: survive_one_zombie
+category: survival
+difficulty: 1
+goal_text: Stay alive for 30 seconds. A zombie is nearby. You have a sword and armor.
+time_limit_s: 30
+params:
+  z: {polar: {dist: [8, 10], angle: [-60, 60]}}
+setup_commands:
+  - /time set 18000
+  - /effect give @s minecraft:night_vision 99999 0 true
+  - /give @s minecraft:iron_sword
+  - /replaceitem entity @s armor.chest minecraft:iron_chestplate
+  - /summon minecraft:zombie ~{z_dx} ~ ~{z_dz}
+success:
+  - {survive_s: 30}
+failure:
+  - {dead: true}
+dev_seeds: [641, 642, 643]
+heldout_seeds: [991, 992]
+heldout_variant:
+  setup_commands:
+    - /time set 18000
+    - /effect give @s minecraft:night_vision 99999 0 true
+    - /give @s minecraft:iron_sword
+    - /replaceitem entity @s armor.chest minecraft:iron_chestplate
+    - /summon minecraft:husk ~{z_dx} ~ ~{z_dz}
+oracle:
+  commands: ["/kill @e[type=!player]"]

@@ -1,0 +1,11 @@
+# Smoke test: 3 tasks x 1 dev seed x paused mode, at most 30 Fable calls per episode, 90 per run.
+run_id: smoke-{time}
+tasks: [collect_wood, combat_zombie, navigate_landmark]
+splits: [dev]
+seeds_per_split: 1
+modes: [paused]
+max_calls_episode: 30
+max_calls_run: 90
+max_calls_global: 40000
+confirm_threshold: 100
+agent: {type: fable, history: 5}

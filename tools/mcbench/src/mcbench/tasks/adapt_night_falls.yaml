@@ -1,0 +1,32 @@
+id: adapt_night_falls
+category: adaptation
+difficulty: 3
+goal_text: Collect 3 wood logs from the log pillar and pick them up. Watch out, things may change.
+time_limit_s: 75
+params:
+  dx: {int: [-3, 3]}
+  dz: {int: [4, 6]}
+  z: {polar: {dist: [9, 11], angle: [120, 240]}}
+setup_commands:
+  - /give @s minecraft:iron_axe
+  - /give @s minecraft:iron_sword
+  - /fill ~{dx} ~ ~{dz} ~{dx} ~4 ~{dz} minecraft:oak_log
+events:
+  - at_s: 12
+    commands:
+      - /time set 18000
+      - /summon minecraft:zombie ~{z_dx} ~ ~{z_dz}
+      - /summon minecraft:zombie ~{z_dz} ~ ~{z_dx}
+success:
+  - {inventory: log, op: ">=", value: 3}
+dev_seeds: [741, 742, 743]
+heldout_seeds: [1091, 1092]
+heldout_variant:
+  events:
+    - at_s: 8
+      commands:
+        - /time set 18000
+        - /summon minecraft:skeleton ~{z_dx} ~ ~{z_dz}
+        - /summon minecraft:zombie ~{z_dz} ~ ~{z_dx}
+oracle:
+  commands: [/give @s minecraft:oak_log 3]

@@ -1,0 +1,30 @@
+id: combat_zombie
+category: combat
+difficulty: 2
+goal_text: Kill the zombie using your iron sword. Do not die.
+time_limit_s: 60
+params:
+  dx: {int: [-3, 3]}
+  dz: {int: [4, 7]}
+setup_commands:
+  - /time set 18000
+  - /effect give @s minecraft:night_vision 99999 0 true
+  - /give @s minecraft:iron_sword
+  - /replaceitem entity @s armor.chest minecraft:iron_chestplate
+  - /summon minecraft:zombie ~{dx} ~ ~{dz}
+success:
+  - {counter: kill_entity.zombie, op: ">=", value: 1}
+dev_seeds: [201, 202, 203]
+heldout_seeds: [911, 912]
+heldout_variant:
+  goal_text: Kill the zombie using your iron sword. Do not die. It may not be in front of you.
+  params:
+    dx: {int: [-6, 6]}
+    dz: {int: [-7, -4]}
+oracle:
+  commands:
+    - /effect give @s minecraft:strength 60 10 true
+    - /kill @e[type=zombie]
+    - /summon minecraft:zombie ^ ^ ^2 {{NoAI:1b}}
+  hold: {click: true}
+  steps: 200

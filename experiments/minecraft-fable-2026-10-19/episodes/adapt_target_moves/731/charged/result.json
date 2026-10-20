@@ -1,0 +1,36 @@
+{
+  "task": "adapt_target_moves",
+  "category": "adaptation",
+  "difficulty": 2,
+  "seed": 731,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 1200,
+  "game_seconds": 60.0,
+  "decisions": 11,
+  "calls": 11,
+  "input_tokens": 24947,
+  "output_tokens": 2702,
+  "format_errors": 0,
+  "latency_mean_s": 4.013181818181819,
+  "latency_p90_s": 5.189,
+  "wall_latency_mean_s": 5.817188939418305,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 10,
+  "cost_usd_api_equiv": 0.4491575,
+  "extra": {
+    "values": {
+      "a_dx": -3,
+      "a_dz": 10,
+      "b_dx": 9,
+      "b_dz": -3
+    },
+    "goal_text": "Walk to the gold pillar and stand next to it. The pillar may move."
+  }
+}

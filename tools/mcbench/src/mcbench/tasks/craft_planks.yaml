@@ -1,0 +1,16 @@
+id: craft_planks
+category: planning
+difficulty: 1
+goal_text: Turn the log in your inventory into wooden planks. Open your inventory with the inventory key.
+time_limit_s: 60
+setup_commands:
+  - /give @s minecraft:oak_log 1
+success:
+  - {inventory: planks, op: ">=", value: 4}
+dev_seeds: [701, 702, 703]
+heldout_seeds: [1051, 1052]
+heldout_variant:
+  setup_commands:
+    - /give @s minecraft:spruce_log 1
+oracle:
+  commands: [/give @s minecraft:oak_planks 4]

@@ -1,0 +1,24 @@
+id: collect_wood
+category: manipulation
+difficulty: 1
+goal_text: Collect 3 wood logs from the log pillar in front of you and pick them up.
+time_limit_s: 60
+params:
+  dx: {int: [-3, 3]}
+  dz: {int: [3, 6]}
+setup_commands:
+  - /give @s minecraft:iron_axe
+  - /fill ~{dx} ~ ~{dz} ~{dx} ~4 ~{dz} minecraft:oak_log
+success:
+  - {inventory: log, op: ">=", value: 3}
+dev_seeds: [101, 102, 103]
+heldout_seeds: [901, 902]
+heldout_variant:
+  params:
+    dx: {int: [-6, 6]}
+    dz: {int: [5, 9]}
+  setup_commands:
+    - /give @s minecraft:iron_axe
+    - /fill ~{dx} ~ ~{dz} ~{dx} ~4 ~{dz} minecraft:birch_log
+oracle:
+  commands: [/give @s minecraft:oak_log 3]

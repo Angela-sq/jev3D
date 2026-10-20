@@ -1,0 +1,31 @@
+id: survive_skeletons
+category: survival
+difficulty: 3
+goal_text: Stay alive for 45 seconds. Two skeletons are shooting at you. You have a shield.
+time_limit_s: 45
+params:
+  a: {polar: {dist: [9, 12], angle: [-50, 50]}}
+  b: {polar: {dist: [9, 12], angle: [130, 230]}}
+setup_commands:
+  - /time set 18000
+  - /effect give @s minecraft:night_vision 99999 0 true
+  - /give @s minecraft:iron_sword
+  - /replaceitem entity @s weapon.offhand minecraft:shield
+  - /summon minecraft:skeleton ~{a_dx} ~ ~{a_dz}
+  - /summon minecraft:skeleton ~{b_dx} ~ ~{b_dz}
+success:
+  - {survive_s: 45}
+failure:
+  - {dead: true}
+dev_seeds: [651, 652, 653]
+heldout_seeds: [1001, 1002]
+heldout_variant:
+  setup_commands:
+    - /time set 18000
+    - /effect give @s minecraft:night_vision 99999 0 true
+    - /give @s minecraft:iron_sword
+    - /replaceitem entity @s weapon.offhand minecraft:shield
+    - /summon minecraft:skeleton ~{a_dx} ~ ~{a_dz}
+    - /summon minecraft:stray ~{b_dx} ~ ~{b_dz}
+oracle:
+  commands: ["/kill @e[type=!player]"]

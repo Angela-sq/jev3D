@@ -1,0 +1,31 @@
+{
+  "task": "build_pillar",
+  "category": "manipulation",
+  "difficulty": 2,
+  "seed": 671,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "success",
+  "reason": "success",
+  "steps": 277,
+  "game_seconds": 13.85,
+  "decisions": 4,
+  "calls": 4,
+  "input_tokens": 8539,
+  "output_tokens": 653,
+  "format_errors": 0,
+  "latency_mean_s": 2.8612499999999996,
+  "latency_p90_s": 3.215,
+  "wall_latency_mean_s": 3.858910864801146,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.1362,
+  "extra": {
+    "values": {},
+    "goal_text": "Build a pillar under yourself and stand at least 3 blocks above the ground. Place blocks while jumping."
+  }
+}

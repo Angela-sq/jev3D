@@ -1,0 +1,26 @@
+id: mine_stone
+category: manipulation
+difficulty: 2
+goal_text: Mine 3 stone blocks with your pickaxe. The stone is in front of you.
+time_limit_s: 60
+params:
+  dx: {int: [-2, 2]}
+derive: {dx_p2: dx + 2}
+setup_commands:
+  - /give @s minecraft:wooden_pickaxe
+  - /fill ~{dx} ~ ~3 ~{dx_p2} ~1 ~4 minecraft:stone
+success:
+  - {counter: mine_block.stone, op: ">=", value: 3}
+dev_seeds: [661, 662, 663]
+heldout_seeds: [1011, 1012]
+heldout_variant:
+  goal_text: Mine 3 stone blocks with your pickaxe. The stone is somewhere near you.
+  setup_commands:
+    - /give @s minecraft:wooden_pickaxe
+    - /fill ~{dx} ~ ~-4 ~{dx_p2} ~1 ~-3 minecraft:stone
+oracle:
+  commands:
+    - /effect give @s minecraft:haste 60 10 true
+    - /fill ~ ~1 ~1 ~ ~1 ~8 minecraft:stone
+  hold: {keys: [forward], attack: true}
+  steps: 400

@@ -1,0 +1,26 @@
+id: explore_visit_two
+category: exploration
+difficulty: 3
+goal_text: There is a gold pillar and a lapis pillar somewhere around you. Visit both. Order does not matter.
+time_limit_s: 90
+params:
+  g: {polar: {dist: [8, 12], angle: [-80, 80]}}
+  l: {polar: {dist: [8, 12], angle: [110, 250]}}
+derive: {l_dx_from_g: l_dx - g_dx, l_dz_from_g: l_dz - g_dz}
+setup_commands:
+  - /fill ~{g_dx} ~ ~{g_dz} ~{g_dx} ~6 ~{g_dz} minecraft:gold_block
+  - /fill ~{l_dx} ~ ~{l_dz} ~{l_dx} ~6 ~{l_dz} minecraft:lapis_block
+success:
+  - {visited: ["{g_dx}", 0, "{g_dz}"], radius: 2.5}
+  - {visited: ["{l_dx}", 0, "{l_dz}"], radius: 2.5}
+dev_seeds: [691, 692, 693]
+heldout_seeds: [1041, 1042]
+heldout_variant:
+  params:
+    g: {polar: {dist: [10, 14], angle: [-80, 80]}}
+    l: {polar: {dist: [10, 14], angle: [110, 250]}}
+oracle:
+  commands: ["/tp @s ~{g_dx} ~7 ~{g_dz}"]
+  events:
+    - {at_s: 0.5, commands: ["/tp @s ~{l_dx_from_g} ~ ~{l_dz_from_g}"]}
+  steps: 30

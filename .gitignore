@@ -11,3 +11,10 @@ build/
 # Python runtime caches
 __pycache__/
 *.pyc
+.venv/
+.pytest_cache/
+
+# Local benchmark runs and secrets
+runs/
+.env
+.DS_Store

@@ -1,30 +1,37 @@
 \section{Experiments}
 \label{sec:experiments}
 \subsection{Experimental Setup}
-% Include dataset provenance and licenses, split construction, leakage
-% checks, baselines, metric definitions, seeds, and evaluation protocol.
-Describe datasets, baselines, and metrics. State how hyperparameters
-were selected and keep the test set separate from model selection.
-Report model versions, hardware, and computational budget.
+We evaluate Claude Fable 5.1 (\texttt{claude-fable-5-1}) on 19 Minecraft
+tasks in seven skill categories. The model sees only a $640\times360$
+screenshot, the goal sentence, and elapsed game time, and replies with one
+keyboard-and-mouse action per decision. The game keeps running while the
+model thinks, with its previous action still applied, so slow decisions
+cost game time. Each task runs once on one seed, with a cap of 100 model
+calls per episode.
 
 \subsection{Main Results}
-Table~\ref{tab:results} provides a layout for results. Dashes are placeholders;
-no experimental results are claimed. Specify whether uncertainty is a
-standard deviation, standard error, or confidence interval, and report
-the number of independent runs.
+Table~\ref{tab:results} lists successes per category. Fable passed
+3 of 19 tasks. With one episode per task, these counts are a rough
+picture rather than a precise success rate.
 
 \begin{table}[t]
   \centering
-  \caption{Example layout only. Replace metric names, units, and entries
-  with measured results. Arrows indicate the preferred direction.}
+  \caption{Claude Fable 5.1 on 19 Minecraft tasks (one episode each,
+  live-speed timing).}
   \label{tab:results}
-  \begin{tabular}{lcc}
+  \begin{tabular}{lc}
     \toprule
-    Method & Score $\uparrow$ & Cost $\downarrow$ \\
+    Category & Passed / Tasks \\
     \midrule
-    Baseline A & --- & --- \\
-    Baseline B & --- & --- \\
-    \methodname{} & --- & --- \\
+    Navigation   & 0 / 3 \\
+    Combat       & 0 / 3 \\
+    Survival     & 0 / 3 \\
+    Manipulation & 2 / 2 \\
+    Exploration  & 1 / 2 \\
+    Planning (crafting) & 0 / 4 \\
+    Adaptation   & 0 / 2 \\
+    \midrule
+    Total        & 3 / 19 \\
     \bottomrule
   \end{tabular}
 \end{table}

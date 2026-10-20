@@ -1,0 +1,21 @@
+id: navigate_wall
+category: navigation
+difficulty: 3
+goal_text: Get to the gold pillar behind the stone wall and stand next to it.
+time_limit_s: 60
+params:
+  gx: {int: [-2, 2]}
+setup_commands:
+  - /fill ~-5 ~ ~5 ~5 ~3 ~5 minecraft:stone
+  - /fill ~{gx} ~ ~11 ~{gx} ~6 ~11 minecraft:gold_block
+success:
+  - {near: ["{gx}", 0, 11], radius: 2.5}
+dev_seeds: [611, 612, 613]
+heldout_seeds: [961, 962]
+heldout_variant:
+  setup_commands:
+    - /fill ~-7 ~ ~5 ~7 ~3 ~5 minecraft:stone
+    - /fill ~-7 ~ ~5 ~-7 ~3 ~9 minecraft:stone
+    - /fill ~{gx} ~ ~11 ~{gx} ~6 ~11 minecraft:gold_block
+oracle:
+  commands: ["/tp @s ~{gx} ~7 ~11"]

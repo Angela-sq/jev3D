@@ -1,0 +1,34 @@
+{
+  "task": "mine_stone",
+  "category": "manipulation",
+  "difficulty": 2,
+  "seed": 661,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "success",
+  "reason": "success",
+  "steps": 691,
+  "game_seconds": 34.55,
+  "decisions": 6,
+  "calls": 6,
+  "input_tokens": 13197,
+  "output_tokens": 1184,
+  "format_errors": 0,
+  "latency_mean_s": 3.2756666666666665,
+  "latency_p90_s": 4.4350000000000005,
+  "wall_latency_mean_s": 4.337863013691579,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.222295,
+  "extra": {
+    "values": {
+      "dx": -1,
+      "dx_p2": 1
+    },
+    "goal_text": "Mine 3 stone blocks with your pickaxe. The stone is in front of you."
+  }
+}

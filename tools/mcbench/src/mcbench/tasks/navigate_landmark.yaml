@@ -1,0 +1,18 @@
+id: navigate_landmark
+category: navigation
+difficulty: 1
+goal_text: Walk to the gold pillar and stand next to it.
+time_limit_s: 45
+params:
+  t: {polar: {dist: [9, 13], angle: [-50, 50]}}
+setup_commands:
+  - /fill ~{t_dx} ~ ~{t_dz} ~{t_dx} ~6 ~{t_dz} minecraft:gold_block
+success:
+  - {near: ["{t_dx}", 0, "{t_dz}"], radius: 2.5}
+dev_seeds: [301, 302, 303]
+heldout_seeds: [921, 922]
+heldout_variant:
+  params:
+    t: {polar: {dist: [9, 13], angle: [100, 260]}}
+oracle:
+  commands: ["/tp @s ~{t_dx} ~7 ~{t_dz}"]

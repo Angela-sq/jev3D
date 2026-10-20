@@ -1,0 +1,23 @@
+id: navigate_climb
+category: navigation
+difficulty: 2
+goal_text: Climb the stone staircase in front of you and stand on top of the platform.
+time_limit_s: 45
+params:
+  dx: {int: [-3, 3]}
+  dz: {int: [5, 7]}
+derive: {dx_p1: dx + 1, dx_p2: dx + 2, dz_p1: dz + 1, dz_p2: dz + 2, dz_m1: dz - 1, dz_m2: dz - 2}
+setup_commands:
+  - /fill ~{dx} ~ ~{dz} ~{dx_p2} ~2 ~{dz_p2} minecraft:stone
+  - /fill ~{dx} ~ ~{dz_m1} ~{dx} ~1 ~{dz_m1} minecraft:stone
+  - /setblock ~{dx} ~ ~{dz_m2} minecraft:stone
+success:
+  - {rise: 3}
+dev_seeds: [601, 602, 603]
+heldout_seeds: [951, 952]
+heldout_variant:
+  params:
+    dx: {int: [-6, 6]}
+    dz: {int: [7, 9]}
+oracle:
+  commands: ["/tp @s ~{dx_p1} ~3 ~{dz_p1}"]

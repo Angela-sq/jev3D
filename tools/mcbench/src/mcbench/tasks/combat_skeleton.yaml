@@ -1,0 +1,28 @@
+id: combat_skeleton
+category: combat
+difficulty: 3
+goal_text: Kill the skeleton. It shoots arrows. You have a sword, a shield, and armor.
+time_limit_s: 60
+params:
+  s: {polar: {dist: [7, 10], angle: [-40, 40]}}
+setup_commands:
+  - /time set 18000
+  - /effect give @s minecraft:night_vision 99999 0 true
+  - /give @s minecraft:iron_sword
+  - /replaceitem entity @s weapon.offhand minecraft:shield
+  - /replaceitem entity @s armor.chest minecraft:iron_chestplate
+  - /summon minecraft:skeleton ~{s_dx} ~ ~{s_dz}
+success:
+  - {counter: kill_entity.skeleton, op: ">=", value: 1}
+dev_seeds: [631, 632, 633]
+heldout_seeds: [981, 982]
+heldout_variant:
+  params:
+    s: {polar: {dist: [7, 10], angle: [140, 220]}}
+oracle:
+  commands:
+    - /effect give @s minecraft:strength 60 10 true
+    - /kill @e[type=skeleton]
+    - "/summon minecraft:skeleton ^ ^ ^2 {{NoAI:1b}}"
+  hold: {click: true}
+  steps: 200

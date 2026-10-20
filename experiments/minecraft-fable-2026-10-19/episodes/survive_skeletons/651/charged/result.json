@@ -1,0 +1,36 @@
+{
+  "task": "survive_skeletons",
+  "category": "survival",
+  "difficulty": 3,
+  "seed": 651,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "dead",
+  "steps": 197,
+  "game_seconds": 9.85,
+  "decisions": 2,
+  "calls": 2,
+  "input_tokens": 4141,
+  "output_tokens": 546,
+  "format_errors": 0,
+  "latency_mean_s": 3.9055,
+  "latency_p90_s": 4.8899,
+  "wall_latency_mean_s": 4.808263062499464,
+  "final_health": 20.0,
+  "damage_taken": 19.666667,
+  "damage_dealt": 0.0,
+  "deaths": 1,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.07650500000000002,
+  "extra": {
+    "values": {
+      "a_dx": -1,
+      "a_dz": 11,
+      "b_dx": 8,
+      "b_dz": -9
+    },
+    "goal_text": "Stay alive for 45 seconds. Two skeletons are shooting at you. You have a shield."
+  }
+}

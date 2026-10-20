@@ -1,0 +1,38 @@
+{
+  "task": "explore_visit_two",
+  "category": "exploration",
+  "difficulty": 3,
+  "seed": 691,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "success",
+  "reason": "success",
+  "steps": 799,
+  "game_seconds": 39.95,
+  "decisions": 13,
+  "calls": 13,
+  "input_tokens": 29145,
+  "output_tokens": 1954,
+  "format_errors": 0,
+  "latency_mean_s": 2.4285384615384613,
+  "latency_p90_s": 3.1646,
+  "wall_latency_mean_s": 3.508417737025481,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.4621025,
+  "extra": {
+    "values": {
+      "g_dx": 1,
+      "g_dz": 8,
+      "l_dx": 7,
+      "l_dz": -5,
+      "l_dx_from_g": 6,
+      "l_dz_from_g": -13
+    },
+    "goal_text": "There is a gold pillar and a lapis pillar somewhere around you. Visit both. Order does not matter."
+  }
+}

@@ -1,0 +1,25 @@
+id: adapt_target_moves
+category: adaptation
+difficulty: 2
+goal_text: Walk to the gold pillar and stand next to it. The pillar may move.
+time_limit_s: 60
+params:
+  a: {polar: {dist: [10, 13], angle: [-30, 30]}}
+  b: {polar: {dist: [9, 12], angle: [-150, -90]}}
+setup_commands:
+  - /fill ~{a_dx} ~ ~{a_dz} ~{a_dx} ~6 ~{a_dz} minecraft:gold_block
+events:
+  - at_s: 8
+    commands:
+      - /fill ~{a_dx} ~ ~{a_dz} ~{a_dx} ~6 ~{a_dz} minecraft:air
+      - /fill ~{b_dx} ~ ~{b_dz} ~{b_dx} ~6 ~{b_dz} minecraft:gold_block
+success:
+  - {near: ["{b_dx}", 0, "{b_dz}"], radius: 2.5}
+dev_seeds: [731, 732, 733]
+heldout_seeds: [1081, 1082]
+heldout_variant:
+  params:
+    a: {polar: {dist: [10, 13], angle: [-30, 30]}}
+    b: {polar: {dist: [9, 12], angle: [90, 150]}}
+oracle:
+  commands: ["/tp @s ~{b_dx} ~7 ~{b_dz}"]

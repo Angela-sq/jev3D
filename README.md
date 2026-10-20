@@ -38,3 +38,17 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
 ```
 
 The output is `build/main.pdf`. The ZIP contains the editable source only.
+
+## Minecraft benchmark (mcbench)
+
+`tools/mcbench/` scores how well a model plays Minecraft from screenshots
+alone. Setup, commands, method, and limitations: [`tools/mcbench/README.md`](tools/mcbench/README.md).
+Claude Fable 5.1 results: [`experiments/minecraft-fable-2026-10-19/`](experiments/minecraft-fable-2026-10-19/)
+(`RESULTS.txt`, `report.pdf`).
+
+```sh
+cd tools/mcbench
+uv sync && ./docker/run.sh
+uv run pytest
+uv run mcbench smoke
+```

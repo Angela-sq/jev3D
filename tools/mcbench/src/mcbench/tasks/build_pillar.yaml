@@ -1,0 +1,18 @@
+id: build_pillar
+category: manipulation
+difficulty: 2
+goal_text: Build a pillar under yourself and stand at least 3 blocks above the ground. Place blocks while jumping.
+time_limit_s: 60
+setup_commands:
+  - /give @s minecraft:cobblestone 16
+success:
+  - {rise: 3}
+dev_seeds: [671, 672, 673]
+heldout_seeds: [1021, 1022]
+heldout_variant:
+  setup_commands:
+    - /give @s minecraft:oak_planks 16
+oracle:
+  commands:
+    - /tp @s ~ ~3 ~
+    - /fill ~ ~-3 ~ ~ ~-1 ~ minecraft:cobblestone

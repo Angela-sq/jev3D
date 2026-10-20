@@ -1,0 +1,16 @@
+# v2: prompt v3 (think-time info + "duration" field). v1 used prompt v2 and was stopped after 4 tasks.
+# 19 tasks (all except collect_wood) x 1 dev seed x charged mode.
+# An episode that reaches 100 Fable calls stops as budget_truncated and the run moves on.
+run_id: run19-v2
+tasks: [navigate_landmark, navigate_climb, navigate_wall, combat_sheep, combat_zombie, combat_skeleton,
+        survive_one_zombie, survive_mobs, survive_skeletons, mine_stone, build_pillar,
+        explore_behind, explore_visit_two, craft_planks, craft_table, craft_sticks, craft_pickaxe,
+        adapt_target_moves, adapt_night_falls]
+splits: [dev]
+seeds_per_split: 1
+modes: [charged]
+max_calls_episode: 100
+max_calls_run: 1900
+max_calls_global: 40000
+confirm_threshold: 2000
+agent: {type: fable, history: 5}

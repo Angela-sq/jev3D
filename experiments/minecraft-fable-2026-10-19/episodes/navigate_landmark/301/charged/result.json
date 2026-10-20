@@ -1,0 +1,34 @@
+{
+  "task": "navigate_landmark",
+  "category": "navigation",
+  "difficulty": 1,
+  "seed": 301,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 900,
+  "game_seconds": 45.0,
+  "decisions": 11,
+  "calls": 11,
+  "input_tokens": 24630,
+  "output_tokens": 3380,
+  "format_errors": 0,
+  "latency_mean_s": 4.804454545454546,
+  "latency_p90_s": 5.376,
+  "wall_latency_mean_s": 5.7769905490885405,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.4935049999999999,
+  "extra": {
+    "values": {
+      "t_dx": 2,
+      "t_dz": 11
+    },
+    "goal_text": "Walk to the gold pillar and stand next to it."
+  }
+}

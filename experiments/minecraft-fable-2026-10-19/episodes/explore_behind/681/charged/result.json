@@ -1,0 +1,34 @@
+{
+  "task": "explore_behind",
+  "category": "exploration",
+  "difficulty": 2,
+  "seed": 681,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 1200,
+  "game_seconds": 60.0,
+  "decisions": 11,
+  "calls": 11,
+  "input_tokens": 24710,
+  "output_tokens": 2086,
+  "format_errors": 0,
+  "latency_mean_s": 3.7860909090909085,
+  "latency_p90_s": 5.558,
+  "wall_latency_mean_s": 4.818973564288833,
+  "final_health": 20.0,
+  "damage_taken": 1.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 9,
+  "cost_usd_api_equiv": 0.41361749999999997,
+  "extra": {
+    "values": {
+      "t_dx": 2,
+      "t_dz": -12
+    },
+    "goal_text": "Find the diamond block pillar somewhere around you and stand next to it."
+  }
+}

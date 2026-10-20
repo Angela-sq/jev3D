@@ -1,0 +1,75 @@
+Minecraft pixel-control benchmark (mcbench) with Claude Fable 5.1 - completed 2026-10-19
+
+RESULT
+19 tasks, one episode each: 3 passed, 16 failed (10 timeouts, 6 deaths).
+Wilson 95% interval for 3/19: 5.5%-37.6%. One episode per task; a rough picture, not a precise rate.
+
+Model: claude-fable-5-1 through `claude -p` on a Claude subscription; every reply checked to come from this model.
+Charged timing: the game keeps running while the model thinks, with its previous action still applied.
+Screenshots (640x360), goal sentence, elapsed time, last 5 own actions and last think time only.
+Prompt mcbench-fable-prompt v3 (ACTOR_PROMPT.md). Cap 100 calls per episode, never reached. 171 calls, 0 unreadable replies.
+collect_wood (20th task) left out: breaking the bottom log leaves the rest of its log pillar floating out of reach.
+
+Category       Passed  Tasks
+navigation          0      3
+combat              0      3
+survival            0      3
+manipulation        2      2
+exploration         1      2
+planning            0      4
+adaptation          0      2
+
+PER TASK (calls, game seconds played / limit, mean think seconds)
+
+navigate_landmark   FAIL time  11 calls    45/45   s  think 4.8 s
+    Fable got within 3 blocks of the pillar (2.5 needed), sprinted past it, fell into a trench at the arena edge, and spent the rest of the time trying to dig out.
+navigate_climb      FAIL time  12 calls    45/45   s  think 2.7 s
+    Fable sprint-jumped toward the staircase, ended up inside tree leaves, then climbed a natural dirt hill instead and lost the staircase.
+navigate_wall       FAIL time  19 calls    60/60   s  think 2.9 s
+    Fable started around the edge of the wall, lost sight of it, and spent its last 15 decisions turning in place looking for it.
+combat_sheep        FAIL time  10 calls    45/45   s  think 3.8 s
+    Fable reached the sheep and swung 3 times, but the sheep left the screen (most likely fleeing after a hit) and Fable chased a far-off white shape until time ran out.
+combat_zombie       FAIL died   3 calls    11/60   s  think 3.5 s
+    Fable traded hits with the zombie for 3 decisions and died after about 11 seconds, because the zombie kept hitting during each 3-4 s think.
+combat_skeleton     FAIL died   4 calls    17/60   s  think 3.8 s
+    Fable chased the skeleton across a ledge while being shot and died before closing the distance.
+survive_one_zombie  FAIL died   4 calls    11/30   s  think 2.4 s
+    Fable fought the zombie at close range while backing off, took hits faster than it could react, and died after 11 seconds.
+survive_mobs        FAIL died   3 calls     9/45   s  think 2.7 s
+    Fable scanned for the zombies, then fought them at close range once they arrived and died after 9 seconds.
+survive_skeletons   FAIL died   2 calls    10/45   s  think 3.9 s
+    Fable raised its shield toward one skeleton while the second skeleton kept shooting it from another side, and it died after 10 seconds.
+mine_stone          PASS        6 calls    35/60   s  think 3.3 s
+    Passed: Fable walked to the stone, held attack on it, and mined 3 blocks.
+build_pillar        PASS        4 calls    14/60   s  think 2.9 s
+    Passed: Fable looked straight down and jumped while placing cobblestone.
+explore_behind      FAIL time  11 calls    60/60   s  think 3.8 s
+    Fable never saw the diamond pillar, headed for something it thought it saw on the horizon, and ended up swimming across a lake.
+explore_visit_two   PASS       13 calls    40/90   s  think 2.4 s
+    Passed: Fable found the gold pillar first, scanned until it saw the lapis pillar, and walked to it.
+craft_planks        FAIL time  12 calls    60/60   s  think 4.9 s
+    Fable opened the inventory but could not land the mouse cursor on the log, missing it on every try.
+craft_table         FAIL time  12 calls    90/90   s  think 7.3 s
+    Fable could not land the mouse cursor on the logs, the same problem as craft_planks.
+craft_sticks        FAIL time  10 calls    90/90   s  think 9.3 s
+    Fable turned the log into planks but ran out of time while arranging planks in the crafting grid.
+craft_pickaxe       FAIL time  19 calls   150/150  s  think 7.7 s
+    Fable spent all 150 seconds moving logs and planks around the inventory and never got past making planks.
+adapt_target_moves  FAIL time  11 calls    60/60   s  think 4.0 s
+    Fable lost sight of the pillar behind trees and spent its last decisions trying to climb a dirt cliff toward where it guessed the pillar was.
+adapt_night_falls   FAIL died   5 calls    24/75   s  think 3.3 s
+    Fable chopped 2 logs, lost the pillar when night fell, and was killed by mobs before finding it again.
+
+PATTERNS
+- Too slow for fights: a think takes about 2.5-4 s, and mobs kill the player within 3-4 thinks.
+- Loses targets that leave the screen; often wanders into the terrain around the flat arena.
+- Inventory cursor control (degree steps) failed in all 4 crafting tasks; crafting thinks averaged 7-9 s.
+- Slow, steady jobs worked: mining, pillar building, visiting two visible pillars.
+
+EVIDENCE
+report.pdf: setup, tables, one sentence per task, first/last screenshot per task (source in report/).
+results.csv and episodes/<task>/<seed>/charged/result.json: one row/file per episode.
+episodes/.../decisions.jsonl: screenshot path, prompt, raw model reply, parsed action, latency, tokens.
+episodes/.../steps.jsonl: every game step (action, health, position). frames/: every screenshot the model saw.
+analysis/: summary tables and plots from `mcbench analyze`. config.yaml: resolved run config and provenance.
+Code: tools/mcbench/ (README.md there has setup, method and limitations).

@@ -1,0 +1,31 @@
+{
+  "task": "craft_planks",
+  "category": "planning",
+  "difficulty": 1,
+  "seed": 701,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "time_limit",
+  "steps": 1200,
+  "game_seconds": 60.0,
+  "decisions": 12,
+  "calls": 12,
+  "input_tokens": 26469,
+  "output_tokens": 3564,
+  "format_errors": 0,
+  "latency_mean_s": 4.9325,
+  "latency_p90_s": 6.623600000000001,
+  "wall_latency_mean_s": 5.866784746487004,
+  "final_health": 20.0,
+  "damage_taken": 0.0,
+  "damage_dealt": 0.0,
+  "deaths": 0,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.50589,
+  "extra": {
+    "values": {},
+    "goal_text": "Turn the log in your inventory into wooden planks. Open your inventory with the inventory key."
+  }
+}

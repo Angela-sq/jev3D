@@ -1,0 +1,16 @@
+id: craft_pickaxe
+category: planning
+difficulty: 3
+goal_text: Craft a wooden pickaxe. You start with logs. You will need a crafting table.
+time_limit_s: 150
+setup_commands:
+  - /give @s minecraft:oak_log 3
+success:
+  - {inventory: wooden_pickaxe, op: ">=", value: 1}
+dev_seeds: [721, 722, 723]
+heldout_seeds: [1071, 1072]
+heldout_variant:
+  setup_commands:
+    - /give @s minecraft:acacia_log 3
+oracle:
+  commands: [/give @s minecraft:wooden_pickaxe]

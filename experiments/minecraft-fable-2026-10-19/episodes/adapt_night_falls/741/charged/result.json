@@ -1,0 +1,36 @@
+{
+  "task": "adapt_night_falls",
+  "category": "adaptation",
+  "difficulty": 3,
+  "seed": 741,
+  "split": "dev",
+  "mode": "charged",
+  "agent": "fable-5.1",
+  "status": "model_failure",
+  "reason": "dead",
+  "steps": 481,
+  "game_seconds": 24.05,
+  "decisions": 5,
+  "calls": 5,
+  "input_tokens": 10849,
+  "output_tokens": 958,
+  "format_errors": 0,
+  "latency_mean_s": 3.2884,
+  "latency_p90_s": 3.9196,
+  "wall_latency_mean_s": 5.31002671662718,
+  "final_health": 20.0,
+  "damage_taken": 22.5,
+  "damage_dealt": 0.0,
+  "deaths": 1,
+  "collisions": 0,
+  "cost_usd_api_equiv": 0.18084249999999996,
+  "extra": {
+    "values": {
+      "dx": 3,
+      "dz": 6,
+      "z_dx": -4,
+      "z_dz": -10
+    },
+    "goal_text": "Collect 3 wood logs from the log pillar and pick them up. Watch out, things may change."
+  }
+}

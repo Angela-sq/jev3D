@@ -1,0 +1,54 @@
+run_id: run19-v2
+config:
+  run_id: run19-v2
+  tasks:
+  - navigate_landmark
+  - navigate_climb
+  - navigate_wall
+  - combat_sheep
+  - combat_zombie
+  - combat_skeleton
+  - survive_one_zombie
+  - survive_mobs
+  - survive_skeletons
+  - mine_stone
+  - build_pillar
+  - explore_behind
+  - explore_visit_two
+  - craft_planks
+  - craft_table
+  - craft_sticks
+  - craft_pickaxe
+  - adapt_target_moves
+  - adapt_night_falls
+  splits:
+  - dev
+  seeds_per_split: 1
+  modes:
+  - charged
+  max_calls_episode: 100
+  max_calls_run: 1900
+  max_calls_global: 40000
+  confirm_threshold: 2000
+  agent:
+    type: fable
+    history: 5
+  runs_dir: runs
+  ledger: runs/ledger.json
+  env_url: http://127.0.0.1:8765
+  include_unvalidated: false
+  agent_config:
+    type: fable
+    model: claude-fable-5-1
+    history: 5
+    prompt_version: mcbench-fable-prompt v3
+    timeout_s: 120.0
+provenance:
+  created_utc: '2026-10-19T16:09:42.209015+00:00'
+  git_commit: 7e5601316082005cd143142e01ea9fe74497c202
+  git_dirty: true
+  docker_image: sha256:dd86cd074e2771d35d85a7c2bb4725bb7da8fd076bed8fcf43b539f72f1041bb
+  claude_version: 2.1.303 (Claude Code)
+  platform: macOS-15.7.7-arm64-arm-64bit
+  machine: arm64
+  python: 3.12.11

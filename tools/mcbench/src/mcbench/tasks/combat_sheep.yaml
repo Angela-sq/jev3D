@@ -1,0 +1,30 @@
+id: combat_sheep
+category: combat
+difficulty: 1
+goal_text: Kill the sheep with your sword.
+time_limit_s: 45
+params:
+  dx: {int: [-3, 3]}
+  dz: {int: [3, 6]}
+setup_commands:
+  - /give @s minecraft:iron_sword
+  - /summon minecraft:sheep ~{dx} ~ ~{dz}
+success:
+  - {counter: kill_entity.sheep, op: ">=", value: 1}
+dev_seeds: [621, 622, 623]
+heldout_seeds: [971, 972]
+heldout_variant:
+  goal_text: Kill the pig with your sword.
+  setup_commands:
+    - /give @s minecraft:iron_sword
+    - /summon minecraft:pig ~{dx} ~ ~{dz}
+  success:
+    - {counter: kill_entity.pig, op: ">=", value: 1}
+oracle:
+  commands:
+    - /effect give @s minecraft:strength 60 10 true
+    - /kill @e[type=sheep]
+    - "/summon minecraft:sheep ~ ~ ~2 {{NoAI:1b}}"
+    - /tp @s ~ ~ ~ 0 25
+  hold: {click: true}
+  steps: 200

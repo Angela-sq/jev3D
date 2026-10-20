@@ -1,0 +1,13 @@
+Persistent-control pilot: one GPT-6 Astra medium trial
+Branch: codex/persistent-minecraft-controls
+
+Outcome: death after 48.9 game seconds; zero kills, zero damage dealt.
+Five actions; movement/shield held during approximately 76.9% of battle wall time (derived from state updates). No watchdog expiration or input errors. Last action explicitly cleared movement and shield while clicking attack.
+
+Movement and shield now remain held until replaced by the next action; ms only delays capture. Each attack is an explicit 50ms click. A 30-second watchdog and terminal/error/reset release prevent stale holds. No combat policy added.
+
+Six unit tests passed: unchanged holds, replacement, expiry boundary, watchdog release, continued hold, and input-error release. Screenshot hashes and frozen source hashes match; terminal screenshot confirms death. Video: 54.905 seconds, 819 frames, 854x480.
+
+The actor reported persistent movement and difficulty aiming across large changes between observations. One trial cannot establish an improvement in performance. Reasoning and transport latency remain; persistent controls can also overshoot targets. Earlier cohorts are unchanged.
+
+Watch trials/trial-001/video.mp4. Results: results.csv; detailed inputs: trials/trial-001/actions.jsonl. VM left paused.

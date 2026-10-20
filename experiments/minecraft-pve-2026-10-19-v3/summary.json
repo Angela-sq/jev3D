@@ -1,0 +1,12 @@
+{
+  "outcome": "death",
+  "game_seconds": 48.9,
+  "kills": 0,
+  "actions": 5,
+  "held_input_fraction_wall": 0.7694057854137143,
+  "watchdog_expirations": 0,
+  "audit_errors": [],
+  "video_seconds": 54.905028,
+  "video_frames": 819,
+  "tests_passed": 6
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/persistent_trial_001",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "note": "Trial ended in death; visible chat says slain by Zombie. Movement persisted between decisions as specified; no tool errors. Large changes between screenshots made close-range aiming difficult."
+}

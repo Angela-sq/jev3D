@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_002",
+  "note": "Trial 2 ended. A zombie approached; after one attack, the viewpoint moved into a deep dirt-and-stone depression and health showed one heart. No kills observed. Final screenshot showed \u201cLoading terrain\u2026\u201d. Controls visibly moved the camera and raised the shield; no explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

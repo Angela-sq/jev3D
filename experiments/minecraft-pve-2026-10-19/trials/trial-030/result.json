@@ -1,0 +1,14 @@
+{
+  "trial_id": 30,
+  "outcome": "death",
+  "ticks": 1199,
+  "game_seconds": 59.95,
+  "health_remaining": 0,
+  "health_readback": 0.0,
+  "kills": 0,
+  "damage_taken_stat": 272,
+  "damage_dealt_stat": 0,
+  "event": "[10:51:39] [Render thread/INFO]: [System] [CHAT] PVE_END|30|2|1199|0|0|272|0",
+  "start_observed_wall_ns": 1792432240022183739,
+  "end_observed_wall_ns": 1792432299895020013
+}

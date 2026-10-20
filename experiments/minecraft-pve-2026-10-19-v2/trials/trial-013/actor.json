@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_013",
+  "note": "Trial 13 ended with \u201cTRIAL END: DEATH\u201d; visible chat says shot by Skeleton. Saw a nearby skeleton, attempted one sword strike, then searched while shielding. No kills visibly confirmed. Inputs returned normally; terrain obscured enemies during turns.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

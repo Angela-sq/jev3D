@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_026",
+  "note": "Trial 26 ended. Visible message: \u201csathvikr was slain by Zombie.\u201d No confirmed kills observed. Movement and camera inputs visibly responded; death occurred rapidly between observations.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

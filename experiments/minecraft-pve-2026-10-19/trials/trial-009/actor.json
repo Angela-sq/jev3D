@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial9",
+  "note": "Trial 9 ended in death; screen displayed \u201cTRIAL END: DEATH\u201d and \u201csathvikr was slain by Zombie.\u201d No kills visibly confirmed. Camera and shield inputs responded; health dropped rapidly while nearby zombies moved out of view.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

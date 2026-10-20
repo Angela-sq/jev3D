@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial23",
+  "note": "Trial 23 ended with \u201cTRIAL END: DEATH\u201d; visible message says shot by Skeleton. Approached a skeleton uphill while attempting to jump and shield; never reached observed melee range. No kills observed. Inputs returned normally; terrain and incoming shots impeded approach.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

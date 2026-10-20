@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial18",
+  "note": "Trial 18 ended in death; screen reads \u201cTRIAL END DEATH\u201d and \u201csathvikr was slain by Zombie.\u201d Forward movement ran into leaves, and the upward camera adjustment overshot the nearby zombie. No tool/input errors reported.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

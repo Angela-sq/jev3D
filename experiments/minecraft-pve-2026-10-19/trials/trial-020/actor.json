@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial20",
+  "note": "Trial 20 ended: \u201cTRIAL END: DEATH,\u201d with visible message \u201csathvikr was shot by Skeleton.\u201d A skeleton remained visible; no kills confirmed. Camera adjustments appeared inconsistent, and shield was not always visibly raised after shield actions.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

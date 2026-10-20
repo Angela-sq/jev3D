@@ -1,0 +1,6 @@
+{"args": ["begin", "28"], "request_ns": 1792432099619950000, "response_ns": 1792432100657322000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":0,\"dy\":-20}"], "request_ns": 1792432108991457000, "response_ns": 1792432110329506000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":750,\"dx\":-200,\"dy\":-35}"], "request_ns": 1792432118490746000, "response_ns": 1792432119584190000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"ms\":500,\"dx\":-240,\"dy\":35}"], "request_ns": 1792432129165266000, "response_ns": 1792432129965820000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"buttons\":[3],\"ms\":800,\"dx\":-200,\"dy\":30}"], "request_ns": 1792432136753879000, "response_ns": 1792432137875659000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"buttons\":[3],\"ms\":1000,\"dx\":-60,\"dy\":20}"], "request_ns": 1792432145663998000, "response_ns": 1792432145809281000, "image": "obs-0005.png"}

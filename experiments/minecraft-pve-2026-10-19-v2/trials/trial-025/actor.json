@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_025",
+  "note": "Trial 25 ended. A skeleton was visible initially; afterward I became wedged against stone and dirt while health fell to half a heart. No kills observed. Camera and shield inputs visibly responded; terrain obstructed movement.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

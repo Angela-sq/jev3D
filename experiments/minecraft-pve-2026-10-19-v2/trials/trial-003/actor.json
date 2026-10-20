@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_003",
+  "note": "Trial 3 ended with \u201cTRIAL END: DEATH\u201d; visible message says shot by Skeleton. Skeleton remained visible; no kills confirmed. Camera and shield inputs visibly responded, but closing distance and aiming were difficult.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

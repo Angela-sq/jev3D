@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_031",
+  "note": "Trial 31 ended in death; screen says \u201cwas shot by Skeleton.\u201d Health fell rapidly while scanning foliage, with no hostile clearly visible. Shield raised visibly; no obvious input failure.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

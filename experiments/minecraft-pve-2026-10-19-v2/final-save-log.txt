@@ -1,0 +1,7 @@
+[18:08:05] [Render thread/INFO]: [System] [CHAT] PVE_END|36|2|763|0|0|202|0
+[18:09:14] [Render thread/INFO]: [System] [CHAT] Unknown or incomplete command. See below for error
+[18:09:14] [Render thread/INFO]: [System] [CHAT] save-all flush<--[HERE]
+[18:09:16] [Server thread/INFO]: Saving and pausing game...
+[18:09:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Astra Natural PVE]'/minecraft:overworld
+[18:09:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Astra Natural PVE]'/minecraft:the_end
+[18:09:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Astra Natural PVE]'/minecraft:the_nether

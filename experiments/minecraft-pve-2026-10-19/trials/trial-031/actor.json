@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial31",
+  "note": "Trial 31 ended in death; screen stated \u201cshot by Skeleton.\u201d Skeleton moved out of view while health declined. No kills observed. Inputs executed without reported errors, but turning did not reacquire the skeleton before death.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

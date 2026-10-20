@@ -1,0 +1,6 @@
+{"kind": "observation", "capture_start_ns": 1792430952976583632, "capture_end_ns": 1792430953018136265, "path": "/home/sathvikr.guest/minecraft-lab/benchmark/trial-013/obs-0000.png", "sha256": "97bb8a9e5e9db5fc987288328f24bfd9af7810f73f4a73110cee6ea5e3d04f5d"}
+{"kind": "action", "action": {"keys": ["w"], "buttons": [3], "ms": 1000, "dx": 60, "dy": 0}, "start_ns": 1792430963205308406, "end_ns": 1792430964330154318}
+{"kind": "observation", "capture_start_ns": 1792430964381294405, "capture_end_ns": 1792430964404572062, "path": "/home/sathvikr.guest/minecraft-lab/benchmark/trial-013/obs-0001.png", "sha256": "f464ba195d364799ac4ffb0781eb294d354fd0d061cca2aa1eb23e72c6bc7e20"}
+{"kind": "action", "action": {"keys": ["s"], "buttons": [1], "ms": 500, "dx": 0, "dy": 20}, "start_ns": 1792430971653331158, "end_ns": 1792430972285225122}
+{"kind": "observation", "capture_start_ns": 1792430972335547834, "capture_end_ns": 1792430972376869074, "path": "/home/sathvikr.guest/minecraft-lab/benchmark/trial-013/obs-0002.png", "sha256": "df1c252ddbfd9dd02077db68e42113265f6f4bb22f1c2cfe4a178d54469ea97f"}
+{"kind": "observation", "capture_start_ns": 1792430980115415440, "capture_end_ns": 1792430980151338393, "path": "/home/sathvikr.guest/minecraft-lab/benchmark/trial-013/obs-0003.png", "sha256": "ff43e7243f2c8f8a68e3ccd4417028af8f592beba801b7c384ed6e17cf816a01"}

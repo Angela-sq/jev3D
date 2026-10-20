@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_009",
+  "note": "Trial 9 ended. A zombie reached melee range immediately; after one attack, the next screenshot showed about half a heart and a substantially changed view. No kills were visually confirmed. Final screenshot hid the health HUD. No explicit input errors were returned.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

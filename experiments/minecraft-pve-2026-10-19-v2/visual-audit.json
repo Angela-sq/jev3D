@@ -1,0 +1,185 @@
+{
+  "method": "Manual inspection of saved terminal.png; not a review of every video frame.",
+  "trials": [
+    {
+      "trial_id": 1,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 2,
+      "visible_outcome": "death",
+      "note": "Fell from a high place message."
+    },
+    {
+      "trial_id": 3,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 4,
+      "visible_outcome": "timeout",
+      "note": "Timeout title visible."
+    },
+    {
+      "trial_id": 5,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 6,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 7,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 8,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 9,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 10,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 11,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 12,
+      "visible_outcome": "timeout",
+      "note": "Timeout title visible."
+    },
+    {
+      "trial_id": 13,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 14,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 15,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 16,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 17,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 18,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 19,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 20,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 21,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 22,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 23,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 24,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 25,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 26,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 27,
+      "visible_outcome": "timeout",
+      "note": "Timeout title visible."
+    },
+    {
+      "trial_id": 28,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 29,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 30,
+      "visible_outcome": "timeout",
+      "note": "Timeout title visible."
+    },
+    {
+      "trial_id": 31,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    },
+    {
+      "trial_id": 32,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 33,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 34,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 35,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 36,
+      "visible_outcome": "death",
+      "note": "Shot by Skeleton message."
+    }
+  ]
+}

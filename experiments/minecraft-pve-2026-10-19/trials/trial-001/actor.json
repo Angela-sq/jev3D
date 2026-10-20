@@ -1,0 +1,6 @@
+{
+  "task": "/root/calibration_01",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "note": "Last viewed screenshot: zombie ahead, about four hearts. No reported input errors. Stopped on ended=true."
+}

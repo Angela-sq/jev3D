@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+vm=minecraft-lab
+case "${1:-help}" in
+  start) exec limactl start -y "$vm" ;;
+  stop) exec limactl stop "$vm" ;;
+  status) limactl list "$vm"; exec limactl shell "$vm" python3 minecraft-lab/control.py status ;;
+  capture)
+    test "$#" -eq 2 || { echo 'mcvm capture LOCAL_PATH.png' >&2; exit 2; }
+    limactl shell "$vm" python3 minecraft-lab/control.py capture /tmp/minecraft-frame.png
+    exec limactl copy "$vm":/tmp/minecraft-frame.png "$2" ;;
+  key|look|click|point|release) exec limactl shell "$vm" python3 minecraft-lab/control.py "$@" ;;
+  launcher) exec limactl shell "$vm" systemctl --user start minecraft-launcher ;;
+  password) exec limactl shell "$vm" cat .vnc/password.txt ;;
+  *) echo 'mcvm {start|stop|status|capture FILE|key KEY MS|look DX DY|click BUTTON MS|point X Y|release|launcher|password}' ;;
+esac

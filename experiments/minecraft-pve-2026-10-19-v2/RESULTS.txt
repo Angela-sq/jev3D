@@ -1,0 +1,74 @@
+Minecraft natural-terrain PvE pilot — completed 2026-10-19
+
+PRIMARY RESULT: corrected controller cohort v2
+36/36 scheduled trials completed: 0 wins, 32 deaths, 4 timeouts; 0 kills.
+No technical-outcome rows. 119 actions recorded. Median encounter duration: 21.85 game seconds.
+Only trial 11 had nonzero damage-dealt statistic (59 native counter units).
+Descriptive Wilson 95% interval for 0/36 wins: 0%–9.64%. Repeated fixed layouts
+are not independent terrain samples; this is not a general Minecraft success interval.
+
+Model requested: GPT-6 Astra (gpt-6-astra), medium reasoning, fresh actor per trial.
+Three natural sites x three encounters x four repeats; 12 trials per mob type.
+Adventure mode, normal difficulty, fresh iron gear, sword and shield; 90-second limit.
+Screenshots and basic keyboard/mouse only; evaluator state is not supplied to the actor.
+
+Encounter            N  Wins  Deaths  Timeouts  Median duration (game seconds)
+zombie               12     0      11         1  18.425
+two_zombies          12     0      10         2  18.100
+skeleton             12     0      11         1  39.350
+
+Site                 N  Wins  Deaths  Timeouts  Median duration (game seconds)
+A                    12     0      12         0  18.150
+B                    12     0       8         4  38.450
+C                    12     0      12         0  21.850
+
+TIMING AND INTERPRETATION
+Median observation-to-action delay: 9.07 seconds.
+Maximum observation-to-action delay: 23.39 seconds.
+Median fraction of battle wall time executing inputs: 9.38%.
+Median wall/game duration ratio: 0.9989.
+Delay includes inference, orchestration and screenshot/tool transport; it is not
+pure model inference latency. Inputs release after at most one second, including
+movement and shield. The game keeps running during model deliberation. Camera
+movement is also bounded (300 pixels per axis per action). These restrictions
+materially limit this system. Results do not establish poor spatial reasoning
+in Astra, or superiority of Jev. No human, Jev, scripted, no-action or unlimited-
+time control is included. Software rendering and host workload can affect timing.
+All four timeouts occurred at site B. Terrain can obstruct pursuit as well as
+player movement; survival alone is not a victory.
+
+COHORT HISTORY AND EXCEPTIONS
+The original directory ../minecraft-pve-2026-10-19 retains 3 calibration battles
+and 36 original scored battles (0 wins, 29 deaths, 7 timeouts). A post-run diagnostic
+found the first mouse movement after setup chat was ignored. A setup-only priming
+event fixed that in repeated directional tests; the correction was frozen before
+all 36 v2 trials. Original and corrected cohorts are separate, not pooled.
+Total recorded battles across both directories: 75 (including 3 calibrations).
+Tutorial progress and ambient entities were not rewound between cohorts; there
+is no controlled causal estimate of the fix. See OBSERVATION_NOTES.txt.
+Trial 5 actor was interrupted only after evaluator completion because its final
+prose response stalled. Its completed battle and evidence remain included.
+Some actors reported uncertain shield or camera behavior; notes are retained
+verbatim in actor.json/CSV. Do not treat subjective notes as calibrated diagnostics.
+
+EVIDENCE AND VERIFICATION
+results.csv: one row per corrected trial, including actor, outcome, timing, notes.
+summary.json: machine-readable aggregates and audit output.
+trials/trial-NNN/: video.mp4, screenshots, actions.jsonl, events.log, result.json,
+transport.jsonl, actor.json, terminal.png, and completion marker.
+All 36 terminal screenshots manually checked against outcomes (visual-audit.json).
+Automated checks: required evidence, screenshot hashes, event/CSV agreement,
+video dimensions/frame count/duration, actor identity, priming before observation,
+frozen protocol/controller hashes, schedule completeness and balanced conditions.
+No audit errors. Videos were probed; not every video frame was manually watched.
+raw-evidence-sha256.json hashes the local trial files for future integrity checks.
+Protocol, prompt, schedule, environment and datapack are retained with frozen hashes.
+The original directory contains the saved benchmark-world archive.
+Videos are local and Git-ignored: a Git push alone does not back them up.
+
+VM HANDOFF
+Minecraft is left paused in Astra Natural PVE. Screenshot: final-paused.png.
+Pausing triggered the integrated server world save, confirmed in final-save-log.txt.
+The standalone save-all command was unavailable; the subsequent automatic pause
+save is the confirmed save event. VM viewer: http://127.0.0.1:6080/vnc.html.
+See tools/minecraft-vm/README.md for starting/reconnecting to the existing VM.

@@ -1,0 +1,4 @@
+{"args": ["begin", "26"], "request_ns": 1792431959777785000, "response_ns": 1792431960823584000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"ms\":700,\"dy\":55}"], "request_ns": 1792431968035607000, "response_ns": 1792431969043306000, "image": "obs-0001.png"}
+{"args": ["act", "{\"buttons\":[1],\"keys\":[\"s\"],\"ms\":600,\"dy\":25}"], "request_ns": 1792431977949150000, "response_ns": 1792431978872530000, "image": "obs-0002.png"}
+{"args": ["act", "{\"buttons\":[1],\"ms\":500,\"dx\":-25,\"dy\":-20}"], "request_ns": 1792431986416837000, "response_ns": 1792431986553053000, "image": "obs-0003.png"}

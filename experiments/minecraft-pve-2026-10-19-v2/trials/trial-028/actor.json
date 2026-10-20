@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_028",
+  "note": "Trial 28 ended with \u201cTRIAL END: DEATH\u201d; visible message says shot by Skeleton. No kills visually confirmed. Camera turns registered, but shield did not appear raised after its held action; damage continued.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial22",
+  "note": "Trial 22 ended in death; screen says slain by Zombie. Leaves obstructed movement and view, then a zombie appeared immediately beside me. No confirmed kills or explicit input errors observed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

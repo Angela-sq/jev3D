@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_032",
+  "note": "Trial 32 ended with visible \u201cTRIAL END: DEATH\u201d and \u201cslain by Zombie.\u201d Zombie reached point-blank range immediately; health dropped sharply between screenshots. No confirmed kills or explicit input errors observed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

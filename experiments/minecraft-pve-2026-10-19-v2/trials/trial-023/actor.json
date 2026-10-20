@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_023",
+  "note": "Trial 23 ended in death; screen reports slain by Zombie. Health dropped rapidly while no enemy was visible ahead. Shield and camera inputs appeared responsive; no attack landed visibly.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_004",
+  "note": "Trial 4 ended with visible \u201cTRIAL END: TIMEOUT.\u201d Survived with about five hearts visible before the end. Skeleton was initially uphill, then lost from view while climbing and searching. No attacks landed or kills observed. Movement, jumps, shield, and camera inputs visibly responded; no tool errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial10",
+  "note": "Trial 10 ended with \u201cTRIAL END DEATH\u201d; visible message says slain by Zombie. Zombies approached through foliage, then disappeared from view while health dropped rapidly. No kills observed. Inputs returned normally; shield effectiveness was not visually confirmed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

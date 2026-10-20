@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial16",
+  "note": "Trial 16 ended with \u201cTRIAL END: DEATH\u201d; visible message says shot by Skeleton. Skeleton remained visible during combat; no kills confirmed. Movement and camera responded, but shield actions did not visibly prevent health loss.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

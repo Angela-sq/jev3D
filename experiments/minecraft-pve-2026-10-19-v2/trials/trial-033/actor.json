@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_033",
+  "note": "Trial 33 ended with \u201cTRIAL END DEATH\u201d; visible chat says slain by Zombie. After forward jumping, the view faced a stone wall with reduced hearts; the next action returned the end screen. No attacks landed visibly. No explicit input error appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

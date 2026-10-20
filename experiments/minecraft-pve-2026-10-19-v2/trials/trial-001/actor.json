@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_001",
+  "note": "Trial 1 ended with \u201cTRIAL END: DEATH\u201d; chat displayed \u201csathvikr was slain by Zombie.\u201d Zombie reached close range, with health visibly falling between observations. Shield raised visibly; attack effectiveness was unclear. No explicit input errors appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

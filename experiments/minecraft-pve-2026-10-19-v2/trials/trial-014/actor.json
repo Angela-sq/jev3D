@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_014",
+  "note": "Trial 14 ended with \u201cTRIAL END DEATH\u201d; chat showed the player was slain by Zombie. Zombies closed in near stepped terrain. No kills visibly confirmed. No tool/input errors were reported.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

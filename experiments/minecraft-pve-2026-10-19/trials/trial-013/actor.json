@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial13",
+  "note": "Trial 13 ended with visible \u201cTRIAL END: DEATH\u201d and \u201cwas slain by Zombie.\u201d Zombies reached close range immediately; health dropped rapidly. No kills visibly confirmed. No explicit input errors returned.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

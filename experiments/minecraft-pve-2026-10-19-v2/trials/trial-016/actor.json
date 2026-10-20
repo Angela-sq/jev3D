@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_016",
+  "note": "Trial 16 ended in death; the screen reported slain by Zombie. Health dropped rapidly while a zombie approached through foliage. No kills visually confirmed. No explicit input errors; final shield action returned ended=true.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

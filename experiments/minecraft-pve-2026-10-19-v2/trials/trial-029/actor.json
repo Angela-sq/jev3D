@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_029",
+  "note": "Trial 29 ended with \u201cTRIAL END: DEATH\u201d; visible message says slain by Zombie. A zombie remained visible at the left. No confirmed kills or explicit input errors; camera turn appeared to register.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

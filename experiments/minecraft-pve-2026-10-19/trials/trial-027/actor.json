@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial27",
+  "note": "Trial 27 ended in death; screen said \u201cshot by Skeleton.\u201d Foliage obscured enemies, and no kills were visibly confirmed. Camera and movement responded; shield effectiveness could not be confirmed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,12 @@
+{"args": ["begin", "37"], "request_ns": 1792432900000198000, "response_ns": 1792432901049887000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":650,\"dx\":-90,\"dy\":-15}"], "request_ns": 1792432909307953000, "response_ns": 1792432910289096000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"s\"],\"buttons\":[1],\"ms\":550,\"dx\":165,\"dy\":20}"], "request_ns": 1792432919892412000, "response_ns": 1792432920753750000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[1,3],\"ms\":500,\"dx\":155,\"dy\":0}"], "request_ns": 1792432927423508000, "response_ns": 1792432928217129000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[\"space\"],\"buttons\":[3],\"ms\":600,\"dx\":300,\"dy\":-65}"], "request_ns": 1792432934959615000, "response_ns": 1792432935876154000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"ms\":350,\"dx\":300,\"dy\":-70}"], "request_ns": 1792432945611621000, "response_ns": 1792432946237507000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[\"s\",\"space\"],\"buttons\":[3],\"ms\":700,\"dx\":300,\"dy\":0}"], "request_ns": 1792432953272950000, "response_ns": 1792432954301208000, "image": "obs-0006.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":950,\"dx\":250,\"dy\":80}"], "request_ns": 1792432961477356000, "response_ns": 1792432962758365000, "image": "obs-0007.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":950,\"dx\":-60,\"dy\":-70}"], "request_ns": 1792432969306250000, "response_ns": 1792432970590749000, "image": "obs-0008.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"d\",\"space\"],\"buttons\":[],\"ms\":850,\"dx\":40,\"dy\":0}"], "request_ns": 1792432977542253000, "response_ns": 1792432978740024000, "image": "obs-0009.png"}
+{"args": ["act", "{\"keys\":[\"a\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":-150,\"dy\":-60}"], "request_ns": 1792432985508015000, "response_ns": 1792432986813922000, "image": "obs-0010.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":-230,\"dy\":70}"], "request_ns": 1792432994145549000, "response_ns": 1792432995449059000, "image": "obs-0011.png"}

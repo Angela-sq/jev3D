@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial39",
+  "note": "Trial 39 ended with visible \u201cTRIAL END: DEATH\u201d and \u201cwas shot by Skeleton.\u201d A skeleton remained visible. No confirmed kills or tool/input errors observed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

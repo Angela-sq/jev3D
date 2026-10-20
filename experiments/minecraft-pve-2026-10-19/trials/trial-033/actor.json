@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial33",
+  "note": "Trial 33 ended with visible \u201cTRIAL END: TIMEOUT.\u201d Fell into a narrow stone-and-dirt crevice early, lost most health, and attempted attacks on a zombie below the ledge. No confirmed kills observed. No tool/input errors reported.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_035",
+  "note": "Trial 35 ended in death; screen displayed \u201cTRIAL END: DEATH\u201d and \u201cwas slain by Zombie.\u201d Zombies closed in beside dense foliage; no kills visually confirmed. No explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

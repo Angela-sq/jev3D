@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial17",
+  "note": "Trial 17 ended in death; screen showed \u201cTRIAL END DEATH\u201d and \u201cwas slain by Zombie.\u201d Two zombies closed into melee immediately. No kills visually confirmed. Inputs returned without errors, but health dropped sharply between screenshots.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

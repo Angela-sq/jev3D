@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial5",
+  "note": "Trial 5 ended with visible \u201cTRIAL END: TIMEOUT.\u201d After initial movement, the player was confined among dirt and stone walls; repeated attempts to jump out failed. Health visibly fell to roughly 1\u00bd hearts. No kills confirmed visually. Camera and movement responded; no explicit input error appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

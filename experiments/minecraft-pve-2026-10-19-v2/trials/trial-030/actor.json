@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_030",
+  "note": "Trial 30 ended with visible \u201cTRIAL END TIMEOUT.\u201d Two zombies appeared initially; one reached close range, then hostiles left view. No kills visibly confirmed. Movement, turning, attack, and shield responded; no obvious input failure.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

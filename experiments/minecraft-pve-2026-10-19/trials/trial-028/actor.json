@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial28",
+  "note": "Trial 28 ended with \u201cTRIAL END DEATH\u201d; visible message says the player was shot by Skeleton. No kills observed. Movement and shield appeared responsive; camera turns made tracking the skeleton difficult.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

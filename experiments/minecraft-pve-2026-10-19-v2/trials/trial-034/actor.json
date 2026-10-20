@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_034",
+  "note": "Trial 34 ended: screen displayed \u201cTRIAL END DEATH\u201d and \u201csathvikr was slain by Zombie.\u201d Zombies closed in near a dirt ledge; the view became crowded against dirt/stone. No kills visually confirmed. No explicit input errors returned.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial30",
+  "note": "Trial 30 ended with \u201cTRIAL END: DEATH.\u201d Zombies approached; the player fell into a deep narrow terrain gap and could not escape. Death message said \u201cwas doomed to fall by Zombie.\u201d No confirmed kills observed. Inputs produced movement, camera turns, sword swing, and shield raise; no explicit input error appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

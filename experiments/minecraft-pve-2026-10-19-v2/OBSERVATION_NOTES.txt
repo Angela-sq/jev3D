@@ -1,0 +1,8 @@
+The original tutorial overlay progressed/completed during earlier play and camera diagnostics.
+It is absent in the corrected first-trial screenshots. Ambient entities continue to roam
+in the same world; the world is not rewound between trials or between cohorts.
+Geometry, assigned enemy types/spawn coordinates, equipment, rules and action limits
+are fixed, but observations are not pixel-identical repetitions. Do not interpret
+a difference between cohorts as a causal estimate of the mouse initialization fix.
+The corrected first actor action visibly lowered the camera and raised its shield;
+obs-0000.png and obs-0001.png in trial-001 preserve this check.

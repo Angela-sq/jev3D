@@ -1,0 +1,37 @@
+{
+  "minecraft_version": "26.3",
+  "data_pack_format": 121,
+  "seed": -6257074856933950438,
+  "vm": "minecraft-lab",
+  "guest": "Ubuntu 24.04 ARM64",
+  "cpus": 8,
+  "memory_gib": 12,
+  "renderer": "software Vulkan llvmpipe",
+  "window_pixels": [
+    854,
+    480
+  ],
+  "desktop_pixels": [
+    1280,
+    720
+  ],
+  "java_major": 25,
+  "prism": "11.1.1",
+  "render_distance": 4,
+  "simulation_distance": 5,
+  "fps_cap": 60,
+  "difficulty": "normal",
+  "mode": "adventure",
+  "time": "noon fixed",
+  "natural_regeneration": false,
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "action_max_ms": 1000,
+  "camera_delta_max": 300,
+  "source_of_decisions": "fresh Astra subagent, screenshot only",
+  "scoring": "evaluator datapack; no combat policy",
+  "agent_platform": "Codex desktop subagent",
+  "observation_transport": "functions.exec -> shell -> Lima guest scrot -> limactl copy -> tools.view_image",
+  "input_transport": "functions.exec -> shell -> Lima guest xdotool",
+  "model_identity_evidence": "Explicit model selection in subagent spawn requests; not an independently queried API model fingerprint"
+}

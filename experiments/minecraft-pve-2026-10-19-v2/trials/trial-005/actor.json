@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_005",
+  "note": "actor final report delayed; interrupted only after evaluator complete",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial12",
+  "note": "Trial 12 ended: \u201cTRIAL END: DEATH\u201d; visible message says slain by Zombie. No confirmed kills observed. Movement and camera turning responded; terrain obscured enemies, and health dropped rapidly between screenshots.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

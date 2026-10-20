@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial35",
+  "note": "Trial 35 ended in death; screen states slain by Zombie. Health fell rapidly while the attacker was outside view. No attacks landed visibly. Commands returned normally; no explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

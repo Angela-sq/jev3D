@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_018",
+  "note": "Trial 18 ended with \u201cTRIAL END: DEATH.\u201d Zombies closed into melee range quickly; health dropped sharply. No kills visibly confirmed. No explicit input errors appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

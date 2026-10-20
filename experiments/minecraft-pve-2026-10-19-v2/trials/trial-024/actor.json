@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_024",
+  "note": "Trial 24 ended in death; screen says \u201cshot by Skeleton.\u201d Health dropped while searching through dense foliage; no hostile was clearly located and no kills were observed. Turning and movement visibly responded; shield effectiveness could not be confirmed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

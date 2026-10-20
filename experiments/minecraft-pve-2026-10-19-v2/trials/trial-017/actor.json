@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_017",
+  "note": "Trial 17 ended in death. Screen displayed \u201cTRIAL END: DEATH\u201d and \u201csathvikr was shot by Skeleton.\u201d Skeleton remained visible; no kills observed. Shield appeared raised initially but lowered in later screenshots despite shield inputs.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

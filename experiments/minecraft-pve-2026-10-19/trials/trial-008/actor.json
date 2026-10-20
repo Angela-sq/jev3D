@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial8",
+  "note": "Trial 8 ended with \u201cTRIAL END DEATH\u201d; visible chat said slain by Zombie. Leaves obstructed the initial approach, and health dropped rapidly while turning to locate attackers. No kills observed. No tool errors; movement and camera inputs visibly responded.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

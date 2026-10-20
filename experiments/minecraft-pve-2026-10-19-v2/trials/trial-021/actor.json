@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_021",
+  "note": "Trial 21 ended in death. Screen reported \u201cshot by Skeleton.\u201d No hostile mobs were clearly visible through the vegetation; an arrow was visible on the ground. Camera turns and shield activation appeared responsive. No kills observed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

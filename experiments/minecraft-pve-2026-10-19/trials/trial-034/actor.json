@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial34",
+  "note": "Trial 34 ended in death; screen states \u201cshot by Skeleton.\u201d Dense foliage obscured enemies while health declined. No kills visibly confirmed. Movement, turning, and shield inputs appeared functional.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial25",
+  "note": "Trial 25 ended with \u201cTRIAL END: TIMEOUT.\u201d Skeleton visible initially; player fell into a steep stone-and-dirt crevice and could not climb out. No kills visually confirmed. Inputs appeared responsive; no tool errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

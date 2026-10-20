@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial32",
+  "note": "Trial 32 ended with \u201cTRIAL END: DEATH\u201d; visible message says slain by Zombie. Zombies closed to contact quickly and health fell sharply. No confirmed kills or apparent input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

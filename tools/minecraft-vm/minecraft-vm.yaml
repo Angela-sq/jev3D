@@ -1,0 +1,18 @@
+minimumLimaVersion: 2.0.0
+base:
+- template:_images/ubuntu-24.04
+vmType: vz
+arch: aarch64
+cpus: 8
+memory: 12GiB
+disk: 48GiB
+mounts: []
+containerd:
+  system: false
+  user: false
+portForwards:
+- guestPort: 6080
+  hostPort: 6080
+  hostIP: 127.0.0.1
+- guestPortRange: [1, 65535]
+  ignore: true

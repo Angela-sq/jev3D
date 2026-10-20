@@ -1,0 +1,11 @@
+{"args": ["begin", "25"], "request_ns": 1792431826597320000, "response_ns": 1792431827660037000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":0,\"dy\":-30}"], "request_ns": 1792431836829554000, "response_ns": 1792431838161203000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":50,\"dy\":-20}"], "request_ns": 1792431846046313000, "response_ns": 1792431847368690000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[1],\"ms\":1000,\"dx\":0,\"dy\":-65}"], "request_ns": 1792431854853081000, "response_ns": 1792431856174094000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[\"s\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":240,\"dy\":0}"], "request_ns": 1792431864991807000, "response_ns": 1792431866315105000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":300,\"dy\":-100}"], "request_ns": 1792431875117421000, "response_ns": 1792431876450040000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[\"d\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":300,\"dy\":-60}"], "request_ns": 1792431887060155000, "response_ns": 1792431888381616000, "image": "obs-0006.png"}
+{"args": ["act", "{\"keys\":[\"s\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":300,\"dy\":130}"], "request_ns": 1792431898534118000, "response_ns": 1792431899873786000, "image": "obs-0007.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":180,\"dy\":60}"], "request_ns": 1792431906625789000, "response_ns": 1792431907934440000, "image": "obs-0008.png"}
+{"args": ["act", "{\"keys\":[\"d\",\"space\"],\"buttons\":[],\"ms\":1000,\"dx\":110,\"dy\":0}"], "request_ns": 1792431915135736000, "response_ns": 1792431916466504000, "image": "obs-0009.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":-100,\"dy\":-40}"], "request_ns": 1792431924836664000, "response_ns": 1792431924981586000, "image": "obs-0010.png"}

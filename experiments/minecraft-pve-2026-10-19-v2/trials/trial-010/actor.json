@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_010",
+  "note": "Trial 10 ended with visible \u201cTRIAL END: DEATH.\u201d Zombies closed to point-blank range; health dropped sharply between observations. No confirmed kills or explicit input errors observed.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

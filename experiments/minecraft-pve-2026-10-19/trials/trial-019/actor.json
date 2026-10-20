@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial19",
+  "note": "Trial 19 ended in death; screen says \u201cslain by Zombie.\u201d Leaves obstructed the initial view, then zombies appeared on the left. No kills visibly confirmed. No explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

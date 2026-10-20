@@ -1,0 +1,7 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792433785136879421}
+{"kind": "observation", "capture_start_ns": 1792433785437263622, "capture_end_ns": 1792433785494520744, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v2/trial-005/obs-0000.png", "sha256": "07eb739302abb38105789f27f7cf097da4d8c83550005e5c3f286ed79e1ff192"}
+{"kind": "action", "action": {"keys": ["w", "space"], "buttons": [], "ms": 800, "dx": -60, "dy": -30}, "start_ns": 1792433795088747160, "end_ns": 1792433796028847336}
+{"kind": "observation", "capture_start_ns": 1792433796082234263, "capture_end_ns": 1792433796145243949, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v2/trial-005/obs-0001.png", "sha256": "e31d4295651de2887ef4b207941c9ac7cf408eaff4a6a3bba90cd504bba31587"}
+{"kind": "action", "action": {"keys": ["w", "space"], "buttons": [3], "ms": 900, "dx": 0, "dy": 50}, "start_ns": 1792433802883223336, "end_ns": 1792433803927177703}
+{"kind": "observation", "capture_start_ns": 1792433803979333305, "capture_end_ns": 1792433804032857742, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v2/trial-005/obs-0002.png", "sha256": "96aee824d39b6b4c5ded99dc40c698f874c931b7cd7106108b31840b220e5c43"}
+{"kind": "observation", "capture_start_ns": 1792433811427410298, "capture_end_ns": 1792433811475359738, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v2/trial-005/obs-0003.png", "sha256": "97c41c0df59dd76ace2e692a8f12cab17eaf5357734a17d71d455441702d25d5"}

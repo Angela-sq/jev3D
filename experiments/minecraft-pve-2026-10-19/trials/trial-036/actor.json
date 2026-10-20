@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial36",
+  "note": "Trial 36 ended with \u201cTRIAL END DEATH\u201d; chat visibly says slain by Zombie. One zombie approached directly at start, then disappeared from view during combat. No kill confirmed. Camera turns and shield inputs visibly responded; no explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

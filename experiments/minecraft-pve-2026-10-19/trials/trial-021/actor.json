@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial21",
+  "note": "Trial 21 ended with \u201cTRIAL END: DEATH\u201d and \u201csathvikr was slain by Zombie.\u201d Two zombies visibly closed in; no kills were observed. Movement, camera turn, and sword input appeared responsive; no explicit input error appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

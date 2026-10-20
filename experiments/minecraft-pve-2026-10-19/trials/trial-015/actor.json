@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial15",
+  "note": "Trial 15 ended with visible \u201cTRIAL END: TIMEOUT.\u201d A zombie appeared close initially; no kill was visually confirmed. Later the view became enclosed by stone, with roughly three hearts remaining. Camera turns and movement responded; shield elevation appeared intermittent.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

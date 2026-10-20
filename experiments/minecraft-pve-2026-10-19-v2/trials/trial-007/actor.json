@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_007",
+  "note": "Trial 7 ended with \u201cTRIAL END DEATH\u201d; visible chat says slain by Zombie. No kills observed. Terrain and leaves obscured enemies after countdown. Both action calls returned normally; no explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

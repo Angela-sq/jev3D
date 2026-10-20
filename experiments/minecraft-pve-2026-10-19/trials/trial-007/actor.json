@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial7",
+  "note": "Trial 7 ended with visible \u201cTRIAL END TIMEOUT.\u201d A skeleton remained visible; no kills observed. Health had dropped to roughly 1\u00bd hearts before the end. Movement and camera responded, but climbing terrain and maintaining shield coverage were unsuccessful.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_008",
+  "note": "Trial 8 ended in death; screen reads \u201cTRIAL END DEATH\u201d and \u201csathvikr was slain by Zombie.\u201d No kills observed. First movement left the camera pressed against a dirt wall; the trial ended on the next action. No explicit input error appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

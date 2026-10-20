@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_020",
+  "note": "Trial 20 ended in death; screen reported \u201cshot by Skeleton.\u201d No kills visibly confirmed. Movement led into a confined stone-and-dirt depression; attempts to jump and turn did not escape before health depleted. No explicit input errors appeared.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

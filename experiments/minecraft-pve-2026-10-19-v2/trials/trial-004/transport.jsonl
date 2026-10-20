@@ -1,0 +1,12 @@
+{"args": ["begin", "4"], "request_ns": 1792433655479375000, "response_ns": 1792433656576328000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dy\":-25}"], "request_ns": 1792433664912650000, "response_ns": 1792433666307552000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"ms\":1000,\"dx\":-60,\"dy\":-45}"], "request_ns": 1792433673187971000, "response_ns": 1792433674546766000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":-220,\"dy\":10}"], "request_ns": 1792433682063331000, "response_ns": 1792433683448463000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":1000,\"dx\":200,\"dy\":0}"], "request_ns": 1792433690892690000, "response_ns": 1792433692262941000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"ms\":1000,\"dx\":-140,\"dy\":15}"], "request_ns": 1792433698541497000, "response_ns": 1792433699903155000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"ms\":1000,\"dx\":100,\"dy\":30}"], "request_ns": 1792433708120851000, "response_ns": 1792433709507854000, "image": "obs-0006.png"}
+{"args": ["act", "{\"buttons\":[3],\"ms\":500,\"dx\":-300,\"dy\":20}"], "request_ns": 1792433716982145000, "response_ns": 1792433717814725000, "image": "obs-0007.png"}
+{"args": ["act", "{\"buttons\":[3],\"ms\":500,\"dx\":-300,\"dy\":35}"], "request_ns": 1792433724188424000, "response_ns": 1792433725019294000, "image": "obs-0008.png"}
+{"args": ["act", "{\"buttons\":[3],\"ms\":500,\"dx\":-300,\"dy\":30}"], "request_ns": 1792433733627066000, "response_ns": 1792433734467806000, "image": "obs-0009.png"}
+{"args": ["act", "{\"buttons\":[3],\"ms\":500,\"dx\":-300,\"dy\":20}"], "request_ns": 1792433741308692000, "response_ns": 1792433742133995000, "image": "obs-0010.png"}
+{"args": ["act", "{\"buttons\":[3],\"ms\":600,\"dx\":-300,\"dy\":40}"], "request_ns": 1792433753432208000, "response_ns": 1792433753609592000, "image": "obs-0011.png"}

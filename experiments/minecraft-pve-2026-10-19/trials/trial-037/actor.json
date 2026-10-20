@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial37",
+  "note": "Trial 37 ended (`ended=true`). Two zombies initially visible; fell into a narrow dirt-and-stone depression near the border and could not climb out. Final screenshot showed roughly 1\u00bd hearts, no death screen, and no confirmed kills. Camera and movement responded; shield did not visibly raise during attempted blocks.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

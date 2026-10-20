@@ -1,0 +1,343 @@
+{
+  "expected_scored": 36,
+  "completed_scored": 36,
+  "overall": {
+    "attempts": 36,
+    "outcomes": {
+      "death": 32,
+      "timeout": 4
+    },
+    "valid_trials": 36,
+    "win_rate": 0.0,
+    "wilson_95": [
+      0,
+      0.09641862859446367
+    ],
+    "median_game_seconds": 21.85
+  },
+  "by_encounter": {
+    "zombie": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 11,
+        "timeout": 1
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 18.425
+    },
+    "two_zombies": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 10,
+        "timeout": 2
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 18.1
+    },
+    "skeleton": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 11,
+        "timeout": 1
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 39.349999999999994
+    }
+  },
+  "by_site": {
+    "A": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 12
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 18.15
+    },
+    "B": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 8,
+        "timeout": 4
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 38.45
+    },
+    "C": {
+      "attempts": 12,
+      "outcomes": {
+        "death": 12
+      },
+      "valid_trials": 12,
+      "win_rate": 0.0,
+      "wilson_95": [
+        0,
+        0.24249400665524085
+      ],
+      "median_game_seconds": 21.85
+    }
+  },
+  "calibration": {
+    "attempts": 0,
+    "outcomes": {},
+    "valid_trials": 0,
+    "win_rate": null,
+    "wilson_95": null,
+    "median_game_seconds": null
+  },
+  "observation_to_action_median_ms": 9068.270668,
+  "observation_to_action_max_ms": 23386.256311,
+  "median_action_execution_fraction_wall": 0.09382795647056968,
+  "median_wall_to_game_duration_ratio": 0.9988539858989199,
+  "audit_errors": [],
+  "evidence_checks": [
+    {
+      "trial_id": 1,
+      "video_seconds": 23.6236,
+      "frames": 354,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 2,
+      "video_seconds": 48.4,
+      "frames": 726,
+      "screenshots": 7
+    },
+    {
+      "trial_id": 3,
+      "video_seconds": 47.26257,
+      "frames": 705,
+      "screenshots": 7
+    },
+    {
+      "trial_id": 4,
+      "video_seconds": 95.801105,
+      "frames": 1445,
+      "screenshots": 12
+    },
+    {
+      "trial_id": 5,
+      "video_seconds": 26.331429,
+      "frames": 384,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 6,
+      "video_seconds": 23.802198,
+      "frames": 361,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 7,
+      "video_seconds": 24.4244,
+      "frames": 366,
+      "screenshots": 3
+    },
+    {
+      "trial_id": 8,
+      "video_seconds": 18.03352,
+      "frames": 269,
+      "screenshots": 3
+    },
+    {
+      "trial_id": 9,
+      "video_seconds": 29.22905,
+      "frames": 436,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 10,
+      "video_seconds": 23.597765,
+      "frames": 352,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 11,
+      "video_seconds": 23.2,
+      "frames": 348,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 12,
+      "video_seconds": 95.932961,
+      "frames": 1431,
+      "screenshots": 10
+    },
+    {
+      "trial_id": 13,
+      "video_seconds": 43.374302,
+      "frames": 647,
+      "screenshots": 6
+    },
+    {
+      "trial_id": 14,
+      "video_seconds": 24.134831,
+      "frames": 358,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 15,
+      "video_seconds": 31.466667,
+      "frames": 472,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 16,
+      "video_seconds": 24.4,
+      "frames": 366,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 17,
+      "video_seconds": 46.379667,
+      "frames": 695,
+      "screenshots": 6
+    },
+    {
+      "trial_id": 18,
+      "video_seconds": 23.731844,
+      "frames": 354,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 19,
+      "video_seconds": 23.867403,
+      "frames": 360,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 20,
+      "video_seconds": 61.066667,
+      "frames": 916,
+      "screenshots": 7
+    },
+    {
+      "trial_id": 21,
+      "video_seconds": 40.466667,
+      "frames": 607,
+      "screenshots": 6
+    },
+    {
+      "trial_id": 22,
+      "video_seconds": 37.694915,
+      "frames": 556,
+      "screenshots": 5
+    },
+    {
+      "trial_id": 23,
+      "video_seconds": 24.4,
+      "frames": 366,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 24,
+      "video_seconds": 46.8,
+      "frames": 702,
+      "screenshots": 6
+    },
+    {
+      "trial_id": 25,
+      "video_seconds": 40.066667,
+      "frames": 601,
+      "screenshots": 6
+    },
+    {
+      "trial_id": 26,
+      "video_seconds": 21.101124,
+      "frames": 313,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 27,
+      "video_seconds": 95.8958,
+      "frames": 1437,
+      "screenshots": 11
+    },
+    {
+      "trial_id": 28,
+      "video_seconds": 46.513133,
+      "frames": 697,
+      "screenshots": 5
+    },
+    {
+      "trial_id": 29,
+      "video_seconds": 22.988764,
+      "frames": 341,
+      "screenshots": 3
+    },
+    {
+      "trial_id": 30,
+      "video_seconds": 95.932584,
+      "frames": 1423,
+      "screenshots": 9
+    },
+    {
+      "trial_id": 31,
+      "video_seconds": 43.441341,
+      "frames": 648,
+      "screenshots": 5
+    },
+    {
+      "trial_id": 32,
+      "video_seconds": 24.066298,
+      "frames": 363,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 33,
+      "video_seconds": 19.733333,
+      "frames": 296,
+      "screenshots": 3
+    },
+    {
+      "trial_id": 34,
+      "video_seconds": 23.2232,
+      "frames": 348,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 35,
+      "video_seconds": 24.0,
+      "frames": 364,
+      "screenshots": 4
+    },
+    {
+      "trial_id": 36,
+      "video_seconds": 43.933333,
+      "frames": 659,
+      "screenshots": 4
+    }
+  ],
+  "missing_trial_ids": [],
+  "limitations": [
+    "Fixed scenarios; repeated layouts are not independent terrain samples.",
+    "Latency includes model reasoning, orchestration, screenshot transport and tool execution.",
+    "Inputs release after at most one second; shield and movement are not held while thinking.",
+    "No human, scripted, no-action, Jev, or unlimited-time comparison included.",
+    "Software-rendered VM; model-specific causal claims are not supported."
+  ]
+}

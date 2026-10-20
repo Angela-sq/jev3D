@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial14",
+  "note": "Trial 14 ended with \u201cTRIAL END: DEATH\u201d; visible chat says slain by Zombie. A zombie approached at close range, and health dropped rapidly. No confirmed kills. Actions returned normally; final action returned ended=true.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial24",
+  "note": "Trial 24 ended with \u201cTRIAL END: DEATH\u201d; chat stated shot by Skeleton. Arrows depleted health while searching through foliage; a skeleton became visible at the right edge shortly before death. No kills observed. Camera and shield inputs visibly responded; no tool errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

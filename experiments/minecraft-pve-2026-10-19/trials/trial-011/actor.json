@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/trial11",
+  "note": "Trial 11 ended with visible \u201cTRIAL END: TIMEOUT.\u201d Encountered a zombie initially; no kill confirmed. Lost sight of it while turning along sloped terrain and finished inside a stone depression. Camera movements were inconsistent in magnitude; no tool errors occurred.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

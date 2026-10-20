@@ -1,0 +1,8 @@
+Original cohort retained: 36 scored trials, 29 deaths, 7 timeouts, zero wins.
+Post-run camera checks reproduced a dropped first mouse movement after setup chat closed.
+Subsequent 100-pixel movements produced 15 degrees of rotation.
+Zero-pixel priming failed; a one-pixel initialization event consumed the ignored event,
+and three fresh-chat checks then correctly produced +15 yaw, -15 yaw, and +15 pitch.
+Screenshots are in camera-diagnostic/. Original raw results and frozen files remain unchanged.
+Use ../minecraft-pve-2026-10-19-v2/results.csv as the corrected primary cohort.
+Do not treat this original cohort as an unimpaired model benchmark or pool it with v2.

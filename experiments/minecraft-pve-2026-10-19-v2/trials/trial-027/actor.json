@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_027",
+  "note": "Trial 27 ended with visible \u201cTRIAL END: TIMEOUT.\u201d Zombies approached early; I lost some hearts, then lost sight of them while turning across the terrain. No kills confirmed visually. Camera turns appeared small despite large dx inputs; attacks and movement showed visible responses.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

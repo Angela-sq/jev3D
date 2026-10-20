@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_036",
+  "note": "Trial 36 ended. Skeleton visible early; health fell to one heart before ending. No kills observed. Tool calls took roughly 8\u201318 seconds wall time, limiting reactions; no explicit input error.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

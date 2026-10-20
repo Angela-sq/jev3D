@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_012",
+  "note": "Trial 12 ended with \u201cTRIAL END: TIMEOUT.\u201d A zombie approached initially; after one attack it left view, and subsequent turns did not locate it. Player remained alive with reduced hearts. Camera and shield inputs visibly responded; no explicit input errors.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

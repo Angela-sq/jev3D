@@ -1,0 +1,6 @@
+{
+  "task": "/root/run_schedule/v2_trial_022",
+  "note": "Trial 22 ended: \u201cTRIAL END DEATH,\u201d with chat reporting shot by Skeleton. No kills observed. Movement and camera changed, but shield was not visibly raised in returned screenshots despite shield inputs.",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium"
+}

@@ -1,0 +1,51 @@
+{
+  "task": "6d74f441-ffce-49da-ae1b-d77fdbec218a",
+  "note": "Trial 201 ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the message that the player was slain by a Cave Spider.\n\n**What happened visually:**\n- The pre-combat screenshot showed a small spider-like mob directly ahead at the crosshair, which was no longer visible once combat began.\n- After one scan turn to the right, the health bar had dropped from full to roughly two hearts within a single step, with no attacker visible on screen. The hunger bar showed a green tint consistent with poison, which matches a cave spider.\n- My next action, a 180-degree turn with the shield raised, returned the death screen. The mob was never on screen during combat, so I could not land an attack.\n\n**Input problems:** None observed. Camera turns and shield input registered as issued. The mob simply closed in and poisoned faster than I could locate it in the dark terrain.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483390211267000,
+  "agent_end_ns": 1792483437902649000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 8,
+  "violations": [],
+  "num_turns": 9,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 201,
+    "amends": 1,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

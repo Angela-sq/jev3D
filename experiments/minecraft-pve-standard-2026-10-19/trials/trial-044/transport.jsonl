@@ -1,0 +1,3 @@
+{"args": ["begin", "44"], "request_ns": 1792482845752756000, "response_ns": 1792482846791511000, "image": "obs-0000.png"}
+{"args": ["observe"], "request_ns": 1792482852294417000, "response_ns": 1792482852432172000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"ms\":500,\"dx\":0,\"dy\":-15}"], "request_ns": 1792482858362328000, "response_ns": 1792482858492390000, "image": "obs-0002.png"}

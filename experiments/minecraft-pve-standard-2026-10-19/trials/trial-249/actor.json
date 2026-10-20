@@ -1,0 +1,51 @@
+{
+  "task": "323e78fa-70e7-453b-83be-e2842e96ead8",
+  "note": "Trial 249 ended in death. The screen reads \"TRIAL END: DEATH\" with the message that the player was slain by a Spider.\n\nWhat happened visually:\n- The countdown screenshots showed a spider on the ridge ahead. Once combat began, my view had shifted to face a dirt hillside and the spider was no longer visible.\n- Health dropped steadily across every subsequent frame while I turned right, turned around, looked down with the shield raised, and backed up. The spider never appeared on screen in any of those frames.\n- The final sprint forward ended with the death screen, confirming the spider was the attacker.\n\nInput problem: no command errors, but the attacker stayed off-screen the entire fight. The spider likely was directly beneath or at the camera's edge, where my turn increments of roughly 90 to 180 degrees kept missing it. A faster, smaller sweep with the camera pitched down would have been the better search pattern.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483901620375000,
+  "agent_end_ns": 1792483954154655000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 16,
+  "violations": [],
+  "num_turns": 17,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 249,
+    "amends": 49,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

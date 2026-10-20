@@ -1,0 +1,51 @@
+{
+  "task": "5f2349b7-2379-4639-9f4d-05fbebea426a",
+  "note": "Trial 217 ended in death. The screen reads \"TRIAL END: DEATH\" with the message \"angelasq was slain by Spider\".\n\nWhat happened visually:\n- The opening screenshot showed a spider with red eyes on a ledge straight ahead during the countdown.\n- Immediately after combat began, my health dropped every frame, but the spider never appeared in any subsequent screenshot despite turning roughly a full circle and looking up and down.\n- Health went from full to empty across four actions. Shield raising in the last two actions did not stop the damage, which suggests the attacker was behind or above me, outside the shield's facing.\n\nInput problems: none observed. Camera turns and shield presses registered as issued. The failure was tactical: I could not locate the spider after it closed distance, likely because it climbed the terrain and attacked from above or behind while I was pinned against the dirt wall shown in the second screenshot.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483608517390000,
+  "agent_end_ns": 1792483661034797000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 217,
+    "amends": 17,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

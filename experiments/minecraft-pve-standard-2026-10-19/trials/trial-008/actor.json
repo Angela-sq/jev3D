@@ -1,0 +1,50 @@
+{
+  "task": "85b56cea-bf3c-4260-ba39-e7391481973b",
+  "note": "Trial 8 ended in death. The screen reads TRIAL END: DEATH with the chat line \"angelasq was killed by Witch using magic.\"\n\n**What I saw:**\n- The sole visible enemy was a witch standing on a raised grass ledge directly ahead at spawn.\n- On my first sprint-jump toward it, a poison status icon appeared and my health bar began draining fast.\n- Two more jump-and-swing attempts did not get me onto the ledge or land a visible hit. The witch stayed elevated and my hearts emptied across those two screenshots.\n- The final screenshot shows the death message with the witch still standing on the ledge.\n\n**Input issues:** None observed. Every act call returned a new screenshot and the inputs matched what I sent. The loss came from the witch's splash potions outpacing my approach up the terrain step.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480422536845000,
+  "agent_end_ns": 1792480456046070000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 10,
+  "violations": [],
+  "num_turns": 11,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 8,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,941 @@
+[
+  {
+    "mob": "zombie",
+    "site": "A",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -100,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:54:34] [Render thread/INFO]: [System] [CHAT] PVE_END|-100|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "zombie",
+    "site": "B",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -101,
+      "outcome": "target_lost",
+      "ticks": 85,
+      "game_seconds": 4.25,
+      "health_remaining": 18.62,
+      "health_readback": 18.62,
+      "kills": 0,
+      "damage_taken_stat": 14,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:54:46] [Render thread/INFO]: [System] [CHAT] PVE_END|-101|5|85|1862|0|14|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "zombie",
+    "site": "C",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -102,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:54:59] [Render thread/INFO]: [System] [CHAT] PVE_END|-102|2|84|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "husk",
+    "site": "A",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -110,
+      "outcome": "target_lost",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 18.62,
+      "health_readback": 18.62,
+      "kills": 0,
+      "damage_taken_stat": 14,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:55:12] [Render thread/INFO]: [System] [CHAT] PVE_END|-110|5|84|1862|0|14|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "husk",
+    "site": "B",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -111,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 14,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:55:24] [Render thread/INFO]: [System] [CHAT] PVE_END|-111|2|84|0|0|14|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "husk",
+    "site": "C",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -112,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:55:37] [Render thread/INFO]: [System] [CHAT] PVE_END|-112|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "skeleton",
+    "site": "A",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -120,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:55:49] [Render thread/INFO]: [System] [CHAT] PVE_END|-120|2|84|0|0|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "skeleton",
+    "site": "B",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -121,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 18.07,
+      "health_readback": 18.07,
+      "kills": 1,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:56:02] [Render thread/INFO]: [System] [CHAT] PVE_END|-121|1|84|1807|1|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|2"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "skeleton",
+    "site": "C",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -122,
+      "outcome": "target_lost",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 18.07,
+      "health_readback": 18.07,
+      "kills": 0,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:56:15] [Render thread/INFO]: [System] [CHAT] PVE_END|-122|5|84|1807|0|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "stray",
+    "site": "A",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -130,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 18.07,
+      "health_readback": 18.07,
+      "kills": 1,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:56:27] [Render thread/INFO]: [System] [CHAT] PVE_END|-130|1|84|1807|1|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "stray",
+    "site": "B",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -131,
+      "outcome": "target_lost",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 18.07,
+      "health_readback": 18.07,
+      "kills": 0,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:56:40] [Render thread/INFO]: [System] [CHAT] PVE_END|-131|5|84|1807|0|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "stray",
+    "site": "C",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -132,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 19,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:56:53] [Render thread/INFO]: [System] [CHAT] PVE_END|-132|2|84|0|0|19|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:bow\"}, head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "spider",
+    "site": "A",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -140,
+      "outcome": "target_lost",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:57:05] [Render thread/INFO]: [System] [CHAT] PVE_END|-140|5|83|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|16.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|2"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "spider",
+    "site": "B",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -141,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:57:18] [Render thread/INFO]: [System] [CHAT] PVE_END|-141|2|84|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment||effects||health|16.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "spider",
+    "site": "C",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -142,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:57:30] [Render thread/INFO]: [System] [CHAT] PVE_END|-142|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment||effects||health|16.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "cave_spider",
+    "site": "A",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -150,
+      "outcome": "death",
+      "ticks": 85,
+      "game_seconds": 4.25,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:57:43] [Render thread/INFO]: [System] [CHAT] PVE_END|-150|2|85|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|12.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "cave_spider",
+    "site": "B",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -151,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:57:56] [Render thread/INFO]: [System] [CHAT] PVE_END|-151|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment||effects||health|12.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|2"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "cave_spider",
+    "site": "C",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -152,
+      "outcome": "target_lost",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:58:08] [Render thread/INFO]: [System] [CHAT] PVE_END|-152|5|83|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment||effects||health|12.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "creeper",
+    "site": "A",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -160,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:58:21] [Render thread/INFO]: [System] [CHAT] PVE_END|-160|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "creeper",
+    "site": "B",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -161,
+      "outcome": "target_lost",
+      "ticks": 85,
+      "game_seconds": 4.25,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:58:34] [Render thread/INFO]: [System] [CHAT] PVE_END|-161|5|85|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "creeper",
+    "site": "C",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -162,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:58:46] [Render thread/INFO]: [System] [CHAT] PVE_END|-162|2|84|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "witch",
+    "site": "A",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -170,
+      "outcome": "target_lost",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:58:59] [Render thread/INFO]: [System] [CHAT] PVE_END|-170|5|83|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|26.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "witch",
+    "site": "B",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -171,
+      "outcome": "death",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 10,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:59:11] [Render thread/INFO]: [System] [CHAT] PVE_END|-171|2|83|0|0|10|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment||effects||health|26.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "witch",
+    "site": "C",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -172,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:59:24] [Render thread/INFO]: [System] [CHAT] PVE_END|-172|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment||effects||health|26.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|4"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "pillager",
+    "site": "A",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -180,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:59:37] [Render thread/INFO]: [System] [CHAT] PVE_END|-180|2|84|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "pillager",
+    "site": "B",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -181,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 1,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[23:59:49] [Render thread/INFO]: [System] [CHAT] PVE_END|-181|1|84|2000|1|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "pillager",
+    "site": "C",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": null,
+    "event": null,
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:crossbow\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": false
+  },
+  {
+    "mob": "vindicator",
+    "site": "A",
+    "test": "win",
+    "pre": null,
+    "expect": "win",
+    "got": "win",
+    "event": {
+      "trial_id": -190,
+      "outcome": "win",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 2.84,
+      "health_readback": 2.84,
+      "kills": 1,
+      "damage_taken_stat": 172,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:00:38] [Render thread/INFO]: [System] [CHAT] PVE_END|-190|1|84|284|1|172|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:iron_axe\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "vindicator",
+    "site": "B",
+    "test": "lost",
+    "pre": null,
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -191,
+      "outcome": "target_lost",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 11.42,
+      "health_readback": 11.42,
+      "kills": 0,
+      "damage_taken_stat": 86,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:00:50] [Render thread/INFO]: [System] [CHAT] PVE_END|-191|5|83|1142|0|86|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:iron_axe\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "vindicator",
+    "site": "C",
+    "test": "die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -192,
+      "outcome": "death",
+      "ticks": 84,
+      "game_seconds": 4.2,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:01:03] [Render thread/INFO]: [System] [CHAT] PVE_END|-192|2|84|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{mainhand: {count: 1, id: \"minecraft:iron_axe\"}}|effects||health|24.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "zombie",
+    "site": "A",
+    "test": "win_and_die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -100,
+      "outcome": "death",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 1,
+      "damage_taken_stat": 14,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:01:15] [Render thread/INFO]: [System] [CHAT] PVE_END|-100|2|83|0|1|14|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "zombie",
+    "site": "B",
+    "test": "lost_and_die",
+    "pre": null,
+    "expect": "death",
+    "got": "death",
+    "event": {
+      "trial_id": -101,
+      "outcome": "death",
+      "ticks": 83,
+      "game_seconds": 4.15,
+      "health_remaining": 0,
+      "health_readback": 0.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:01:28] [Render thread/INFO]: [System] [CHAT] PVE_END|-101|2|83|0|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[270.5d, 79.0d, -202.5d]|player|[270.5d, 76.0d, -210.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|1"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "creeper",
+    "site": "A",
+    "test": "natural",
+    "pre": "invulnerable",
+    "expect": "target_lost",
+    "got": "target_lost",
+    "event": {
+      "trial_id": -160,
+      "outcome": "target_lost",
+      "ticks": 91,
+      "game_seconds": 4.55,
+      "health_remaining": 5.47,
+      "health_readback": 5.47,
+      "kills": 0,
+      "damage_taken_stat": 145,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:01:41] [Render thread/INFO]: [System] [CHAT] PVE_END|-160|5|91|547|0|145|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[240.5d, 70.0d, -232.5d]|player|[240.5d, 69.0d, -240.5d]|equipment||effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  },
+  {
+    "mob": "zombie",
+    "site": "C",
+    "test": "natural",
+    "pre": "invulnerable",
+    "expect": "timeout",
+    "got": "timeout",
+    "event": {
+      "trial_id": -102,
+      "outcome": "timeout",
+      "ticks": 1800,
+      "game_seconds": 90.0,
+      "health_remaining": 20.0,
+      "health_readback": 20.0,
+      "kills": 0,
+      "damage_taken_stat": 0,
+      "damage_dealt_stat": 0,
+      "escaped": 0,
+      "intruders": 0,
+      "event": "[00:03:19] [Render thread/INFO]: [System] [CHAT] PVE_END|-102|3|1800|2000|0|0|0|0|0"
+    },
+    "inspect": [
+      "PVE_INSPECT|mob||pos|[215.5d, 71.0d, -182.5d]|player|[215.5d, 68.0d, -190.5d]|equipment|{head: {components: {\"minecraft:unbreakable\": {}}, count: 1, id: \"minecraft:leather_helmet\"}}|effects||health|20.0f|count|0",
+      "PVE_COUNT|1|others|",
+      "PVE_OTHERS|0"
+    ],
+    "ok": true
+  }
+]

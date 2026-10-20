@@ -1,0 +1,50 @@
+{
+  "task": "1ff1f0e9-3611-4aa3-ba79-a234b7a63402",
+  "note": "Trial 38 ended in death. The screen reads \"TRIAL END: DEATH\" with the chat message \"angelasq was slain by Zombie.\"\n\nWhat happened visually:\n- The countdown screenshot showed a single zombie about ten blocks ahead. By the next frame, it was already filling the screen at point-blank range.\n- My first sword hit landed, since the zombie flashed red and was knocked back.\n- The following frame showed my health collapsed from full to roughly one and a half hearts, with the zombie at my left shoulder. That drop was far larger than one zombie hit should cause on Normal difficulty, so either several hits landed between frames or more than one mob was present off-screen.\n- I turned left and swung again, and the trial ended before that frame returned.\n\nInput problems: none observed. Every act call returned a new screenshot promptly, and the camera turn and attack inputs took effect as issued. The deciding factor was the gap between observations, during which the zombie closed the distance and dealt most of the damage before I could respond.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482379602294000,
+  "agent_end_ns": 1792482437426199000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 10,
+  "violations": [],
+  "num_turns": 11,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 38,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "5409c5fc-ca21-474c-92a8-8ea75a69bb69",
+  "note": "Trial 22 ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was shot by Skeleton\".\n\nWhat happened on screen:\n- At the start, a skeleton was visible standing on top of a tree directly ahead.\n- I moved forward and jumped onto a dirt ledge, which put me inside the tree canopy with leaves blocking most of the view.\n- From that point the skeleton was never visible again, but arrows kept hitting me while I turned and raised the shield, draining health from full to zero over roughly ten actions.\n- The final screenshot shows the skeleton on the ground to the right of where I was, bow drawn.\n\nInput problem noted: each camera turn moved the view far less than the requested dx suggested, so my sweeps were too narrow to find the skeleton in time. No other input failures observed.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481334911280000,
+  "agent_end_ns": 1792481419514664000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 26,
+  "violations": [],
+  "num_turns": 27,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 22,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

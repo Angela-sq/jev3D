@@ -1,0 +1,50 @@
+{
+  "task": "00cec7b8-37d1-4000-aada-423f4c9031d2",
+  "note": "Trial 15 ended on timeout. The screen reads \"TRIAL END: TIMEOUT\".\n\n**What I saw:** The spawn was in a jungle with dense trees and tall grass. I scanned a full circle and briefly spotted a single spider far up a hill to the right. I moved uphill toward it with jumps through the tall grass, but it never came back into view before the timer ran out.\n\n**Outcome:** No mobs were engaged or attacked. Health stayed full and I took no damage. No kills can be claimed.\n\n**Input notes:** Camera turns and movement responded as expected. The only problem was the game clock advancing much faster than my decision loop. Each act and screenshot cycle consumed several seconds of game time, so the 90-second limit expired after about 18 actions.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480774594668000,
+  "agent_end_ns": 1792480882130244000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 38,
+  "violations": [],
+  "num_turns": 39,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 15,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

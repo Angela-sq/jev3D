@@ -1,0 +1,51 @@
+{
+  "task": "1ad37af7-4b2b-4498-b029-ac7cc181594e",
+  "note": "Trial 235 ended in death.\n\n**Outcome:** The screen reads \"TRIAL END: DEATH\" with the chat message \"angelasq was slain by Cave Spider\".\n\n**What happened visually:**\n- The trial began at night in a forested area with a starry sky.\n- On my second scanning turn, a spider appeared very close in the upper left of the view, already mid-leap at me.\n- My attack swing did not visibly connect, and the next frame showed my hearts turned yellow-green with a poison icon in the top right, so the spider had landed a bite.\n- Two more left turns to relocate the spider found nothing on screen. The death screen appeared on the following frame, at what appeared to be full health shortly before.\n\n**Input problems:** None observed. Every act call returned a new screenshot and the camera turns registered as expected. The loss came from the cave spider closing and poisoning before I could get it in the crosshair, and health dropped from full to zero in a span where I only saw one hit land.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483810506898000,
+  "agent_end_ns": 1792483848364702000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 12,
+  "violations": [],
+  "num_turns": 13,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 235,
+    "amends": 35,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

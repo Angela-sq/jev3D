@@ -1,0 +1,50 @@
+{
+  "task": "f4a345d8-0d58-4484-8ebb-590cd2c024a4",
+  "note": "Trial 26 ended in death. The screen reads \"TRIAL END: DEATH\" with the message that I was shot by the skeleton.\n\nWhat I saw:\n- At the start, a skeleton stood ahead and a reddish mob with a weapon lay near the ground to the right. The red mob never reappeared after the fight began.\n- The skeleton kept strafing and hitting me with arrows while I tried to close the distance. Health fell steadily from full to half a heart over about six actions, even with the shield raised.\n- My final action was a forward charge with a sword swing. The screen showed the skeleton still standing nearby when the death screen appeared. I did not observe any kill.\n\nInput problem: left turns were unreliable. Small negative dx values did not visibly rotate the view left, and the skeleton drifted off to the side each time, so I spent most of the fight facing slightly away from it with the shield not covering the arrow direction. Only a large negative dx of 250 produced a clear left turn.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481643517224000,
+  "agent_end_ns": 1792481706298975000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 26,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

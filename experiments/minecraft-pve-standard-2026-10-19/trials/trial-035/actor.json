@@ -1,0 +1,50 @@
+{
+  "task": "0fc05b7a-6f7f-4721-9b88-a78ae3c97ed3",
+  "note": "Trial 35 ended with a timeout.\n\nThe screen shows \"TRIAL END: TIMEOUT\" and the end marker in the chat line. Over the whole trial I never saw a hostile mob on any screenshot. I scanned a full circle twice from the jungle start area, walked a short distance in two directions, and the only moving thing I saw was a small bird or bat in the sky. The one close green shape I struck turned out to be a large fern, not a creeper.\n\nHealth stayed at full the entire time, and no damage was taken. Armor and the sword rendered normally.\n\nOne input observation: forward movement looked very slow or partly blocked for several steps, possibly from dense ferns and tall grass or a terrain ledge in front of me. Camera turns worked but each turn of the maximum size moved the view less than I expected, so scanning a full circle took many actions and ate most of the 90 seconds.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482080859154000,
+  "agent_end_ns": 1792482194189423000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 38,
+  "violations": [],
+  "num_turns": 39,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 35,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

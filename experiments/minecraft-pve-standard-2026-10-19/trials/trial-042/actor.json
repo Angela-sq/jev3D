@@ -1,0 +1,50 @@
+{
+  "task": "d20178cc-e1e2-4d58-a785-3e4e7e9264ab",
+  "note": "Trial 42 ended in death.\n\n**What I saw:** The screen shows \"TRIAL END: DEATH\" with the chat line \"angelasq was shot by Stray\". The single visible hostile was a Stray that started perched on the leaves of a tree above and to my left, very close to the spawn point.\n\n**How it went:** Health dropped from full to about four hearts within the first two actions, then to under two hearts after the next. The blue overlay seen in one screenshot and the slowed movement match the Stray's Slowness-arrow effect, which made closing the distance across the dirt ledge too slow. I raised the shield for the last two moves, but the Stray kept the elevation and killed me before I landed a hit. No hits on the Stray were observed.\n\n**Input problems:** Camera turns were weaker than expected. After the first aim adjustment the view ended up pointed at the sky with the Stray low-right, and later turns of 35 to 50 pixels only moved partway toward the target. That mismatch cost at least two actions. No command errors occurred.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482709430559000,
+  "agent_end_ns": 1792482762511849000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "stray",
+    "site": "C",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 42,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

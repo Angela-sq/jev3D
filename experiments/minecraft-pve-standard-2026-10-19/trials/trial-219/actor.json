@@ -1,0 +1,51 @@
+{
+  "task": "c9c8a673-5daa-4014-8eaa-046f9f7e730d",
+  "note": "The trial ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Spider\".\n\n**What happened visually:**\n- The encounter started at night in dense jungle-like terrain with vines and trees, which hid the mobs.\n- While scanning right, I spotted a creeper directly below the crosshair at very close range, with health already dropping.\n- My attack toward the creeper coincided with a large camera and position shift, consistent with being knocked around, and health fell to roughly four hearts.\n- Health continued to drop on each subsequent frame while no attacker was visible in front of me. The death message identifies the attacker as a spider, which I never saw on screen.\n\n**Input problems:** None observed. Camera turns and the attack press registered as expected. The main issue was visibility, since the mobs were hidden by terrain and darkness until they were already in melee range.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483698020432000,
+  "agent_end_ns": 1792483764927194000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 20,
+  "violations": [],
+  "num_turns": 21,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 219,
+    "amends": 19,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

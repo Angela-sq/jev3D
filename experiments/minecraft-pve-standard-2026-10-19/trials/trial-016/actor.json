@@ -1,0 +1,50 @@
+{
+  "task": "cc75f2dc-a060-4f3d-b06c-28d783d3541b",
+  "note": "Trial 16 ended in death.\n\n**What happened on screen:** A zombie stood ahead during the \"Get ready\" countdown. After combat began, it disappeared from view on my first forward step, and I never saw it again before dying. Health dropped from full to about six hearts, then to two hearts, within two consecutive screenshots while I was turning to search. The death message read \"angelasq was slain by Zombie\", and the end screen showed a zombie standing right beside the player.\n\n**Likely cause:** The zombie closed in from the side or behind while I was looking elsewhere, and the first-person camera plus tall grass hid it. Damage came in much faster than one zombie normally deals, which suggests it may have been closer than it looked or there was more than one.\n\n**Input problems:** None observed. Every act call returned a new screenshot, and the camera and key inputs behaved as expected. The trial ended after five actions.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480885623699000,
+  "agent_end_ns": 1792480923215983000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 12,
+  "violations": [],
+  "num_turns": 13,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 16,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "6ca19658-f226-4cfb-ae5d-dd6f0cd22bbd",
+  "note": "Trial 39 ended by timeout with no kills.\n\n**What happened on screen**\n- At the start a single husk stood on the hilltop ahead. Right after combat began it hit me once, leaving me at about 9 hearts with the Hunger effect icon showing.\n- After that hit the husk never appeared again. I rotated the camera through more than a full circle, looked up at the hilltop and down at the slope, backed off the dirt wall, and then walked into the field. No mob was visible in any frame.\n- The screen then showed \"TRIAL END: TIMEOUT\" with the player alive.\n\n**Input issue observed**\n- The vertical look input had little visible effect. Large positive and negative dy values barely changed the pitch between frames, which made it hard to check directly above or below the ledge where the husk was likely standing.\n\n**Outcome**\n- Husk not killed. Player survived until the 90-second limit. Final health and whether the husk was still nearby cannot be confirmed from the screenshots.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482440702793000,
+  "agent_end_ns": 1792482550933792000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 36,
+  "violations": [],
+  "num_turns": 37,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 4,
+    "scored": true,
+    "trial_id": 39,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

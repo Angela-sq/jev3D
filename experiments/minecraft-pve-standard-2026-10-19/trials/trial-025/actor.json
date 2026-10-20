@@ -1,0 +1,50 @@
+{
+  "task": "7206a408-2f70-487c-babc-b8786bf4aac5",
+  "note": "Trial 25 ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the death message \"angelasq was shot by Pillager\". A single crossbow pillager was the visible enemy. It stayed at range on a ledge and hit me repeatedly while I closed the distance. Health fell from full to two hearts over about five actions, and the last approach-and-attack ended with the fatal shot. I never observed a hit landing on the pillager.\n\n**Input problems noticed:**\n- The shield held with button 3 did not visibly block any bolts. Damage kept landing even while the shield was raised and I was facing the pillager.\n- Camera turns from dx seemed smaller than expected, so the pillager stayed left of the crosshair across several attack attempts.\n- Forward movement looked stalled for two actions, probably from walking into the ledge, until a jump got me onto it.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481582173895000,
+  "agent_end_ns": 1792481640117033000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 18,
+  "violations": [],
+  "num_turns": 19,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 25,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

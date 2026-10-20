@@ -1,0 +1,51 @@
+{
+  "task": "b03579c7-b11d-4a59-abd0-01da1f21a355",
+  "note": "Trial 205 ended in death. The final screen reads \"TRIAL END: DEATH\" with the message that the player was slain by a Spider.\n\nWhat happened:\n- After the \"FIGHT\" banner, no mob was ever visible in any screenshot. I spent the fight turning right to scan the jungle terrain.\n- Health dropped steadily across four consecutive screenshots, from full to about one and a half hearts, without the attacker appearing on screen.\n- My last action raised the shield while turning, but the trial ended before the attacker came into view.\n\nInput problem observed: the camera turns were much smaller than expected. A turn of 300 in dx moved the view only a modest amount each time, so I never completed a full rotation. The spider likely stayed behind or above me, out of the frame, the whole time. Faster scanning with repeated large turns or an earlier look upward would have been needed to find it.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483441212219000,
+  "agent_end_ns": 1792483493101168000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 16,
+  "violations": [],
+  "num_turns": 17,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 205,
+    "amends": 5,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

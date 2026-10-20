@@ -1,0 +1,50 @@
+{
+  "task": "ad81fc37-5494-4f44-811a-5345a14d8a82",
+  "note": "The trial ended on my first combat input, so there is nothing further to request.\n\n**Outcome:** The screen reads \"TRIAL END: TARGET_LOST\" immediately after my first action.\n\n- At start, one creeper stood on a dirt hill directly ahead, slightly above eye level.\n- I waited through the countdown with a single observe, then stepped forward for half a second while tilting the view up slightly.\n- The next screenshot showed the creeper gone from view and the trial-end banner. I never got within striking range and never attacked.\n\n**Visual account:** My health bar was full the whole time, and no explosion or damage was visible. The creeper simply was no longer in frame when the end banner appeared, so I cannot say from screenshots whether it despawned, fell out of the border, or was removed by the evaluator.\n\n**Input problems:** None observed. The begin, observe, and act calls each returned a screenshot promptly, and the forward step registered as expected.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482834801383000,
+  "agent_end_ns": 1792482866737334000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 6,
+  "violations": [],
+  "num_turns": 7,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 44,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

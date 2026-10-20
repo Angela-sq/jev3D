@@ -1,0 +1,50 @@
+{
+  "task": "516b226c-8597-4f0c-936b-ee1461158b4a",
+  "note": "Trial 9 ended in death.\n\n**Outcome:** The screen shows \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Husk\".\n\n**What happened:**\n- A husk was visible at the start standing on leaves ahead. I moved forward-right to go around the bush, which took it out of view.\n- On the next turn the husk was already in melee range on my left and had hit me (health dropped roughly a third, hunger icon appeared).\n- My left turn plus attack overshot and the husk was not in frame. Health was down to around three hearts.\n- The next camera turn returned the death screen before I could re-sight it.\n\n**Input problems:** None observed. Commands executed as issued. The loss came from the husk closing distance while I was out of sight of it, and from my overshooting turn while it was adjacent.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480459310493000,
+  "agent_end_ns": 1792480497657811000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 12,
+  "violations": [],
+  "num_turns": 13,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 9,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

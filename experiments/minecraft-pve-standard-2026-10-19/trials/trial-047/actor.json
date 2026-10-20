@@ -1,0 +1,50 @@
+{
+  "task": "3654ae5c-1441-42ca-aef5-8aaf252145b3",
+  "note": "Trial 47 ended in death. The screen reads \"TRIAL END: DEATH\" with the message \"angelasq was slain by Husk.\"\n\nWhat happened on screen:\n- The husk stood a few blocks ahead at the start. After one forward walk it was already in melee range and had hit me, with the hunger effect icon showing.\n- I landed two visible hits with crit particles and knockback, but my health fell from full to about seven hearts, then to about three and a half, across just two exchanges.\n- The third attack call returned the death screen.\n\nInput observations: no input errors occurred. Each action produced a new screenshot. Health loss per exchange was far faster than a single husk on Normal would explain, and a second green mob shape appeared at the lower left in the fourth screenshot. I could not confirm what it was before dying. I never raised the shield, which was the main tactical mistake.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482977026930000,
+  "agent_end_ns": 1792483013865550000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 12,
+  "violations": [],
+  "num_turns": 13,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "husk",
+    "site": "A",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 47,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

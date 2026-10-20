@@ -1,0 +1,50 @@
+{
+  "task": "b3251f50-9aa3-42be-b629-5bf622d80319",
+  "note": "Trial 7 ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was shot by Stray\".\n\nWhat I saw:\n- At the start a single armored humanoid mob stood on a hill directly ahead. I moved and jumped up the slope toward it, but it left my view as I climbed.\n- Health fell steadily from full to zero across about eight actions while I could not see the attacker. The death message confirms it was a Stray shooting arrows from range, with the slowness effect likely explaining the rapid loss.\n- Only on the last two frames did a translucent, bluish silhouette appear to the right of center, after I had raised the shield and turned. My one attack toward it came as the trial ended.\n\nInput problems: none observed. Camera and key inputs applied as sent. The failure was mine: I lost track of the mob's position after the first screenshot and should have raised the shield and scanned earlier rather than charging blind.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480350836294000,
+  "agent_end_ns": 1792480419195194000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 22,
+  "violations": [],
+  "num_turns": 23,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 7,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "19631938-0420-4b60-b78a-4ae9ee20ef25",
+  "note": "Trial 50 ended in death.\n\n**What happened:** A single witch spawned a few blocks ahead. I sprinted in and landed one hit on it, which flashed red. The witch's splash potions then poisoned me, and my health dropped from full to around three hearts within two more swings. My next two attacks did not register as hits, and the screen then showed \"TRIAL END: DEATH\" with the message that I was killed by the witch using magic. The witch was still standing when the trial ended.\n\n**Input problems:** None observed. Movement, camera, and attack inputs all responded. The only issue was tactical: the witch's poison and harming potions outpaced my damage output at close range.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483155944203000,
+  "agent_end_ns": 1792483198860344000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "witch",
+    "site": "A",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 50,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

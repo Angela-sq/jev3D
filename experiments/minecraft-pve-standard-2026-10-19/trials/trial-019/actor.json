@@ -1,0 +1,50 @@
+{
+  "task": "23c531fd-a9be-44ef-904a-8f15783d5cfa",
+  "note": "Trial 19 ended by timeout.\n\n**Outcome:** The screen shows \"TRIAL END: TIMEOUT\". Health stayed at full the whole trial and I took no visible damage.\n\n**What happened:**\n- I spent most of the trial sweeping the jungle terrain for mobs. The only hostile I saw was one spider, first sitting on a hill ahead and then mid-air in a jump toward me.\n- After the jump it disappeared into the tall grass and leaves. I never re-acquired it despite turning in both directions, so I landed no confirmed hits.\n- Two tall ferns were mistaken for a creeper at first glance, costing one wasted attack and some time.\n\n**Input notes:** Camera turning was slow, roughly a quarter turn per maximum dx step, which made the scan take many actions. The real-world delay between each screenshot and decision consumed much of the 90-second game clock. No input errors occurred.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481153755054000,
+  "agent_end_ns": 1792481265672934000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 38,
+  "violations": [],
+  "num_turns": 39,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 19,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

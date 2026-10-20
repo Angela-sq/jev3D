@@ -1,0 +1,4 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792480330812586277}
+{"kind": "observation", "capture_start_ns": 1792480331113630182, "capture_end_ns": 1792480331168215839, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-006/obs-0000.png", "sha256": "bf800f13db7ceb236413ed5d24141dca373516262f967a8716f8e320ee032e2f"}
+{"kind": "observation", "capture_start_ns": 1792480336296007760, "capture_end_ns": 1792480336341556099, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-006/obs-0001.png", "sha256": "a0f312c6ec9c605c4692797ff02c9fdd72b6a9fe3b49a716221272055c01326f"}
+{"kind": "observation", "capture_start_ns": 1792480340951735368, "capture_end_ns": 1792480341003124390, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-006/obs-0002.png", "sha256": "d3f52c8859c16e0b9f8c02870804b5e273bff51bb849123d454577faf87deb72"}

@@ -1,0 +1,50 @@
+{
+  "task": "a31fe8c7-58af-40cf-9337-802acec7c59e",
+  "note": "Trial 13 ended in death.\n\n**What happened:** The screen shows \"TRIAL END: DEATH\" with the death message \"angelasq was shot by Stray\". The mob seen on the hill during the countdown was a Stray. After the countdown it ended up above me on a ledge to my left, and I was standing in a low spot below a cliff face. Arrows hit me repeatedly while I turned to locate it. I only caught glimpses of its legs at the top-left of the screen, never got it centered in view, and my two attack swings hit nothing. Health dropped from full to zero across about five actions. My final action, backing away with the shield raised, came too late.\n\n**Input problems:** None observed. Camera turns and key presses all took effect as issued. The loss came from positioning and from spending the first action moving forward and jumping instead of locating the ranged mob first.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480661082972000,
+  "agent_end_ns": 1792480714790733000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 16,
+  "violations": [],
+  "num_turns": 17,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 13,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

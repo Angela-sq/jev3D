@@ -1,0 +1,515 @@
+trial_id,rerun_of,amends,scored,mob,site,repeat,model,reasoning_effort,agent_task,outcome,game_seconds,wall_seconds,kills,health_remaining,damage_taken_stat,damage_dealt_stat,escaped,intruders,actions,observations,observation_to_action_median_ms,observation_to_action_max_ms,transport_median_ms,agent_wall_seconds,tool_calls,violations,models_reported,cli_version,video,events,action_log,transcript,technical_reason,actor_note
+901,,,False,zombie,A,0,claude-fable-5-1,medium,d2bc2c8f-1350-4784-a216-cb9483d3b34b,death,17.6,17.535,0,0,210,0,0,0,2,5,5082.83,5559.35,807.81,34.753,10,0,claude-fable-5-1,2.1.304,trials/trial-901/video.mp4,trials/trial-901/events.log,trials/trial-901/actions.jsonl,trials/trial-901/transcript.jsonl,,"Trial 901 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the message ""angelasq was slain by Zombie."" A zombie is visible standing beside me on the grass block at the end.
+
+**What happened visually:** At the start, one zombie was visible straight ahead in the distance. After one forward move the view tilted up and the zombie vanished from sight. On the next forward step the health bar dropped from about nine hearts to four while I was in tall grass with nothing visible on screen. I turned around with the shield raised to find the attacker, and the trial ended before the next decision.
+
+**Input problems:** None that I could confirm. The camera pitch after the first move looked higher than expected, which may have been a jump onto the raised block rather than an input issue. The zombie closed and attacked from outside my field of view, so I never had a screenshot with it in melee range to attack."
+1,,,True,cave_spider,A,2,claude-fable-5-1,medium,44f5f88b-0eb8-485c-b225-90a068206669,timeout,90.0,89.96,0,20.0,0,0,1,0,15,18,5039.13,6822.82,614.85,109.999,36,0,claude-fable-5-1,2.1.304,trials/trial-001/video.mp4,trials/trial-001/events.log,trials/trial-001/actions.jsonl,trials/trial-001/transcript.jsonl,,"The trial ended with ""TRIAL END: TIMEOUT"" on screen.
+
+**What happened visually:**
+- A spider was straight ahead at the start. I walked up and struck it twice. After the second hit it was no longer in view and a small dropped item appeared on the ground, so it was likely killed, though I did not observe a death animation.
+- Scanning the surroundings showed only one other figure: a green creeper-like mob standing across a lake. I sprinted toward it, but a red vignette and the blue border wall appeared, meaning the world border stopped me at the shoreline with the mob still beyond it.
+- While turning back to search the rest of the arena, the 90-second game-time limit expired. My health stayed full the whole trial.
+
+**Input problems:** None. All actions registered as expected. The trial consumed most of its time traveling toward an unreachable mob and scanning the horizon rather than fighting."
+2,,,True,stray,A,1,claude-fable-5-1,medium,adfc34b4-0b7f-4601-b232-0340587448e9,death,34.85,34.801,0,0,199,0,0,0,6,8,5327.7,6885.08,929.25,56.363,16,0,claude-fable-5-1,2.1.304,trials/trial-002/video.mp4,trials/trial-002/events.log,trials/trial-002/actions.jsonl,trials/trial-002/transcript.jsonl,,"Trial 2 ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was shot by Stray"".
+
+What happened, from the screenshots:
+- **The enemy was a Stray**, a ranged skeleton variant whose arrows apply Slowness. It stood on a raised dirt ledge a few blocks ahead at the start.
+- **My approach stalled.** Across two forward moves, the view barely changed, which suggests I was bumping into the ledge instead of climbing it. Health fell from full to about three hearts during that time.
+- **Slowness compounded the problem.** Once hit, closing the gap became much slower, and the Stray kept its distance and kept firing.
+- **Shield came too late.** I raised it only at one heart. The final arrow landed while I was still advancing behind it, possibly from an angle the shield did not cover.
+
+No input problems were observed. All act calls returned fresh screenshots and the camera and movement responded as expected. The one mistake was tactical: I should have jumped the ledge and raised the shield on the first approach, before taking damage."
+3,,,True,pillager,C,1,claude-fable-5-1,medium,260db5c7-317a-4edb-a15b-8cb34a383bb1,death,42.85,42.854,0,0,209,0,0,0,6,9,5849.44,6945.56,1044.87,63.533,18,0,claude-fable-5-1,2.1.304,trials/trial-003/video.mp4,trials/trial-003/events.log,trials/trial-003/actions.jsonl,trials/trial-003/transcript.jsonl,,"Trial 3 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the chat line ""angelasq was shot by Pillager"". The lone visible hostile was a crossbow pillager perched on top of a tree directly ahead of the spawn point. It was never reached or hit.
+
+**What happened:**
+- The player spawned facing a stone ledge with the pillager elevated on the tree canopy. Forward and forward-left movement, including a jump, did not visibly change position, so the ledge appeared to block the approach.
+- Health fell from full to half a heart over four screenshots while trying to close distance. The pillager fired steadily from above.
+- Raising the shield while facing the pillager did not visibly stop the damage, probably because the bolts were coming from a steep upward angle and the view was not tilted up enough until the final action.
+- The last action tilted the view up with the shield held, but the fatal bolt landed before it took effect.
+
+**Input problems:** No command errors. The main issue was ineffective movement, with the character seemingly stuck against the stone block in front of spawn for several actions while under fire."
+4,,,True,creeper,B,2,claude-fable-5-1,medium,85a5fdba-accb-4595-a07a-873409c7573d,target_lost,4.8,4.712,0,15.32,47,0,0,0,1,3,4528.04,4528.04,1038.19,23.792,6,0,claude-fable-5-1,2.1.304,trials/trial-004/video.mp4,trials/trial-004/events.log,trials/trial-004/actions.jsonl,trials/trial-004/transcript.jsonl,,"The trial ended almost immediately. Here is what I saw.
+
+**Outcome:** The screen shows ""TRIAL END: TARGET_LOST"" after my first movement input. The creeper visible on the hilltop in the first two screenshots is no longer in view, and the ground in front of me is covered in explosion-like particle debris. No damage to my health bar was visible, and I did not land any attack.
+
+**What happened, as observed:**
+- Screenshot one showed the ""Get ready"" countdown with a single creeper standing on a dirt hill ahead.
+- I observed once to let the countdown run, then walked forward for under a second.
+- The next screenshot already showed the trial-end banner, with the creeper gone and particles in the air.
+
+**Input problems:** None. Both the observe and act calls returned screenshots normally. The trial simply ended before combat could begin, so the target was lost rather than killed by me. I cannot confirm from the screenshots alone whether the creeper exploded on its own or was removed by the evaluator."
+5,,,True,spider,C,5,claude-fable-5-1,medium,3cf46924-718c-4a05-8f2f-b1a2faf88d95,timeout,90.0,89.903,0,20.0,0,0,1,0,17,19,4948.77,6707.92,480.66,107.998,38,0,claude-fable-5-1,2.1.304,trials/trial-005/video.mp4,trials/trial-005/events.log,trials/trial-005/actions.jsonl,trials/trial-005/transcript.jsonl,,"The trial ended with a timeout.
+
+**Outcome:** The screen shows ""TRIAL END: TIMEOUT"". I kept full health throughout and took no visible damage.
+
+**What happened:** The only hostile I spotted was a single creeper in the jungle terrain. I landed one sword swing on it, after which it appeared to be launched into the air and then vanished from view. I spent the rest of the time turning in place and scanning, but never saw it or any other mob again before the clock ran out. I cannot confirm whether the creeper died.
+
+**Input observations:** Camera turns were inconsistent in magnitude, so aiming was imprecise. The creeper's erratic movement after the hit, apparently airborne and out of sight across several frames, made it hard to re-acquire. No other input problems noticed."
+6,,,True,vindicator,A,1,claude-fable-5-1,medium,135c0d88-6ae4-4a7a-9203-5e2d936b8c57,death,4.85,4.764,0,0,258,0,1,0,0,3,,,157.8,21.182,6,0,claude-fable-5-1,2.1.304,trials/trial-006/video.mp4,trials/trial-006/events.log,trials/trial-006/actions.jsonl,trials/trial-006/transcript.jsonl,,"Trial 6 ended in death.
+
+**What happened:** The first screenshot after ""FIGHT"" showed a single mob standing centered a few blocks ahead in the grass. I issued one sprint-forward action toward it. The very next screenshot read ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Vindicator"". Health went from full hearts to dead between two consecutive observations, so no intermediate combat frames were visible.
+
+**Input problems:** None observed. The sprint action was accepted and the camera and movement responded normally. The trial simply ended before a second decision could be made, so I could not attack or raise the shield.
+
+**Outcome:** Loss by death to a Vindicator. No kills were observed."
+7,,,True,stray,B,5,claude-fable-5-1,medium,b3251f50-9aa3-42be-b629-5bf622d80319,death,49.5,49.496,0,0,199,0,0,0,8,11,5179.5,5772.93,699.33,68.359,22,0,claude-fable-5-1,2.1.304,trials/trial-007/video.mp4,trials/trial-007/events.log,trials/trial-007/actions.jsonl,trials/trial-007/transcript.jsonl,,"Trial 7 ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was shot by Stray"".
+
+What I saw:
+- At the start a single armored humanoid mob stood on a hill directly ahead. I moved and jumped up the slope toward it, but it left my view as I climbed.
+- Health fell steadily from full to zero across about eight actions while I could not see the attacker. The death message confirms it was a Stray shooting arrows from range, with the slowness effect likely explaining the rapid loss.
+- Only on the last two frames did a translucent, bluish silhouette appear to the right of center, after I had raised the shield and turned. My one attack toward it came as the trial ended.
+
+Input problems: none observed. Camera and key inputs applied as sent. The failure was mine: I lost track of the mob's position after the first screenshot and should have raised the shield and scanned earlier rather than charging blind."
+8,,,True,witch,B,1,claude-fable-5-1,medium,85b56cea-bf3c-4260-ba39-e7391481973b,death,13.2,13.2,0,0,230,0,0,0,2,5,4958.87,5162.57,743.46,33.509,10,0,claude-fable-5-1,2.1.304,trials/trial-008/video.mp4,trials/trial-008/events.log,trials/trial-008/actions.jsonl,trials/trial-008/transcript.jsonl,,"Trial 8 ended in death. The screen reads TRIAL END: DEATH with the chat line ""angelasq was killed by Witch using magic.""
+
+**What I saw:**
+- The sole visible enemy was a witch standing on a raised grass ledge directly ahead at spawn.
+- On my first sprint-jump toward it, a poison status icon appeared and my health bar began draining fast.
+- Two more jump-and-swing attempts did not get me onto the ledge or land a visible hit. The witch stayed elevated and my hearts emptied across those two screenshots.
+- The final screenshot shows the death message with the witch still standing on the ledge.
+
+**Input issues:** None observed. Every act call returned a new screenshot and the inputs matched what I sent. The loss came from the witch's splash potions outpacing my approach up the terrain step."
+9,,,True,husk,C,2,claude-fable-5-1,medium,516b226c-8597-4f0c-936b-ee1461158b4a,death,20.1,20.028,0,0,210,0,0,0,3,6,4821.21,5164.46,585.29,38.347,12,0,claude-fable-5-1,2.1.304,trials/trial-009/video.mp4,trials/trial-009/events.log,trials/trial-009/actions.jsonl,trials/trial-009/transcript.jsonl,,"Trial 9 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Husk"".
+
+**What happened:**
+- A husk was visible at the start standing on leaves ahead. I moved forward-right to go around the bush, which took it out of view.
+- On the next turn the husk was already in melee range on my left and had hit me (health dropped roughly a third, hunger icon appeared).
+- My left turn plus attack overshot and the husk was not in frame. Health was down to around three hearts.
+- The next camera turn returned the death screen before I could re-sight it.
+
+**Input problems:** None observed. Commands executed as issued. The loss came from the husk closing distance while I was out of sight of it, and from my overshooting turn while it was adjacent."
+10,,,True,skeleton,A,2,claude-fable-5-1,medium,12011dbd-305a-43ee-8bc1-6029496b695f,death,50.7,50.699,0,0,204,0,0,0,9,11,4958.81,6544.34,833.94,73.97,22,0,claude-fable-5-1,2.1.304,trials/trial-010/video.mp4,trials/trial-010/events.log,trials/trial-010/actions.jsonl,trials/trial-010/transcript.jsonl,,"The trial ended in death. The screen reads ""TRIAL END: DEATH"" with the message that I was shot by the skeleton.
+
+**What happened visually:**
+- One skeleton was in view from the start, about eight blocks ahead.
+- It kept a three to four block gap the whole fight, strafing sideways and repeatedly slipping out of my view to the left and then far to the right.
+- My health dropped steadily from ten hearts to one over about six actions, and I never got within sword reach.
+- The final screenshot shows the skeleton still standing, so I observed no kill.
+
+**Input problems observed:**
+- Camera turns seemed smaller than expected. A dx of 110 moved the view only a modest amount, and it took a dx of 300 to recenter the skeleton.
+- The shield appeared raised in several screenshots but my health still fell during those frames, so blocking did not seem to stop the arrows, possibly because the skeleton was off to the side of my facing.
+- Sprint-forward actions did not visibly close the distance, which suggests either the skeleton was backing up at matching speed or the forward movement was shorter than the hold time implied."
+11,,,True,witch,C,2,claude-fable-5-1,medium,0980b0cb-8522-48db-a5a8-6e8dcad937c4,death,12.65,12.602,0,0,240,0,0,0,3,4,4949.31,5465.05,1038.8,29.462,8,0,claude-fable-5-1,2.1.304,trials/trial-011/video.mp4,trials/trial-011/events.log,trials/trial-011/actions.jsonl,trials/trial-011/transcript.jsonl,,"Trial 11 ended in death.
+
+**What happened on screen:** The lone hostile was a witch perched on top of a tree directly ahead. Within the first two actions after the countdown, a splash potion landed and my health bar turned yellow (poison). On the next step, while I was jumping up the ledge toward the tree, the screen showed ""TRIAL END: DEATH"" with the message ""angelasq was killed by Witch using magic"". The witch was still visible on the tree, apparently unharmed. I never reached melee range.
+
+**Input problems:** None observed. Movement and camera responded as expected. The loss came from the witch's elevated position and rapid potion damage, which dropped full health to zero in roughly two seconds of game time, far faster than I could close the distance."
+12,,,True,husk,C,5,claude-fable-5-1,medium,6b11f30d-8a97-419a-a905-278b6e4b5b26,death,27.4,27.265,0,0,210,0,0,0,4,7,5268.07,5409.44,410.65,46.802,14,0,claude-fable-5-1,2.1.304,trials/trial-012/video.mp4,trials/trial-012/events.log,trials/trial-012/actions.jsonl,trials/trial-012/transcript.jsonl,,"Trial 12 ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Husk"".
+
+What happened visually:
+- At FIGHT start, no mobs were in the initial view. Turning left revealed a husk already within melee range.
+- My first attack swing missed as the husk closed in. Between two screenshots, health fell from full to about 3.5 hearts, with a husk hugging my left and a creeper directly on my right.
+- I retreated with the shield raised, but the trial ended during that action with the husk credited for the kill.
+
+Input problems: none observed. Camera turns and attack presses registered as issued. The main difficulty was that each act call spans enough real time for mobs already adjacent to land multiple hits, and the mobs spawned very close behind the starting view."
+13,,,True,stray,B,2,claude-fable-5-1,medium,a31fe8c7-58af-40cf-9337-802acec7c59e,death,34.55,34.462,0,0,205,0,0,0,5,8,5748.7,5975.61,384.79,53.708,16,0,claude-fable-5-1,2.1.304,trials/trial-013/video.mp4,trials/trial-013/events.log,trials/trial-013/actions.jsonl,trials/trial-013/transcript.jsonl,,"Trial 13 ended in death.
+
+**What happened:** The screen shows ""TRIAL END: DEATH"" with the death message ""angelasq was shot by Stray"". The mob seen on the hill during the countdown was a Stray. After the countdown it ended up above me on a ledge to my left, and I was standing in a low spot below a cliff face. Arrows hit me repeatedly while I turned to locate it. I only caught glimpses of its legs at the top-left of the screen, never got it centered in view, and my two attack swings hit nothing. Health dropped from full to zero across about five actions. My final action, backing away with the shield raised, came too late.
+
+**Input problems:** None observed. Camera turns and key presses all took effect as issued. The loss came from positioning and from spending the first action moving forward and jumping instead of locating the ranged mob first."
+14,,,True,witch,C,5,claude-fable-5-1,medium,336bea35-a5fb-42ab-93ee-cc16b0c2f3e2,death,35.05,35.021,0,0,250,0,0,0,6,9,4715.74,5006.61,507.5,53.216,18,0,claude-fable-5-1,2.1.304,trials/trial-014/video.mp4,trials/trial-014/events.log,trials/trial-014/actions.jsonl,trials/trial-014/transcript.jsonl,,"Trial 14 ended in death.
+
+**Outcome:** The screen reads ""TRIAL END: DEATH"" with the message that the player was killed by the witch using magic. The witch is still standing on the dirt ledge in front of the player at the end.
+
+**What happened:** The witch started on top of a tree directly ahead, dropped down beside the player within seconds of ""FIGHT"", and poisoned the player almost immediately. I landed several sword swings while the hearts turned yellow-green and drained from full to nearly empty over about four actions. The witch was knocked back once but was still standing, and a final potion hit finished the player before the next swing connected.
+
+**Input problems:** None observed. Camera turns and attack presses registered as expected on each screenshot. The loss came from the fast poison and harming potions outrunning the sword damage at close range, not from a control failure."
+15,,,True,cave_spider,C,1,claude-fable-5-1,medium,00cec7b8-37d1-4000-aada-423f4c9031d2,timeout,90.0,89.979,0,20.0,0,0,1,0,17,19,4522.03,5793.91,620.85,107.536,38,0,claude-fable-5-1,2.1.304,trials/trial-015/video.mp4,trials/trial-015/events.log,trials/trial-015/actions.jsonl,trials/trial-015/transcript.jsonl,,"Trial 15 ended on timeout. The screen reads ""TRIAL END: TIMEOUT"".
+
+**What I saw:** The spawn was in a jungle with dense trees and tall grass. I scanned a full circle and briefly spotted a single spider far up a hill to the right. I moved uphill toward it with jumps through the tall grass, but it never came back into view before the timer ran out.
+
+**Outcome:** No mobs were engaged or attacked. Health stayed full and I took no damage. No kills can be claimed.
+
+**Input notes:** Camera turns and movement responded as expected. The only problem was the game clock advancing much faster than my decision loop. Each act and screenshot cycle consumed several seconds of game time, so the 90-second limit expired after about 18 actions."
+16,,,True,zombie,A,4,claude-fable-5-1,medium,cc75f2dc-a060-4f3d-b06c-28d783d3541b,death,18.85,18.881,0,0,210,0,0,0,3,6,5200.52,5406.93,414.23,37.592,12,0,claude-fable-5-1,2.1.304,trials/trial-016/video.mp4,trials/trial-016/events.log,trials/trial-016/actions.jsonl,trials/trial-016/transcript.jsonl,,"Trial 16 ended in death.
+
+**What happened on screen:** A zombie stood ahead during the ""Get ready"" countdown. After combat began, it disappeared from view on my first forward step, and I never saw it again before dying. Health dropped from full to about six hearts, then to two hearts, within two consecutive screenshots while I was turning to search. The death message read ""angelasq was slain by Zombie"", and the end screen showed a zombie standing right beside the player.
+
+**Likely cause:** The zombie closed in from the side or behind while I was looking elsewhere, and the first-person camera plus tall grass hid it. Damage came in much faster than one zombie normally deals, which suggests it may have been closer than it looked or there was more than one.
+
+**Input problems:** None observed. Every act call returned a new screenshot, and the camera and key inputs behaved as expected. The trial ended after five actions."
+17,,,True,spider,B,4,claude-fable-5-1,medium,9ef40211-c7ae-4df1-b4a2-3a78ce3f59d1,timeout,90.0,89.919,0,20.0,0,0,1,0,18,20,4777.51,5689.03,419.15,112.377,40,0,claude-fable-5-1,2.1.304,trials/trial-017/video.mp4,trials/trial-017/events.log,trials/trial-017/actions.jsonl,trials/trial-017/transcript.jsonl,,"Trial 17 ended on the 90-second timeout.
+
+**What happened on screen:**
+- Combat opened with a spider charging down the hill in front of me. I landed roughly three sword swings and it disappeared from view, with what looked like a drop on the ground, though I cannot confirm the kill from the screenshots alone.
+- I then swept the camera in a full circle. The landscape was open grass, water, and trees with no hostiles visible for most of the sweep.
+- Late in the sweep a second spider appeared on the hilltop to the upper left. I advanced toward it with the shield raised, but it moved out of sight behind the ridge before I could close the distance.
+- While backing up to get a view of the hilltop, the screen showed ""TRIAL END: TIMEOUT"". My health bar stayed full the whole trial.
+
+**Input problems:** None observed. Camera turns, movement, shield, and attack inputs all registered as expected. The main cost was time spent on the 360-degree scan with small turn increments and the shield blocking the view while approaching."
+18,,,True,cave_spider,B,3,claude-fable-5-1,medium,91de5bf2-50c3-4cf7-97a6-3a0fc6825391,timeout,90.0,89.953,0,20.0,0,0,0,0,16,18,5061.84,6090.7,419.06,108.028,36,0,claude-fable-5-1,2.1.304,trials/trial-018/video.mp4,trials/trial-018/events.log,trials/trial-018/actions.jsonl,trials/trial-018/transcript.jsonl,,"The trial ended on timeout.
+
+**Outcome:** The screen reads ""TRIAL END: TIMEOUT"". I never landed a confirmed hit. Health stayed at full the whole time and I was never attacked.
+
+**What happened:** The only mob I saw was a single spider. It appeared briefly three times: on a hilltop at the start, right beside me in a hollow, and later in tall grass below a ridge. Each time it moved out of view before I could close in. In daylight it did not approach me, so I had to hunt it across hilly terrain with tall grass, and the clock ran out while I was scanning.
+
+**Input notes:** Camera and movement inputs applied as expected. One attack swing was issued at the spider in the grass but no hit was visible. Dark patches of dirt in the grass looked similar to the spider at a distance, which cost time on a false lead."
+19,,,True,spider,C,2,claude-fable-5-1,medium,23c531fd-a9be-44ef-904a-8f15783d5cfa,timeout,90.0,89.942,0,20.0,0,0,1,0,16,19,4652.91,6686.24,414.24,111.918,38,0,claude-fable-5-1,2.1.304,trials/trial-019/video.mp4,trials/trial-019/events.log,trials/trial-019/actions.jsonl,trials/trial-019/transcript.jsonl,,"Trial 19 ended by timeout.
+
+**Outcome:** The screen shows ""TRIAL END: TIMEOUT"". Health stayed at full the whole trial and I took no visible damage.
+
+**What happened:**
+- I spent most of the trial sweeping the jungle terrain for mobs. The only hostile I saw was one spider, first sitting on a hill ahead and then mid-air in a jump toward me.
+- After the jump it disappeared into the tall grass and leaves. I never re-acquired it despite turning in both directions, so I landed no confirmed hits.
+- Two tall ferns were mistaken for a creeper at first glance, costing one wasted attack and some time.
+
+**Input notes:** Camera turning was slow, roughly a quarter turn per maximum dx step, which made the scan take many actions. The real-world delay between each screenshot and decision consumed much of the 90-second game clock. No input errors occurred."
+20,,,True,creeper,A,4,claude-fable-5-1,medium,6a96ad69-f8c5-43cf-8784-8d5ed4022411,target_lost,5.65,5.589,0,5.77,142,0,0,0,0,2,,,594.4,37.175,4,0,claude-fable-5-1,2.1.304,trials/trial-020/video.mp4,trials/trial-020/events.log,trials/trial-020/actions.jsonl,trials/trial-020/transcript.jsonl,,"The trial ended before combat began.
+
+- **First screenshot:** a ""Get ready"" countdown with a single creeper standing roughly 10 blocks ahead in the grass. I had the iron sword selected and the shield in the offhand.
+- **Second screenshot:** taken immediately after one observe call during the countdown. The overlay reads ""TRIAL END: TARGET_LOST"" and the creeper is no longer visible anywhere in view.
+
+I issued no movement or attack inputs. The only call between begin and the end screen was a single observe, so the ending was not caused by anything I did. Visually, the creeper vanished during the countdown, which is what the ""target lost"" message appears to describe. I cannot tell from the screenshots why it disappeared, such as despawning, falling into terrain, or being removed by the trial setup. No input problems occurred on my side."
+21,,,True,vindicator,B,5,claude-fable-5-1,medium,1940df6b-9558-4f89-a57c-ce2d6830b5e4,death,5.1,5.054,0,0,258,0,0,0,0,3,,,141.64,22.1,6,0,claude-fable-5-1,2.1.304,trials/trial-021/video.mp4,trials/trial-021/events.log,trials/trial-021/actions.jsonl,trials/trial-021/transcript.jsonl,,"The trial has already ended, so there is nothing further to request or act on.
+
+**Outcome: TRIAL END: DEATH.** The screen shows the chat line ""angelasq was slain by Vindicator"" immediately after my first movement action.
+
+Visual account:
+- The opening screenshot showed a single vindicator standing on a hilltop directly ahead, with the player at full health.
+- After the ""FIGHT"" banner, I issued one action: look up slightly and walk forward for half a second.
+- The very next screenshot was the death screen. The player's health bar was gone and the vindicator was no longer visible.
+
+Input problem noted: the death happened within one action cycle after the fight began, with the player still at full iron armor and full health in the prior frame. A single vindicator on Normal difficulty cannot normally deal that much damage in under a second, so the game clock likely advanced far more than the half-second I requested between the ""FIGHT"" frame and the next observation. No input was rejected or malformed.
+
+No kills were observed."
+22,,,True,skeleton,C,1,claude-fable-5-1,medium,5409c5fc-ca21-474c-92a8-8ea75a69bb69,death,65.35,65.325,0,0,204,0,0,0,10,13,5852.5,7110.79,603.76,84.603,26,0,claude-fable-5-1,2.1.304,trials/trial-022/video.mp4,trials/trial-022/events.log,trials/trial-022/actions.jsonl,trials/trial-022/transcript.jsonl,,"Trial 22 ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was shot by Skeleton"".
+
+What happened on screen:
+- At the start, a skeleton was visible standing on top of a tree directly ahead.
+- I moved forward and jumped onto a dirt ledge, which put me inside the tree canopy with leaves blocking most of the view.
+- From that point the skeleton was never visible again, but arrows kept hitting me while I turned and raised the shield, draining health from full to zero over roughly ten actions.
+- The final screenshot shows the skeleton on the ground to the right of where I was, bow drawn.
+
+Input problem noted: each camera turn moved the view far less than the requested dx suggested, so my sweeps were too narrow to find the skeleton in time. No other input failures observed."
+23,,,True,cave_spider,A,5,claude-fable-5-1,medium,c91563c4-6b91-4e8c-9669-16e97219b461,timeout,90.0,90.002,0,20.0,0,0,0,0,17,20,4883.44,5847.05,415.97,111.998,40,0,claude-fable-5-1,2.1.304,trials/trial-023/video.mp4,trials/trial-023/events.log,trials/trial-023/actions.jsonl,trials/trial-023/transcript.jsonl,,"Trial 23 ended by timeout. The screen shows ""TRIAL END: TIMEOUT"" with the spider still alive on the hill ahead.
+
+What happened, from the screenshots:
+- The only mob I saw was a single spider. It was visible at the start at center screen, then moved out of view while I advanced.
+- In daylight the spider was passive and kept wandering, so I spent most of the trial scanning in a full rotation to relocate it. I found it twice, each time at range, and it moved off again before I could close.
+- The last screenshot shows the spider still far away on the hill when the limit expired. My health bar stayed full the whole time, and I never landed or attempted an attack.
+
+No input problems were observed. Camera turns and movement responded as expected. The main failure was navigation: each act call covered only a short distance, and the wandering spider outpaced my approach within the 90-second limit."
+24,,,True,husk,B,1,claude-fable-5-1,medium,d2def16c-87b0-49aa-bcf2-60b67c3cc52c,death,18.9,18.829,0,0,206,0,0,0,3,6,5456.4,5798.73,685.63,40.565,12,0,claude-fable-5-1,2.1.304,trials/trial-024/video.mp4,trials/trial-024/events.log,trials/trial-024/actions.jsonl,trials/trial-024/transcript.jsonl,,"Trial 24 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Husk"".
+
+**What happened visually:**
+- At start a single husk stood on a hilltop directly ahead. I advanced and jumped up the slope.
+- Health was already down to about five hearts by the third screenshot, with the husk right beside me on the right edge of the view. The hunger bar also appeared mostly empty with a status icon in the corner, consistent with the husk's hunger effect.
+- My turn-and-attack swing missed. The husk was no longer in frame and health had fallen to two hearts.
+- While turning further with the shield raised, the trial ended with the death screen.
+
+**Input problems:** None observed. Camera turns and key holds registered as expected. The loss came from the husk reaching melee range while I was still climbing and from under-turning on the first attack, so the swing did not land."
+25,,,True,pillager,A,5,claude-fable-5-1,medium,7206a408-2f70-487c-babc-b8786bf4aac5,death,38.15,38.138,0,0,204,0,0,0,6,9,4858.15,5686.9,628.67,57.943,18,0,claude-fable-5-1,2.1.304,trials/trial-025/video.mp4,trials/trial-025/events.log,trials/trial-025/actions.jsonl,trials/trial-025/transcript.jsonl,,"Trial 25 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the death message ""angelasq was shot by Pillager"". A single crossbow pillager was the visible enemy. It stayed at range on a ledge and hit me repeatedly while I closed the distance. Health fell from full to two hearts over about five actions, and the last approach-and-attack ended with the fatal shot. I never observed a hit landing on the pillager.
+
+**Input problems noticed:**
+- The shield held with button 3 did not visibly block any bolts. Damage kept landing even while the shield was raised and I was facing the pillager.
+- Camera turns from dx seemed smaller than expected, so the pillager stayed left of the crosshair across several attack attempts.
+- Forward movement looked stalled for two actions, probably from walking into the ledge, until a jump got me onto it."
+26,,,True,skeleton,A,5,claude-fable-5-1,medium,f4a345d8-0d58-4484-8ebb-590cd2c024a4,death,43.55,43.533,0,0,210,0,0,0,6,9,5832.34,7940.15,938.41,62.782,18,0,claude-fable-5-1,2.1.304,trials/trial-026/video.mp4,trials/trial-026/events.log,trials/trial-026/actions.jsonl,trials/trial-026/transcript.jsonl,,"Trial 26 ended in death. The screen reads ""TRIAL END: DEATH"" with the message that I was shot by the skeleton.
+
+What I saw:
+- At the start, a skeleton stood ahead and a reddish mob with a weapon lay near the ground to the right. The red mob never reappeared after the fight began.
+- The skeleton kept strafing and hitting me with arrows while I tried to close the distance. Health fell steadily from full to half a heart over about six actions, even with the shield raised.
+- My final action was a forward charge with a sword swing. The screen showed the skeleton still standing nearby when the death screen appeared. I did not observe any kill.
+
+Input problem: left turns were unreliable. Small negative dx values did not visibly rotate the view left, and the skeleton drifted off to the side each time, so I spent most of the fight facing slightly away from it with the shield not covering the arrow direction. Only a large negative dx of 250 produced a clear left turn."
+27,,,True,vindicator,C,3,claude-fable-5-1,medium,5ea261a3-23e4-4ade-abcf-eea79cc613c4,death,9.75,9.705,0,0,258,0,0,0,1,4,5820.31,5820.31,588.99,27.106,8,0,claude-fable-5-1,2.1.304,trials/trial-027/video.mp4,trials/trial-027/events.log,trials/trial-027/actions.jsonl,trials/trial-027/transcript.jsonl,,"Trial 27 ended in death.
+
+**What happened:** At the start a gray-faced mob stood on top of the oak tree straight ahead. I moved forward-right under the canopy to get around the tree, and the mob dropped out of view. On the next action, backing up to look upward, the screen showed ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Vindicator.""
+
+**Observations:** The previous screenshot showed full health, so the Vindicator dealt lethal damage within one action interval, which I could not see happen. I never had a clear line of sight to attack it and landed no hits. No input problems occurred. All actions executed and returned screenshots as expected."
+28,,,True,witch,B,4,claude-fable-5-1,medium,19173b4c-8e1a-4bfa-b056-208753824779,death,15.8,15.813,0,0,250,0,0,0,3,5,4603.65,4612.58,1030.67,34.282,10,0,claude-fable-5-1,2.1.304,trials/trial-028/video.mp4,trials/trial-028/events.log,trials/trial-028/actions.jsonl,trials/trial-028/transcript.jsonl,,"The trial ended in death. The screen reads ""TRIAL END: DEATH"" with the message that the player was killed by the witch using magic.
+
+What happened visually:
+- The witch spawned on a raised ledge directly ahead of the starting position.
+- My first forward jump put me briefly level with the witch and poisoned at about half health, with the poison icon showing in the top right.
+- My attack press showed me back below the ledge and did not land. Health kept dropping from poison and a splash potion.
+- On the next jump attempt the death screen appeared, so the witch was never hit.
+
+Input problems: none observed. Every action returned a fresh screenshot and the inputs matched what I sent. The loss came from health draining very fast, from full to dead across roughly three actions, while I was stuck below the ledge."
+29,,,True,creeper,C,3,claude-fable-5-1,medium,a44b01a4-6ef3-4e67-bfc7-a3b71e4ec691,target_lost,31.85,31.793,0,6.22,138,0,0,0,6,9,4718.17,5311.32,417.06,50.471,18,0,claude-fable-5-1,2.1.304,trials/trial-029/video.mp4,trials/trial-029/events.log,trials/trial-029/actions.jsonl,trials/trial-029/transcript.jsonl,,"Trial 29 ended. The screen shows ""TRIAL END: TARGET_LOST"".
+
+**What happened:** At the start a single creeper was visible atop a wooded hill ahead. After a brief scan to the right, I turned back and walked toward it, but it had disappeared behind the leaves. I backed up to open ground and was rotating to scan for it or other mobs when the trial ended with the target-lost message. No mob was ever within melee range, so no attacks were made and I took no damage as far as the health bar showed.
+
+**Input problems:** None observed. Camera turns and movement responded as expected, though the first forward walk appeared to make little progress, likely blocked by the hill or foliage."
+30,,,True,skeleton,B,3,claude-fable-5-1,medium,17e490a0-26c2-41f8-9912-2256f8b0f0b5,death,20.55,20.548,0,0,215,0,0,0,3,6,4997.61,6534.15,864.24,41.4,12,0,claude-fable-5-1,2.1.304,trials/trial-030/video.mp4,trials/trial-030/events.log,trials/trial-030/actions.jsonl,trials/trial-030/transcript.jsonl,,"The trial has ended. Here is the outcome.
+
+**Result: death.** The end screen reads ""TRIAL END: DEATH"" with the message that the player was shot by a Skeleton.
+
+What happened, from the screenshots:
+- The first frames showed a single skeleton standing on a hill straight ahead during the countdown.
+- I jumped forward twice to close the gap. After the second jump the view was entirely grey stone, as if I had moved into a wall or dropped into a stone pocket, and health had fallen from full to about 3.5 hearts.
+- I raised the shield and turned around, but the view stayed all stone and health dropped to 1.5 hearts.
+- My final backward jump did not get me out, and the skeleton's arrows finished me.
+
+**Input problem:** none observed. Actions executed as sent. The damage came much faster than expected for one skeleton at range, and the all-stone view after the second jump suggests I ended up in a position with no line of sight and no escape route. The full iron armor and shield did not prevent the loss because I was never able to get the shield facing the shooter. No mob kills were observed before the trial ended."
+31,,,True,zombie,C,3,claude-fable-5-1,medium,1f51d257-f77c-4099-82de-af56fc9796a2,death,45.9,45.861,0,0,210,0,0,0,10,12,4564.24,5437.46,511.64,66.968,24,0,claude-fable-5-1,2.1.304,trials/trial-031/video.mp4,trials/trial-031/events.log,trials/trial-031/actions.jsonl,trials/trial-031/transcript.jsonl,,"Trial 31 ended in death.
+
+**Outcome:** The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Zombie"".
+
+**What happened:**
+- During the countdown a zombie was visible in the treetops ahead, but after the ""FIGHT"" banner it was no longer in view.
+- I spent several turns rotating right to locate it. Each turn moved the camera only about 30 degrees, so the scan was slow.
+- Health began dropping while nothing was on screen. By the time the zombie appeared at the right edge of the frame, health was already down to about four and a half hearts.
+- Two attack swings while turning toward it did not land. The next screenshot showed the death screen, and no kill was observed.
+
+**Input issue:** Camera rotation per action was small relative to the dx value sent, which made locating an off-screen attacker take too long. A faster initial sweep or an immediate shield raise when damage appeared would have been the better play."
+32,,,True,zombie,B,5,claude-fable-5-1,medium,58d603fd-aad9-4e85-86e5-092b8909d3ad,death,15.75,15.724,0,0,204,0,0,0,1,3,16962.77,16962.77,1054.99,47.159,6,0,claude-fable-5-1,2.1.304,trials/trial-032/video.mp4,trials/trial-032/events.log,trials/trial-032/actions.jsonl,trials/trial-032/transcript.jsonl,,"Trial 32 ended in death almost immediately. Here is what the screenshots showed:
+
+- **Start:** a zombie stood on a grassy hill directly ahead during the ""Get ready"" countdown.
+- **Second frame:** after one 800 ms idle action, the view was pressed against a stone wall with only about two hearts remaining. No mobs were visible in frame, so I could not see what was hitting me.
+- **Third frame:** before the turn-around action could reveal anything, the screen read ""TRIAL END: DEATH"" with the chat message that the player was slain by a Zombie.
+
+No input errors occurred. The tool accepted all three commands and returned screenshots each time. The loss came from taking heavy damage during or right after the countdown while facing away from the attacker, leaving no time to engage."
+33,,,True,vindicator,A,4,claude-fable-5-1,medium,d22f98bb-6282-422e-9b05-398c2f4458af,death,4.85,4.742,0,0,258,0,0,0,1,3,4646.06,4646.06,915.18,22.622,6,0,claude-fable-5-1,2.1.304,trials/trial-033/video.mp4,trials/trial-033/events.log,trials/trial-033/actions.jsonl,trials/trial-033/transcript.jsonl,,"Trial 33 has ended, so there is nothing left to request. Here is the account.
+
+**Outcome: death.** The screen reads ""TRIAL END: DEATH"" and the chat line says the player was slain by a Vindicator.
+
+What I saw:
+- The opening screenshots showed a single Vindicator standing in open grassland a short distance ahead, with a ""Get ready"" countdown overlay.
+- My first and only action was a short walk forward toward it. The next screenshot was already the death screen.
+
+The trial ended after one input, so I never got to swing the sword or raise the shield. No hostile mob was observed to die.
+
+Input problem to flag: the very first act call returned the end screen. The gap between the ""Get ready"" observation and the first action was apparently long enough for the Vindicator to close and kill the player, or the countdown had already elapsed during my observe call. No tool errors occurred."
+34,,,True,pillager,A,2,claude-fable-5-1,medium,86601b30-d91f-449a-adcf-3c379313786b,death,34.0,33.914,0,0,209,0,0,0,4,7,5684.3,6950.41,522.37,54.895,14,0,claude-fable-5-1,2.1.304,trials/trial-034/video.mp4,trials/trial-034/events.log,trials/trial-034/actions.jsonl,trials/trial-034/transcript.jsonl,,"Trial 34 ended in death.
+
+**What happened:** The single visible enemy was a pillager with a crossbow standing on a one-block ledge directly ahead. I sprinted at it and reached melee range within two moves, but each crossbow bolt took roughly two hearts through iron armor. Health dropped from full to about two and a half hearts over three hits while I swung three times. The final screen read ""TRIAL END: DEATH"" with the chat line saying I was shot by the pillager, which was still standing.
+
+**Input observations:** All act calls returned screenshots normally. Camera and movement responded as expected. I could not confirm visually whether any of my sword swings landed, since the pillager showed no clear hit reaction in the frames I saw.
+
+**Likely mistake:** I closed distance without raising the shield, and the ledge put the pillager slightly above sword reach for the early swings. Blocking during the approach and only swinging once level with it would have been safer."
+35,,,True,cave_spider,C,4,claude-fable-5-1,medium,0fc05b7a-6f7f-4721-9b88-a78ae3c97ed3,timeout,90.0,89.973,0,20.0,0,0,1,0,17,19,4961.43,6736.6,611.11,113.33,38,0,claude-fable-5-1,2.1.304,trials/trial-035/video.mp4,trials/trial-035/events.log,trials/trial-035/actions.jsonl,trials/trial-035/transcript.jsonl,,"Trial 35 ended with a timeout.
+
+The screen shows ""TRIAL END: TIMEOUT"" and the end marker in the chat line. Over the whole trial I never saw a hostile mob on any screenshot. I scanned a full circle twice from the jungle start area, walked a short distance in two directions, and the only moving thing I saw was a small bird or bat in the sky. The one close green shape I struck turned out to be a large fern, not a creeper.
+
+Health stayed at full the entire time, and no damage was taken. Armor and the sword rendered normally.
+
+One input observation: forward movement looked very slow or partly blocked for several steps, possibly from dense ferns and tall grass or a terrain ledge in front of me. Camera turns worked but each turn of the maximum size moved the view less than I expected, so scanning a full circle took many actions and ate most of the 90 seconds."
+36,,,True,pillager,B,3,claude-fable-5-1,medium,56c18cce-78ea-416e-9aa6-fe2901890d9d,death,39.7,39.664,0,0,212,0,1,0,7,9,5114.0,6624.73,921.86,60.566,18,0,claude-fable-5-1,2.1.304,trials/trial-036/video.mp4,trials/trial-036/events.log,trials/trial-036/actions.jsonl,trials/trial-036/transcript.jsonl,,"Trial 36 ended in death. The screen reads ""TRIAL END: DEATH"" with the message that the player was shot by a Pillager.
+
+What I saw: a single crossbow pillager stood on a raised ledge directly ahead. I advanced with the shield raised and jumped toward the ledge, but health fell quickly from full to about half a heart over four actions, which suggests the arrows were landing despite the shield being held. On the jump-and-attack action the view suddenly showed stone walls, meaning I dropped into a pit near the ledge and lost sight of the pillager. Two more hits finished me before I could climb out. No kills were visibly confirmed.
+
+Input notes: all act calls returned screenshots normally. The shield button did not appear to prevent damage, though I cannot tell from screenshots alone whether that was due to timing, the pillager's angle, or the shield not actually being raised."
+37,,,True,pillager,C,4,claude-fable-5-1,medium,6640651d-945b-45ac-b22e-20726fe19416,timeout,90.0,89.974,0,13.4,66,0,0,0,17,18,5004.82,7708.34,415.38,114.632,36,0,claude-fable-5-1,2.1.304,trials/trial-037/video.mp4,trials/trial-037/events.log,trials/trial-037/actions.jsonl,trials/trial-037/transcript.jsonl,,"Trial 37 ended with TRIAL END: TIMEOUT. The pillager was still alive and standing a few blocks in front of me when the screen froze.
+
+What happened, visually:
+- During the countdown a single mob was visible on top of the tree straight ahead. When combat started it was gone from view, and I spent most of the trial rotating through a full circle without seeing it.
+- Partway through the scan my health dropped twice from unseen hits, and an arrow appeared lodged near my shield, so it was clearly a ranged attacker.
+- Looking up and to the right finally revealed a pillager with a crossbow in the grass about eight blocks away. I aimed and sprinted at it, and the timeout screen appeared on that very action before I could reach melee range.
+
+Outcome: no kills observed. I ended with roughly seven and a half of ten hearts showing after two crossbow hits.
+
+Input problems: none. Every act call returned a new screenshot and the camera and movement responded as expected. The loss came from spending too long scanning at eye level while the pillager stayed hidden behind foliage and above my sightline."
+38,,,True,zombie,A,1,claude-fable-5-1,medium,1ff1f0e9-3611-4aa3-ba79-a234b7a63402,death,22.1,22.006,0,0,210,59,0,0,3,5,9106.59,10074.58,399.74,57.824,10,0,claude-fable-5-1,2.1.304,trials/trial-038/video.mp4,trials/trial-038/events.log,trials/trial-038/actions.jsonl,trials/trial-038/transcript.jsonl,,"Trial 38 ended in death. The screen reads ""TRIAL END: DEATH"" with the chat message ""angelasq was slain by Zombie.""
+
+What happened visually:
+- The countdown screenshot showed a single zombie about ten blocks ahead. By the next frame, it was already filling the screen at point-blank range.
+- My first sword hit landed, since the zombie flashed red and was knocked back.
+- The following frame showed my health collapsed from full to roughly one and a half hearts, with the zombie at my left shoulder. That drop was far larger than one zombie hit should cause on Normal difficulty, so either several hits landed between frames or more than one mob was present off-screen.
+- I turned left and swung again, and the trial ended before that frame returned.
+
+Input problems: none observed. Every act call returned a new screenshot promptly, and the camera turn and attack inputs took effect as issued. The deciding factor was the gap between observations, during which the zombie closed the distance and dealt most of the damage before I could respond."
+39,,,True,husk,B,4,claude-fable-5-1,medium,6ca19658-f226-4cfb-ae5d-dd6f0cd22bbd,timeout,90.0,89.882,0,15.86,42,0,0,0,16,18,5086.94,8246.56,498.88,110.231,36,0,claude-fable-5-1,2.1.304,trials/trial-039/video.mp4,trials/trial-039/events.log,trials/trial-039/actions.jsonl,trials/trial-039/transcript.jsonl,,"Trial 39 ended by timeout with no kills.
+
+**What happened on screen**
+- At the start a single husk stood on the hilltop ahead. Right after combat began it hit me once, leaving me at about 9 hearts with the Hunger effect icon showing.
+- After that hit the husk never appeared again. I rotated the camera through more than a full circle, looked up at the hilltop and down at the slope, backed off the dirt wall, and then walked into the field. No mob was visible in any frame.
+- The screen then showed ""TRIAL END: TIMEOUT"" with the player alive.
+
+**Input issue observed**
+- The vertical look input had little visible effect. Large positive and negative dy values barely changed the pitch between frames, which made it hard to check directly above or below the ledge where the husk was likely standing.
+
+**Outcome**
+- Husk not killed. Player survived until the 90-second limit. Final health and whether the husk was still nearby cannot be confirmed from the screenshots."
+40,,,True,spider,A,3,claude-fable-5-1,medium,651e8a11-3fd4-484d-9944-10e922a1c138,timeout,90.0,89.947,0,20.0,0,0,0,0,18,20,4552.16,5534.44,413.14,112.224,40,0,claude-fable-5-1,2.1.304,trials/trial-040/video.mp4,trials/trial-040/events.log,trials/trial-040/actions.jsonl,trials/trial-040/transcript.jsonl,,"The trial ended on timeout. Here is the visual account.
+
+**Outcome:** the screen shows ""TRIAL END: TIMEOUT"". I never landed a confirmed hit, and my health stayed at full hearts the whole time.
+
+**What happened:**
+- At combat start a single spider was visible a short distance ahead. I walked toward it and swung once at close range, but it had moved out of frame by the time the swing landed.
+- The spider repeatedly disappeared from view after each approach. It appeared to wander away in daylight rather than engage, and the tall grass and rolling terrain hid it from the camera.
+- I spent most of the trial doing camera sweeps. I re-spotted the spider once on the right side of the screen, turned and advanced twice, and it vanished again before I could reach melee range.
+- The clock expired mid-sweep with no mob in view.
+
+**Input observations:** each turn command rotated the camera less than I expected for the requested horizontal delta, so sweeps covered less ground per step than planned. The latency between acting and seeing the result also let the spider leave frame between decisions. No command errors occurred."
+41,,,True,zombie,B,2,claude-fable-5-1,medium,095c8a57-ddc4-46ce-9e00-d65ee1d63c2e,death,17.0,16.969,0,0,204,0,0,0,2,5,5682.08,5722.99,823.22,36.202,10,0,claude-fable-5-1,2.1.304,trials/trial-041/video.mp4,trials/trial-041/events.log,trials/trial-041/actions.jsonl,trials/trial-041/transcript.jsonl,,"Trial 41 ended in death.
+
+**What the screenshots showed:**
+- At start, one zombie stood on a hill directly ahead. I moved forward with a jump to close the distance.
+- The next frame showed me face-first against a dirt wall, health already down to three hearts. The following frame showed stone close up with health dropping further, and nothing visible that was hitting me. The zombie was never visible in those frames.
+- The final screen read ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Zombie.""
+
+**Input problems:** Camera and movement inputs appeared to register, but my view never showed the attacker. I likely dropped into a low spot or cave below the ledge and took hits from a zombie I could not see. No attacks were landed."
+42,,,True,stray,C,3,claude-fable-5-1,medium,d20178cc-e1e2-4d58-a785-3e4e7e9264ab,death,34.7,34.594,0,0,208,0,0,0,5,7,6432.11,7320.93,632.45,53.081,14,0,claude-fable-5-1,2.1.304,trials/trial-042/video.mp4,trials/trial-042/events.log,trials/trial-042/actions.jsonl,trials/trial-042/transcript.jsonl,,"Trial 42 ended in death.
+
+**What I saw:** The screen shows ""TRIAL END: DEATH"" with the chat line ""angelasq was shot by Stray"". The single visible hostile was a Stray that started perched on the leaves of a tree above and to my left, very close to the spawn point.
+
+**How it went:** Health dropped from full to about four hearts within the first two actions, then to under two hearts after the next. The blue overlay seen in one screenshot and the slowed movement match the Stray's Slowness-arrow effect, which made closing the distance across the dirt ledge too slow. I raised the shield for the last two moves, but the Stray kept the elevation and killed me before I landed a hit. No hits on the Stray were observed.
+
+**Input problems:** Camera turns were weaker than expected. After the first aim adjustment the view ended up pointed at the sky with the Stray low-right, and later turns of 35 to 50 pixels only moved partway toward the target. That mismatch cost at least two actions. No command errors occurred."
+43,,,True,stray,A,4,claude-fable-5-1,medium,db79f4df-d1ca-4b00-a579-567fccd804ef,death,43.75,43.675,0,0,200,0,0,0,6,9,6084.83,6651.02,647.84,65.428,18,0,claude-fable-5-1,2.1.304,trials/trial-043/video.mp4,trials/trial-043/events.log,trials/trial-043/actions.jsonl,trials/trial-043/transcript.jsonl,,"Trial 43 ended in death. The screen reads ""TRIAL END: DEATH"" with the message that I was shot by a Stray.
+
+What happened:
+- The lone visible hostile was a Stray archer, spotted ahead at the start. I sprinted toward it, but it kept backing off while firing.
+- Each arrow volley removed roughly two hearts, and my health dropped from full to one heart across five exchanges before the shield went up.
+- None of my sword swings landed from what I could see. The Stray stayed two to four blocks away the entire fight.
+
+Input problems observed:
+- Camera turns were inconsistent. A -120 dx moved the view only slightly, while -300 overshot far past the target, so I repeatedly ended up aiming off to one side.
+- Because of the aiming overshoot I wasted several actions re-centering instead of closing distance, and I raised the shield too late."
+44,,,True,creeper,B,5,claude-fable-5-1,medium,ad81fc37-5494-4f44-811a-5345a14d8a82,target_lost,4.85,4.838,0,16.41,36,0,0,0,0,3,,,137.75,31.936,6,0,claude-fable-5-1,2.1.304,trials/trial-044/video.mp4,trials/trial-044/events.log,trials/trial-044/actions.jsonl,trials/trial-044/transcript.jsonl,,"The trial ended on my first combat input, so there is nothing further to request.
+
+**Outcome:** The screen reads ""TRIAL END: TARGET_LOST"" immediately after my first action.
+
+- At start, one creeper stood on a dirt hill directly ahead, slightly above eye level.
+- I waited through the countdown with a single observe, then stepped forward for half a second while tilting the view up slightly.
+- The next screenshot showed the creeper gone from view and the trial-end banner. I never got within striking range and never attacked.
+
+**Visual account:** My health bar was full the whole time, and no explosion or damage was visible. The creeper simply was no longer in frame when the end banner appeared, so I cannot say from screenshots whether it despawned, fell out of the border, or was removed by the evaluator.
+
+**Input problems:** None observed. The begin, observe, and act calls each returned a screenshot promptly, and the forward step registered as expected."
+45,,,True,creeper,A,1,claude-fable-5-1,medium,c0efaf0a-317b-4166-9fc0-de66485ede0c,target_lost,4.65,4.654,0,5.77,142,0,0,0,0,3,,,144.75,22.617,6,0,claude-fable-5-1,2.1.304,trials/trial-045/video.mp4,trials/trial-045/events.log,trials/trial-045/actions.jsonl,trials/trial-045/transcript.jsonl,,"The trial has ended, so I'm wrapping up with the visual account.
+
+The trial ended almost immediately after the countdown, before I issued any combat input.
+
+- **First two screenshots** showed a single creeper standing in the grass straight ahead, a few blocks away, during the ""Get ready"" countdown. I took two no-input observations while waiting for combat to open.
+- **Third screenshot** returned ended=true. The screen shows ""TRIAL END: TARGET_LOS..."" (cut off at the edges, likely ""TARGET_LOST"") over a large white explosion cloud with dark debris where the creeper had been. The terrain nearby looks unchanged in the frame.
+
+Visually, the creeper appears to have exploded on its own near the start of the encounter, which removed the target and ended the trial. I did not attack, move, or take any action beyond observing, so I cannot say whether my character took damage. No input problems occurred, since no act calls were made."
+46,,,True,skeleton,C,4,claude-fable-5-1,medium,fcbce463-33bf-48f8-afad-84fd1fcd0ba8,death,46.4,46.268,0,0,205,0,0,0,7,9,5577.64,8980.08,834.38,77.765,18,0,claude-fable-5-1,2.1.304,trials/trial-046/video.mp4,trials/trial-046/events.log,trials/trial-046/actions.jsonl,trials/trial-046/transcript.jsonl,,"Trial 46 ended in death.
+
+**Outcome:** The screen reads ""TRIAL END: DEATH"" with the message that the player was shot by a Skeleton. No kills were observed.
+
+**What happened:** A skeleton was visible far ahead on a hill at the start. After I moved forward, it briefly appeared close on the right, but my turn overshot and I lost sight of it among the jungle trees. It kept hitting me with arrows while I searched. I located it once at range, sprinted toward it, then lost it again behind a tree trunk. Health dropped from full to one heart within about four actions. Raising the shield while advancing did not block the arrows, suggesting the shots were coming from an angle I was not facing. I died while turning around with the shield up.
+
+**Input notes:** No command errors. Camera turns felt smaller than expected for the dx values used, which contributed to losing track of the skeleton. The screenshot after the fatal hit shows the end screen, so no further actions were issued."
+47,,,True,husk,A,3,claude-fable-5-1,medium,3654ae5c-1441-42ca-aef5-8aaf252145b3,death,19.5,19.45,0,0,210,89,0,0,3,6,4336.91,5217.87,507.14,36.839,12,0,claude-fable-5-1,2.1.304,trials/trial-047/video.mp4,trials/trial-047/events.log,trials/trial-047/actions.jsonl,trials/trial-047/transcript.jsonl,,"Trial 47 ended in death. The screen reads ""TRIAL END: DEATH"" with the message ""angelasq was slain by Husk.""
+
+What happened on screen:
+- The husk stood a few blocks ahead at the start. After one forward walk it was already in melee range and had hit me, with the hunger effect icon showing.
+- I landed two visible hits with crit particles and knockback, but my health fell from full to about seven hearts, then to about three and a half, across just two exchanges.
+- The third attack call returned the death screen.
+
+Input observations: no input errors occurred. Each action produced a new screenshot. Health loss per exchange was far faster than a single husk on Normal would explain, and a second green mob shape appeared at the lower left in the fourth screenshot. I could not confirm what it was before dying. I never raised the shield, which was the main tactical mistake."
+48,,,True,vindicator,B,2,claude-fable-5-1,medium,0536177f-c9e0-44dc-bfa7-dec02f26e947,death,6.15,6.162,0,0,258,0,0,0,2,3,4725.94,4844.55,1032.03,22.443,6,0,claude-fable-5-1,2.1.304,trials/trial-048/video.mp4,trials/trial-048/events.log,trials/trial-048/actions.jsonl,trials/trial-048/transcript.jsonl,,"Trial 48 is over. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Vindicator"".
+
+What I saw:
+- At start, a single vindicator stood on a grassy rise a few blocks ahead, directly in view.
+- After the countdown the health bar showed full hearts and the mob was still at range.
+- My first move was one forward-plus-jump input toward it. The very next screenshot was the death screen, so the vindicator closed and killed me between those two frames with no visible intermediate state.
+
+Input problems: none observed. Both actions returned screenshots normally. The outcome happened faster than one observe-act cycle allowed me to react, so I never got to swing or raise the shield."
+49,,,True,spider,B,1,claude-fable-5-1,medium,7fa6a929-1cab-4d27-9c72-94565a701f69,timeout,90.0,90.009,0,20.0,0,0,0,0,15,18,5106.26,6847.8,517.48,109.586,36,0,claude-fable-5-1,2.1.304,trials/trial-049/video.mp4,trials/trial-049/events.log,trials/trial-049/actions.jsonl,trials/trial-049/transcript.jsonl,,"The trial ended on timeout.
+
+**Outcome:** The screen shows ""TRIAL END: TIMEOUT"". The lone spider was never engaged. I took no visible damage, with full hearts throughout.
+
+**What happened:**
+- The spider started far ahead on a hill, and the daylight kept it passive, so it never approached me.
+- I lost sight of it after climbing the hill and spent most of the trial turning in place to scan for it.
+- I spotted it only near the end, closed in, and swung once, but the timer expired on that same action. The final frame shows the spider still standing in the grass.
+
+**Input observations:** Camera turns felt small per call, even at the maximum horizontal mouse delta, which made the scan slow. Keys and the attack button otherwise responded as expected. No errors were returned by the tools."
+50,,,True,witch,A,3,claude-fable-5-1,medium,19631938-0420-4b60-b78a-4ae9ee20ef25,death,24.4,24.353,0,0,220,60,0,0,4,7,4656.2,5861.53,617.51,42.916,14,0,claude-fable-5-1,2.1.304,trials/trial-050/video.mp4,trials/trial-050/events.log,trials/trial-050/actions.jsonl,trials/trial-050/transcript.jsonl,,"Trial 50 ended in death.
+
+**What happened:** A single witch spawned a few blocks ahead. I sprinted in and landed one hit on it, which flashed red. The witch's splash potions then poisoned me, and my health dropped from full to around three hearts within two more swings. My next two attacks did not register as hits, and the screen then showed ""TRIAL END: DEATH"" with the message that I was killed by the witch using magic. The witch was still standing when the trial ended.
+
+**Input problems:** None observed. Movement, camera, and attack inputs all responded. The only issue was tactical: the witch's poison and harming potions outpaced my damage output at close range."
+201,,1,True,cave_spider,A,2,claude-fable-5-1,medium,6d74f441-ffce-49da-ae1b-d77fdbec218a,death,17.15,17.114,0,0,200,0,0,0,1,4,9551.7,9551.7,307.0,47.691,8,0,claude-fable-5-1,2.1.304,trials/trial-201/video.mp4,trials/trial-201/events.log,trials/trial-201/actions.jsonl,trials/trial-201/transcript.jsonl,,"Trial 201 ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the message that the player was slain by a Cave Spider.
+
+**What happened visually:**
+- The pre-combat screenshot showed a small spider-like mob directly ahead at the crosshair, which was no longer visible once combat began.
+- After one scan turn to the right, the health bar had dropped from full to roughly two hearts within a single step, with no attacker visible on screen. The hunger bar showed a green tint consistent with poison, which matches a cave spider.
+- My next action, a 180-degree turn with the shield raised, returned the death screen. The mob was never on screen during combat, so I could not land an attack.
+
+**Input problems:** None observed. Camera turns and shield input registered as issued. The mob simply closed in and poisoned faster than I could locate it in the dark terrain."
+205,,5,True,spider,C,5,claude-fable-5-1,medium,b03579c7-b11d-4a59-abd0-01da1f21a355,death,32.0,31.982,0,0,207,0,0,0,6,8,5078.4,6275.94,531.8,51.889,16,0,claude-fable-5-1,2.1.304,trials/trial-205/video.mp4,trials/trial-205/events.log,trials/trial-205/actions.jsonl,trials/trial-205/transcript.jsonl,,"Trial 205 ended in death. The final screen reads ""TRIAL END: DEATH"" with the message that the player was slain by a Spider.
+
+What happened:
+- After the ""FIGHT"" banner, no mob was ever visible in any screenshot. I spent the fight turning right to scan the jungle terrain.
+- Health dropped steadily across four consecutive screenshots, from full to about one and a half hearts, without the attacker appearing on screen.
+- My last action raised the shield while turning, but the trial ended before the attacker came into view.
+
+Input problem observed: the camera turns were much smaller than expected. A turn of 300 in dx moved the view only a modest amount each time, so I never completed a full rotation. The spider likely stayed behind or above me, out of the frame, the whole time. Faster scanning with repeated large turns or an earlier look upward would have been needed to find it."
+215,,15,True,cave_spider,C,1,claude-fable-5-1,medium,1a1bbeb9-2f7a-4ff8-9b1e-89198d609c13,timeout,90.0,89.996,0,20.0,0,0,1,0,14,16,5740.3,9025.98,587.76,108.667,32,0,claude-fable-5-1,2.1.304,trials/trial-215/video.mp4,trials/trial-215/events.log,trials/trial-215/actions.jsonl,trials/trial-215/transcript.jsonl,,"Trial 215 ended with the screen reading ""TRIAL END: TIMEOUT"".
+
+**Visual account:** The trial began at night in a jungle-edge clearing with a full health bar. I completed a full camera sweep and then walked across the clearing, but no hostile mob ever appeared in any screenshot. Health stayed full throughout, and I never swung the sword or raised the shield because there was nothing to target. The game-time limit expired while I was still searching.
+
+**Input problem:** Forward movement was much slower than expected. Several one-second walk inputs produced little or no visible displacement, including a jump attempt, so I covered very little ground during the 90 seconds. Camera turns worked normally."
+217,,17,True,spider,B,4,claude-fable-5-1,medium,5f2349b7-2379-4639-9f4d-05fbebea426a,death,28.0,27.922,0,0,207,0,1,0,4,7,5544.45,6181.47,499.91,52.517,14,0,claude-fable-5-1,2.1.304,trials/trial-217/video.mp4,trials/trial-217/events.log,trials/trial-217/actions.jsonl,trials/trial-217/transcript.jsonl,,"Trial 217 ended in death. The screen reads ""TRIAL END: DEATH"" with the message ""angelasq was slain by Spider"".
+
+What happened visually:
+- The opening screenshot showed a spider with red eyes on a ledge straight ahead during the countdown.
+- Immediately after combat began, my health dropped every frame, but the spider never appeared in any subsequent screenshot despite turning roughly a full circle and looking up and down.
+- Health went from full to empty across four actions. Shield raising in the last two actions did not stop the damage, which suggests the attacker was behind or above me, outside the shield's facing.
+
+Input problems: none observed. Camera turns and shield presses registered as issued. The failure was tactical: I could not locate the spider after it closed distance, likely because it climbed the terrain and attacked from above or behind while I was pinned against the dirt wall shown in the second screenshot."
+218,,18,True,cave_spider,B,3,claude-fable-5-1,medium,dc6bac8a-d01b-4689-87b7-71dad162653d,death,11.8,11.768,0,0,201,0,0,0,1,4,5221.79,5221.79,390.62,30.366,8,0,claude-fable-5-1,2.1.304,trials/trial-218/video.mp4,trials/trial-218/events.log,trials/trial-218/actions.jsonl,trials/trial-218/transcript.jsonl,,"The trial ended almost immediately after combat began. Here is what I saw.
+
+- **Countdown:** The first two screenshots showed ""Get ready"" at night with a spider visible on a grassy ledge ahead.
+- **Combat start:** The next screenshot showed the HUD appear with a ""PVE_START 218"" label, full health, and full hunger. The scene looked different, with daylight-lit dirt terrain and no spider in view. A status effect icon appeared at the top right.
+- **End:** My next action, a camera turn to scan for the spider, returned with ended set to true. The final screenshot showed a blurred ""Loading terrain..."" screen over an unrelated autumn landscape, with no HUD, no TRIAL END text, and no visible outcome.
+
+I never landed an attack and never saw the spider after the countdown. The ending looked like a world reload rather than a death or a kill, so I cannot say whether the encounter was won, lost, or aborted. No input problems were observed, but the abrupt scene changes between screenshots suggest the trial state was unstable on the game side."
+219,,19,True,spider,C,2,claude-fable-5-1,medium,c9c8a673-5daa-4014-8eaa-046f9f7e730d,death,43.75,43.76,0,0,207,0,0,0,8,10,5055.03,7060.74,644.61,66.907,20,0,claude-fable-5-1,2.1.304,trials/trial-219/video.mp4,trials/trial-219/events.log,trials/trial-219/actions.jsonl,trials/trial-219/transcript.jsonl,,"The trial ended in death.
+
+**Outcome:** The screen shows ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Spider"".
+
+**What happened visually:**
+- The encounter started at night in dense jungle-like terrain with vines and trees, which hid the mobs.
+- While scanning right, I spotted a creeper directly below the crosshair at very close range, with health already dropping.
+- My attack toward the creeper coincided with a large camera and position shift, consistent with being knocked around, and health fell to roughly four hearts.
+- Health continued to drop on each subsequent frame while no attacker was visible in front of me. The death message identifies the attacker as a spider, which I never saw on screen.
+
+**Input problems:** None observed. Camera turns and the attack press registered as expected. The main issue was visibility, since the mobs were hidden by terrain and darkness until they were already in melee range."
+223,,23,True,cave_spider,A,5,claude-fable-5-1,medium,f1e6a09d-58a9-4fed-8515-a59b46ec4d61,death,17.1,17.047,0,0,200,0,0,0,3,5,5621.41,7451.9,669.51,38.881,10,0,claude-fable-5-1,2.1.304,trials/trial-223/video.mp4,trials/trial-223/events.log,trials/trial-223/actions.jsonl,trials/trial-223/transcript.jsonl,,"The trial ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Cave Spider"".
+
+**Visual account of the outcome:**
+- At start, a spider was visible a few blocks ahead on the grass. I selected the sword and waited out the countdown.
+- My first attack step forward lost sight of it. The next screenshot showed a poison status icon and yellowed hearts, so the cave spider had reached me and bitten me while out of frame.
+- Two camera turns to the right failed to bring it back into view before the health bar emptied. The spider was never visible again after the first contact.
+
+**Input problem noted:** the first turn of 180 horizontal units shifted the view far less than expected, which slowed the search for the mob. No other input failures were observed.
+
+The trial is over, so no further actions are being issued."
+235,,35,True,cave_spider,C,4,claude-fable-5-1,medium,1ad37af7-4b2b-4498-b029-ac7cc181594e,death,19.2,19.169,0,0,200,0,0,0,4,6,4442.53,5452.48,579.03,37.858,12,0,claude-fable-5-1,2.1.304,trials/trial-235/video.mp4,trials/trial-235/events.log,trials/trial-235/actions.jsonl,trials/trial-235/transcript.jsonl,,"Trial 235 ended in death.
+
+**Outcome:** The screen reads ""TRIAL END: DEATH"" with the chat message ""angelasq was slain by Cave Spider"".
+
+**What happened visually:**
+- The trial began at night in a forested area with a starry sky.
+- On my second scanning turn, a spider appeared very close in the upper left of the view, already mid-leap at me.
+- My attack swing did not visibly connect, and the next frame showed my hearts turned yellow-green with a poison icon in the top right, so the spider had landed a bite.
+- Two more left turns to relocate the spider found nothing on screen. The death screen appeared on the following frame, at what appeared to be full health shortly before.
+
+**Input problems:** None observed. Every act call returned a new screenshot and the camera turns registered as expected. The loss came from the cave spider closing and poisoning before I could get it in the crosshair, and health dropped from full to zero in a span where I only saw one hit land."
+240,,40,True,spider,A,3,claude-fable-5-1,medium,e7c76d44-ba7b-4484-8858-9d3d5a4efb64,death,25.85,25.809,0,0,207,0,0,0,4,7,4996.25,5501.59,452.61,46.448,14,0,claude-fable-5-1,2.1.304,trials/trial-240/video.mp4,trials/trial-240/events.log,trials/trial-240/actions.jsonl,trials/trial-240/transcript.jsonl,,"Trial ended in death. The screen reads ""TRIAL END: DEATH"" with the chat line ""angelasq was slain by Spider"".
+
+Visual account:
+- At combat start a spider was directly ahead at the crosshair. I stepped forward and swung once, and it vanished from view immediately after.
+- While I turned to re-acquire it, health dropped from full to four hearts and then to under two hearts across three screenshots. An arrow stuck in the ground also appeared, so a skeleton was likely firing from out of frame, though I never saw it.
+- I never got the spider back in frame. Its dark shape appeared only at the left edge once. My last action raised the shield while turning, and the trial ended with the spider getting the kill.
+
+No input problems were observed. Every act call returned a new screenshot, and camera turns and the sword swing registered on screen. The outcome came from losing track of a fast mob at night and taking damage from two directions."
+249,,49,True,spider,B,1,claude-fable-5-1,medium,323e78fa-70e7-453b-83be-e2842e96ead8,death,29.15,29.201,0,0,207,0,0,0,5,8,5270.8,6023.0,544.97,52.534,16,0,claude-fable-5-1,2.1.304,trials/trial-249/video.mp4,trials/trial-249/events.log,trials/trial-249/actions.jsonl,trials/trial-249/transcript.jsonl,,"Trial 249 ended in death. The screen reads ""TRIAL END: DEATH"" with the message that the player was slain by a Spider.
+
+What happened visually:
+- The countdown screenshots showed a spider on the ridge ahead. Once combat began, my view had shifted to face a dirt hillside and the spider was no longer visible.
+- Health dropped steadily across every subsequent frame while I turned right, turned around, looked down with the shield raised, and backed up. The spider never appeared on screen in any of those frames.
+- The final sprint forward ended with the death screen, confirming the spider was the attacker.
+
+Input problem: no command errors, but the attacker stayed off-screen the entire fight. The spider likely was directly beneath or at the camera's edge, where my turn increments of roughly 90 to 180 degrees kept missing it. A faster, smaller sweep with the camera pitched down would have been the better search pattern."

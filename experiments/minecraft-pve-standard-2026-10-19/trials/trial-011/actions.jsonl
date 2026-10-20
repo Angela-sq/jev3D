@@ -1,0 +1,8 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792480582528070636}
+{"kind": "observation", "capture_start_ns": 1792480582828444789, "capture_end_ns": 1792480582873841711, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-011/obs-0000.png", "sha256": "73019804c8debd8af2b5d5ea3a1d4b19203f5f3c866492d04a83702dc370ab61"}
+{"kind": "action", "action": {"keys": [], "buttons": [], "ms": 800, "dx": 0, "dy": 0}, "start_ns": 1792480587561464373, "end_ns": 1792480588471072525}
+{"kind": "observation", "capture_start_ns": 1792480588521499086, "capture_end_ns": 1792480588562065620, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-011/obs-0001.png", "sha256": "3f580cd606e0897da2907b782cb255eecb941969f294dab12fe55419e94fa105"}
+{"kind": "action", "action": {"keys": ["w"], "buttons": [], "ms": 600, "dx": -10, "dy": -30}, "start_ns": 1792480594027116346, "end_ns": 1792480594748278582}
+{"kind": "observation", "capture_start_ns": 1792480594799921230, "capture_end_ns": 1792480594846211821, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-011/obs-0002.png", "sha256": "9a497bb604f466ff24ef0e9879fca59043bce228197abb1a9fb485b53f124957"}
+{"kind": "action", "action": {"keys": ["w", "space"], "buttons": [], "ms": 700, "dx": -15, "dy": -20}, "start_ns": 1792480599795519484, "end_ns": 1792480600629809003}
+{"kind": "observation", "capture_start_ns": 1792480600680205898, "capture_end_ns": 1792480600719845178, "path": "/home/angelaliu.guest/minecraft-lab/pve-standard/trial-011/obs-0003.png", "sha256": "786f08ba1366a16e75ccfb38570f54361ff7af8c1746ab3a0df636f3d6565449"}

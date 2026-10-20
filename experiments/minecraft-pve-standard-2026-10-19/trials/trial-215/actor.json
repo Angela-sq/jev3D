@@ -1,0 +1,51 @@
+{
+  "task": "1a1bbeb9-2f7a-4ff8-9b1e-89198d609c13",
+  "note": "Trial 215 ended with the screen reading \"TRIAL END: TIMEOUT\".\n\n**Visual account:** The trial began at night in a jungle-edge clearing with a full health bar. I completed a full camera sweep and then walked across the clearing, but no hostile mob ever appeared in any screenshot. Health stayed full throughout, and I never swung the sword or raised the shield because there was nothing to target. The game-time limit expired while I was still searching.\n\n**Input problem:** Forward movement was much slower than expected. Several one-second walk inputs produced little or no visible displacement, including a jump attempt, so I covered very little ground during the 90 seconds. Camera turns worked normally.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792483496439700000,
+  "agent_end_ns": 1792483605106917000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 32,
+  "violations": [],
+  "num_turns": 33,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 1,
+    "scored": true,
+    "trial_id": 215,
+    "amends": 15,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "5ea261a3-23e4-4ade-abcf-eea79cc613c4",
+  "note": "Trial 27 ended in death.\n\n**What happened:** At the start a gray-faced mob stood on top of the oak tree straight ahead. I moved forward-right under the canopy to get around the tree, and the mob dropped out of view. On the next action, backing up to look upward, the screen showed \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Vindicator.\"\n\n**Observations:** The previous screenshot showed full health, so the Vindicator dealt lethal damage within one action interval, which I could not see happen. I never had a clear line of sight to attack it and landed no hits. No input problems occurred. All actions executed and returned screenshots as expected.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792481709662530000,
+  "agent_end_ns": 1792481736768540000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 8,
+  "violations": [],
+  "num_turns": 9,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "vindicator",
+    "site": "C",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 27,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

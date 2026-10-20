@@ -19,3 +19,9 @@ Minecraft pixel-control benchmark (mcbench), Claude Fable 5.1
 Results: minecraft-fable-2026-10-19/RESULTS.txt and report.pdf
 19 tasks, one episode each: 3 passed, 16 failed (10 timeouts, 6 deaths).
 Code: tools/mcbench/. Separate setup from the PvE cohorts; do not pool.
+
+Standard PvE benchmark (10 mobs x 5), Claude Fable 5.1 — minecraft-pve-standard-2026-10-19/
+Same prompt, controls and timing as the Astra v2 cohort, on a new VM. Results: RESULTS.txt.
+50 trials (spiders at night, Amendment 1): 0 wins, 42 deaths, 3 timeouts, 5 target_lost.
+Code: tools/minecraft-pve-standard/.
+Not pooled with the Astra cohorts.

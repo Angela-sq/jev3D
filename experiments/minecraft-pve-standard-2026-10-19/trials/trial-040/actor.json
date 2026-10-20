@@ -1,0 +1,50 @@
+{
+  "task": "651e8a11-3fd4-484d-9944-10e922a1c138",
+  "note": "The trial ended on timeout. Here is the visual account.\n\n**Outcome:** the screen shows \"TRIAL END: TIMEOUT\". I never landed a confirmed hit, and my health stayed at full hearts the whole time.\n\n**What happened:**\n- At combat start a single spider was visible a short distance ahead. I walked toward it and swung once at close range, but it had moved out of frame by the time the swing landed.\n- The spider repeatedly disappeared from view after each approach. It appeared to wander away in daylight rather than engage, and the tall grass and rolling terrain hid it from the camera.\n- I spent most of the trial doing camera sweeps. I re-spotted the spider once on the right side of the screen, turned and advanced twice, and it vanished again before I could reach melee range.\n- The clock expired mid-sweep with no mob in view.\n\n**Input observations:** each turn command rotated the camera less than I expected for the requested horizontal delta, so sweeps covered less ground per step than planned. The latency between acting and seeing the result also let the spider leave frame between decisions. No command errors occurred.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792482554311177000,
+  "agent_end_ns": 1792482666534996000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 40,
+  "violations": [],
+  "num_turns": 41,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "spider",
+    "site": "A",
+    "repeat": 3,
+    "scored": true,
+    "trial_id": 40,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

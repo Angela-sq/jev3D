@@ -1,0 +1,50 @@
+{
+  "task": "85a5fdba-accb-4595-a07a-873409c7573d",
+  "note": "The trial ended almost immediately. Here is what I saw.\n\n**Outcome:** The screen shows \"TRIAL END: TARGET_LOST\" after my first movement input. The creeper visible on the hilltop in the first two screenshots is no longer in view, and the ground in front of me is covered in explosion-like particle debris. No damage to my health bar was visible, and I did not land any attack.\n\n**What happened, as observed:**\n- Screenshot one showed the \"Get ready\" countdown with a single creeper standing on a dirt hill ahead.\n- I observed once to let the countdown run, then walked forward for under a second.\n- The next screenshot already showed the trial-end banner, with the creeper gone and particles in the air.\n\n**Input problems:** None. Both the observe and act calls returned screenshots normally. The trial simply ended before combat could begin, so the target was lost rather than killed by me. I cannot confirm from the screenshots alone whether the creeper exploded on its own or was removed by the evaluator.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480187959028000,
+  "agent_end_ns": 1792480211750888000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 6,
+  "violations": [],
+  "num_turns": 7,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "scored": true,
+    "trial_id": 4,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

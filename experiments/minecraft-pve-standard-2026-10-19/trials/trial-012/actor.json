@@ -1,0 +1,50 @@
+{
+  "task": "6b11f30d-8a97-419a-a905-278b6e4b5b26",
+  "note": "Trial 12 ended in death. The screen reads \"TRIAL END: DEATH\" with the chat line \"angelasq was slain by Husk\".\n\nWhat happened visually:\n- At FIGHT start, no mobs were in the initial view. Turning left revealed a husk already within melee range.\n- My first attack swing missed as the husk closed in. Between two screenshots, health fell from full to about 3.5 hearts, with a husk hugging my left and a creeper directly on my right.\n- I retreated with the shield raised, but the trial ended during that action with the husk credited for the kill.\n\nInput problems: none observed. Camera turns and attack presses registered as issued. The main difficulty was that each act call spans enough real time for mobs already adjacent to land multiple hits, and the mobs spawned very close behind the starting view.",
+  "model_requested": "claude-fable-5-1",
+  "reasoning_effort": "medium",
+  "models_reported": [
+    "claude-fable-5-1"
+  ],
+  "cli_version": "2.1.304",
+  "tools_loaded": [
+    "Bash",
+    "Read"
+  ],
+  "mcp_servers": [],
+  "slash_commands": [],
+  "skills": [],
+  "plugins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-telemetry",
+      "path": "builtin",
+      "source": "cc-plugin-telemetry@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "agent_start_ns": 1792480611001402000,
+  "agent_end_ns": 1792480657803334000,
+  "agent_killed_at_timeout": false,
+  "tool_calls": 14,
+  "violations": [],
+  "num_turns": 15,
+  "image_delivery": "Read tool on 854x480 PNG",
+  "condition": {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 5,
+    "scored": true,
+    "trial_id": 12,
+    "model": "claude-fable-5-1",
+    "reasoning_effort": "medium"
+  }
+}

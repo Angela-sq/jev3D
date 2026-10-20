@@ -1,0 +1,3 @@
+{"args": ["begin", "45"], "request_ns": 1792482873803903000, "response_ns": 1792482874837574000, "image": "obs-0000.png"}
+{"args": ["observe"], "request_ns": 1792482878992605000, "response_ns": 1792482879137352000, "image": "obs-0001.png"}
+{"args": ["observe"], "request_ns": 1792482883956366000, "response_ns": 1792482884099336000, "image": "obs-0002.png"}

@@ -1,0 +1,10 @@
+{"args": ["begin", "3"], "request_ns": 1792730818800333000, "response_ns": 1792730819836751000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"buttons\":[3],\"ms\":1000}"], "request_ns": 1792730828406774000, "response_ns": 1792730829607814000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"dx\":15,\"ms\":1000}"], "request_ns": 1792730836265383000, "response_ns": 1792730837472689000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"dy\":100,\"ms\":0}"], "request_ns": 1792730846461365000, "response_ns": 1792730846676830000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[1],\"dx\":-160,\"dy\":-20,\"ms\":200}"], "request_ns": 1792730856086277000, "response_ns": 1792730856532359000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[\"w\"],\"buttons\":[3],\"dx\":55,\"dy\":60,\"ms\":800}"], "request_ns": 1792730865845902000, "response_ns": 1792730866862752000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"Control_L\"],\"buttons\":[],\"dx\":30,\"dy\":-12,\"ms\":800}"], "request_ns": 1792730874655465000, "response_ns": 1792730875688006000, "image": "obs-0006.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"dx\":300,\"dy\":-40,\"ms\":0}"], "request_ns": 1792730886293081000, "response_ns": 1792730886535337000, "image": "obs-0007.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[1],\"dx\":260,\"dy\":-30,\"ms\":100}"], "request_ns": 1792730893839607000, "response_ns": 1792730894198759000, "image": "obs-0008.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"dx\":300,\"ms\":0}"], "request_ns": 1792730902774889000, "response_ns": 1792730902929781000, "image": "obs-0009.png"}

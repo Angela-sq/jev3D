@@ -1,0 +1,9 @@
+{"kind": "release", "reason": "reset", "time_ns": 1792731310592281239}
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792731311027442974}
+{"kind": "observation", "capture_start_ns": 1792731311328683803, "capture_end_ns": 1792731311373929081, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v3-oct22/trial-008/obs-0000.png", "sha256": "d03d41c8033bd68e7513517a52928252dfed52b6fe4cb3894dc65a050c256117"}
+{"kind": "action", "action": {"keys": ["w", "space", "1"], "buttons": [3], "ms": 700, "dx": 0, "dy": -40}, "start_ns": 1792731320883932620, "held_state": {"keys": ["w", "space", "1"], "buttons": [3], "expires_ns": 1792731350932105650}, "end_ns": 1792731321632367690}
+{"kind": "observation", "capture_start_ns": 1792731321682830841, "capture_end_ns": 1792731321710091501, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v3-oct22/trial-008/obs-0001.png", "sha256": "4f2049ff98b42e4c3ba4167f66b9273affc45e55e4e5d955b3eb3c71fffa55b5"}
+{"kind": "action", "action": {"keys": ["space"], "buttons": [1], "ms": 600, "dx": 0, "dy": -90}, "start_ns": 1792731329288200133, "held_state": {"keys": ["space"], "buttons": [], "expires_ns": 1792731359374554998}, "end_ns": 1792731329974872987}
+{"kind": "observation", "capture_start_ns": 1792731330025449764, "capture_end_ns": 1792731330038277280, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v3-oct22/trial-008/obs-0002.png", "sha256": "d0b44a7c587a5705bb80ae31e9578464b1fe760dca9264dd82dac34fa032f803"}
+{"kind": "release", "reason": "trial_end", "time_ns": 1792731330683155223}
+{"kind": "observation", "capture_start_ns": 1792731338234228527, "capture_end_ns": 1792731338265551654, "path": "/home/sathvikr.guest/minecraft-lab/benchmark-v3-oct22/trial-008/obs-0003.png", "sha256": "7e363a02a56a2560fff19ca76993e380a3a53d9b0d94d138bd2e1bf3603bb633"}

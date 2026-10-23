@@ -1,0 +1,55 @@
+{
+  "method": "Manually inspected terminal screenshots; not every video frame.",
+  "trials": [
+    {
+      "trial_id": 2,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie."
+    },
+    {
+      "trial_id": 3,
+      "visible_outcome": "death",
+      "note": "Terminal title inspected."
+    },
+    {
+      "trial_id": 4,
+      "visible_outcome": "timeout",
+      "note": "Timeout title visible, player in ravine."
+    },
+    {
+      "trial_id": 5,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 6,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 7,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 8,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 9,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 10,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    },
+    {
+      "trial_id": 11,
+      "visible_outcome": "death",
+      "note": "Slain by Zombie message."
+    }
+  ]
+}

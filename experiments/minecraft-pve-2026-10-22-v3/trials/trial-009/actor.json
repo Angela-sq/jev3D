@@ -1,0 +1,6 @@
+{
+  "task": "/root/oct22_schedule/trial_009",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "note": "Trial 9 ended in death; the screen states \u201cslain by Zombie.\u201d No kills were visually confirmed. The zombie closed against the world border; movement and attack inputs produced no visible escape. No tool errors occurred."
+}

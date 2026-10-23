@@ -1,0 +1,116 @@
+{
+  "seed": -6257074856933950438,
+  "schedule_seed": 20261019,
+  "sites": [
+    {
+      "site": "A",
+      "x": 240.5,
+      "z": -240.5,
+      "description": "grassland terrace"
+    },
+    {
+      "site": "B",
+      "x": 270.5,
+      "z": -210.5,
+      "description": "grassland slope"
+    },
+    {
+      "site": "C",
+      "x": 215.5,
+      "z": -190.5,
+      "description": "grassland edge"
+    }
+  ],
+  "trials": [
+    {
+      "site": "B",
+      "encounter": "zombie",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 2,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "A",
+      "encounter": "skeleton",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 3,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "B",
+      "encounter": "skeleton",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 4,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "C",
+      "encounter": "two_zombies",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 5,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "A",
+      "encounter": "two_zombies",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 6,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "C",
+      "encounter": "zombie",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 7,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "B",
+      "encounter": "zombie",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 8,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "C",
+      "encounter": "zombie",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 9,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "A",
+      "encounter": "two_zombies",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 10,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "site": "C",
+      "encounter": "two_zombies",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 11,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    }
+  ]
+}

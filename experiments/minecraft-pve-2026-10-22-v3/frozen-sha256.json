@@ -1,0 +1,12 @@
+{
+  "tools/minecraft-benchmark-v3-batch/collect.py": "6872b487221f0155e4204bf0a31eb2b5164b9fb1f94c79f921f58f6a5ede015e",
+  "tools/minecraft-benchmark-v3-batch/test_release_paths.py": "81ae091c1632393e623d15f90616221bc6bc52575fc9c71def7efee6b9c529e6",
+  "tools/minecraft-benchmark-v3-batch/test_persistent.py": "651e73969df8be28ed0c97021d21d968def9cef56a8616948f16f6e65191dc9f",
+  "tools/minecraft-benchmark-v3-batch/core.py": "a7dadf9b72d88648ea548c67887316c8208070370c70fa0a505e591da9a5178c",
+  "tools/minecraft-benchmark-v3-batch/persistent.py": "03c2b2983d4a57473d7d9f385e07260ed4d2c997fd1197fdf191d243cb4e6210",
+  "tools/minecraft-benchmark-v3-batch/guest_trial.py": "12f83effd3aa86be14d29c0a657bcdcddc714f1d57c3cea7e236f2000aa58657",
+  "tools/minecraft-benchmark-v3-batch/actor.py": "e84af44ac2ae32651cd6bc956ddee97dce831a76ccbf51e6ae349b8a95275499",
+  "experiments/minecraft-pve-2026-10-22-v3/ACTOR_PROMPT.md": "27035792d70249a627bf6176cbcab5201c274a78e0d5316fc3699a9002905f98",
+  "experiments/minecraft-pve-2026-10-22-v3/PROTOCOL.txt": "be30bafabcead29cb9e6fa19117332255ad61cbde3bd236d9d754e6ac3d8fe67",
+  "experiments/minecraft-pve-2026-10-22-v3/schedule.json": "2f5ca455c836c20b6403f46cfdb71b17cf88115a7ba680048cb1cdd99c5e42cd"
+}

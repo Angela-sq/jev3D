@@ -1,0 +1,12 @@
+{"args": ["begin", "4"], "request_ns": 1792730937299735000, "response_ns": 1792730938345720000, "image": "obs-0000.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":800,\"dy\":-35}"], "request_ns": 1792730946122351000, "response_ns": 1792730947146187000, "image": "obs-0001.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":500,\"dx\":-65,\"dy\":-25}"], "request_ns": 1792730955693233000, "response_ns": 1792730956385584000, "image": "obs-0002.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"ms\":0,\"dx\":-130,\"dy\":100}"], "request_ns": 1792730963760595000, "response_ns": 1792730964005302000, "image": "obs-0003.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"ms\":0,\"dx\":-180,\"dy\":-15}"], "request_ns": 1792730971685712000, "response_ns": 1792730971895716000, "image": "obs-0004.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[3],\"ms\":0,\"dx\":-300}"], "request_ns": 1792730979632270000, "response_ns": 1792730979828109000, "image": "obs-0005.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":800,\"dx\":-300,\"dy\":-50}"], "request_ns": 1792730987021661000, "response_ns": 1792730988068329000, "image": "obs-0006.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":600,\"dx\":-210}"], "request_ns": 1792730998573561000, "response_ns": 1792730999389212000, "image": "obs-0007.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[3],\"ms\":500,\"dx\":120,\"dy\":-55}"], "request_ns": 1792731009633737000, "response_ns": 1792731010330956000, "image": "obs-0008.png"}
+{"args": ["act", "{\"keys\":[\"d\",\"space\"],\"buttons\":[],\"ms\":600,\"dy\":45}"], "request_ns": 1792731017775120000, "response_ns": 1792731018612634000, "image": "obs-0009.png"}
+{"args": ["act", "{\"keys\":[\"w\",\"space\"],\"buttons\":[],\"ms\":500,\"dx\":-85}"], "request_ns": 1792731031275626000, "response_ns": 1792731032016781000, "image": "obs-0010.png"}
+{"args": ["act", "{\"keys\":[],\"buttons\":[1],\"ms\":0,\"dx\":-110,\"dy\":15}"], "request_ns": 1792731040446587000, "response_ns": 1792731040605497000, "image": "obs-0011.png"}

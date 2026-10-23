@@ -1,0 +1,6 @@
+{
+  "task": "/root/oct22_schedule/trial_003",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "note": "Trial ended in death; the screen says the player was shot by a skeleton. No kills were visually confirmed. Inputs executed, but movement overshot the skeleton and subsequent turns lost sight of it."
+}

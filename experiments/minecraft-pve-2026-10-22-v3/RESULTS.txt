@@ -1,0 +1,22 @@
+Persistent-control batch — 2026-10-22
+
+10 additional GPT-6 Astra medium trials (IDs 2–11), fresh actors, unchanged v3 controls.
+Result: 0 wins, 9 deaths, 1 timeout, 0 kills; no technical failures or retries.
+Median duration: 33.60 game seconds.
+Median observation-to-action delay: 8.10 seconds.
+Median fraction of battle time with movement/shield held: 64.4%.
+Watchdog expirations: 0. Actions: 47.
+
+Conditions: existing schedule IDs 2–11, across three natural-terrain sites.
+zombie: 4 attempts; {'death': 4}.
+two_zombies: 4 attempts; {'death': 4}.
+skeleton: 2 attempts; {'death': 1, 'timeout': 1}.
+
+These ten encounters form an unbalanced fixed subset, not a statistical demonstration of improvement over prior cohorts. Persistent controls remove mandatory idle gaps but do not remove observation/decision latency, aiming difficulty, or the explicit per-decision attack limit. No human or other-model control is included. Actor notes, including subjective input concerns, remain in the CSV.
+
+Validation: six controller tests passed before deployment. All ten terminal screenshots manually checked. Screenshot hashes, raw event/CSV agreement, frozen files, video dimensions/frame counts/duration, actor metadata and trial completeness passed. Video metadata probed; not every video frame manually reviewed. Input state releases at every trial end.
+
+Files: results.csv, summary.json, ACTOR_PROMPT.md, PROTOCOL.txt, schedule.json; trials/trial-NNN contain videos, observations, input logs, authoritative results and actor notes. Prior cohorts are untouched. VM left paused.
+
+All videos/evidence download:
+https://github.com/Angela-sq/jev3D/releases/tag/minecraft-pve-2026-10-22-v3

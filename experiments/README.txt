@@ -7,8 +7,8 @@ Report and handoff: minecraft-pve-2026-10-19-v2/RESULTS.txt
 Original cohort: minecraft-pve-2026-10-19/
 Retained separately with CONTROL_ISSUE.txt; do not pool with v2.
 
-Videos and raw evidence are local within each cohort trials/ directory.
-Videos are Git-ignored; a Git push alone does not back them up.
+Videos and screenshots live in each cohort's GitHub release, not on the laptop.
+They are Git-ignored; a Git push alone does not back them up.
 
 GitHub evidence download (all experiment files, including videos/world archive):
 https://github.com/Angela-sq/jev3D/releases/tag/minecraft-pve-2026-10-19
@@ -25,3 +25,8 @@ Same prompt, controls and timing as the Astra v2 cohort, on a new VM. Results: R
 50 trials (spiders at night, Amendment 1): 0 wins, 42 deaths, 3 timeouts, 5 target_lost.
 Code: tools/minecraft-pve-standard/.
 Not pooled with the Astra cohorts.
+
+Jev with a self-evolved text harness (after MCJev) — minecraft-jev-harness-2026-10-26/
+Jev picks moves from text facts; a code body aims and swings; Claude evolved the harness v1 -> v7 on 10 dev fights.
+50 standard fights: v7 + Jev 43/50, v7 with random picks 40/50, v1 + Jev 30/50. Uses privileged game state.
+Code: tools/minecraft-jev-harness/. Videos: release minecraft-jev-harness-2026-10-26.

@@ -1,0 +1,260 @@
+{
+  "input_tokens": 6585557,
+  "cost_usd": 0.2766,
+  "by_run": {
+    "v1-smoke": {
+      "harness": "v1",
+      "set": "smoke",
+      "fights": 1,
+      "wins": 0,
+      "outcomes": {
+        "death": 1
+      },
+      "wins_by_mob": {
+        "zombie": "0/1"
+      }
+    },
+    "v1-smoke2": {
+      "harness": "v1",
+      "set": "smoke",
+      "fights": 1,
+      "wins": 1,
+      "outcomes": {
+        "win": 1
+      },
+      "wins_by_mob": {
+        "zombie": "1/1"
+      }
+    },
+    "v1-dev": {
+      "harness": "v1",
+      "set": "dev",
+      "fights": 10,
+      "wins": 4,
+      "outcomes": {
+        "win": 4,
+        "death": 4,
+        "target_lost": 1,
+        "timeout": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "0/1",
+        "zombie": "1/1",
+        "stray": "0/1",
+        "creeper": "0/1",
+        "skeleton": "0/1",
+        "husk": "1/1",
+        "vindicator": "1/1",
+        "spider": "0/1",
+        "witch": "0/1"
+      }
+    },
+    "v2-dev": {
+      "harness": "v2",
+      "set": "dev",
+      "fights": 10,
+      "wins": 8,
+      "outcomes": {
+        "win": 8,
+        "target_lost": 1,
+        "death": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "1/1",
+        "zombie": "1/1",
+        "stray": "1/1",
+        "creeper": "0/1",
+        "skeleton": "1/1",
+        "husk": "1/1",
+        "vindicator": "0/1",
+        "spider": "1/1",
+        "witch": "1/1"
+      }
+    },
+    "v3-dev": {
+      "harness": "v3",
+      "set": "dev",
+      "fights": 10,
+      "wins": 7,
+      "outcomes": {
+        "win": 7,
+        "target_lost": 1,
+        "death": 2
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "1/1",
+        "zombie": "1/1",
+        "stray": "1/1",
+        "creeper": "0/1",
+        "skeleton": "0/1",
+        "husk": "1/1",
+        "vindicator": "1/1",
+        "spider": "1/1",
+        "witch": "0/1"
+      }
+    },
+    "v4-dev": {
+      "harness": "v4",
+      "set": "dev",
+      "fights": 10,
+      "wins": 5,
+      "outcomes": {
+        "win": 5,
+        "death": 4,
+        "target_lost": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "0/1",
+        "zombie": "1/1",
+        "stray": "0/1",
+        "creeper": "0/1",
+        "skeleton": "0/1",
+        "husk": "1/1",
+        "vindicator": "1/1",
+        "spider": "1/1",
+        "witch": "0/1"
+      }
+    },
+    "v5-dev": {
+      "harness": "v5",
+      "set": "dev",
+      "fights": 10,
+      "wins": 8,
+      "outcomes": {
+        "win": 8,
+        "timeout": 1,
+        "target_lost": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "0/1",
+        "zombie": "1/1",
+        "stray": "1/1",
+        "creeper": "0/1",
+        "skeleton": "1/1",
+        "husk": "1/1",
+        "vindicator": "1/1",
+        "spider": "1/1",
+        "witch": "1/1"
+      }
+    },
+    "v6-dev": {
+      "harness": "v6",
+      "set": "dev",
+      "fights": 10,
+      "wins": 9,
+      "outcomes": {
+        "win": 9,
+        "target_lost": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "1/1",
+        "zombie": "1/1",
+        "stray": "1/1",
+        "creeper": "0/1",
+        "skeleton": "1/1",
+        "husk": "1/1",
+        "vindicator": "1/1",
+        "spider": "1/1",
+        "witch": "1/1"
+      }
+    },
+    "v7-dev": {
+      "harness": "v7",
+      "set": "dev",
+      "fights": 10,
+      "wins": 9,
+      "outcomes": {
+        "win": 9,
+        "death": 1
+      },
+      "wins_by_mob": {
+        "cave_spider": "1/1",
+        "pillager": "1/1",
+        "zombie": "1/1",
+        "stray": "1/1",
+        "creeper": "1/1",
+        "skeleton": "1/1",
+        "husk": "1/1",
+        "vindicator": "0/1",
+        "spider": "1/1",
+        "witch": "1/1"
+      }
+    },
+    "v7-eval": {
+      "harness": "v7",
+      "set": "eval",
+      "fights": 50,
+      "wins": 43,
+      "outcomes": {
+        "win": 43,
+        "target_lost": 5,
+        "death": 2
+      },
+      "wins_by_mob": {
+        "cave_spider": "5/5",
+        "stray": "5/5",
+        "pillager": "5/5",
+        "creeper": "0/5",
+        "spider": "5/5",
+        "vindicator": "3/5",
+        "witch": "5/5",
+        "husk": "5/5",
+        "skeleton": "5/5",
+        "zombie": "5/5"
+      }
+    },
+    "v1-eval": {
+      "harness": "v1",
+      "set": "eval",
+      "fights": 50,
+      "wins": 30,
+      "outcomes": {
+        "win": 30,
+        "death": 12,
+        "target_lost": 5,
+        "timeout": 3
+      },
+      "wins_by_mob": {
+        "cave_spider": "4/5",
+        "stray": "2/5",
+        "pillager": "0/5",
+        "creeper": "0/5",
+        "spider": "4/5",
+        "vindicator": "4/5",
+        "witch": "1/5",
+        "husk": "5/5",
+        "skeleton": "5/5",
+        "zombie": "5/5"
+      }
+    },
+    "v7-random-eval": {
+      "harness": "v7+random",
+      "set": "eval",
+      "fights": 50,
+      "wins": 40,
+      "outcomes": {
+        "win": 40,
+        "target_lost": 6,
+        "death": 4
+      },
+      "wins_by_mob": {
+        "cave_spider": "5/5",
+        "stray": "5/5",
+        "pillager": "5/5",
+        "creeper": "0/5",
+        "spider": "5/5",
+        "vindicator": "1/5",
+        "witch": "4/5",
+        "husk": "5/5",
+        "skeleton": "5/5",
+        "zombie": "5/5"
+      }
+    }
+  }
+}

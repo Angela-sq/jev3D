@@ -1,0 +1,31 @@
+Jev with a self-evolved text harness — 2026-10-26
+The 50 standard PvE fights (10 mobs x 5), Jev's top choice (jev-preview). Wilson 95% intervals.
+
+  v7 + Jev            43/50  [74-93%]   43 wins, 2 deaths, 5 target_lost
+  v7, random picks    40/50  [67-89%]   40 wins, 4 deaths, 6 target_lost   (no Jev calls)
+  v1 + Jev            30/50  [46-72%]   30 wins, 12 deaths, 5 target_lost, 3 timeouts
+  For comparison (pixels only, not the same conditions):
+  Jev from screenshots (minecraft-jev-data-2026-10-23-v2, top-choice batch)   7/50
+  Fable 5.1 (minecraft-pve-standard-2026-10-19)                                0/50
+
+Wins by mob (v7 + Jev / v7 random / v1 + Jev)
+  zombie 5/5/5, husk 5/5/5, skeleton 5/5/5, spider 5/5/4, cave_spider 5/5/4,
+  stray 5/5/2, pillager 5/5/0, witch 5/4/1, vindicator 3/1/4, creeper 0/0/0
+
+v7 + Jev losses
+  76 creeper B target_lost: 1 hit landed, then the creeper got within 3 blocks and exploded.
+  92 creeper A target_lost: 2 hits landed and no damage taken, then it got within 3 blocks and exploded.
+  101 creeper C target_lost: 3 hits landed, one short of the kill, then it exploded.
+  116 creeper B target_lost: 2 hits landed, then it got within 3 blocks and exploded.
+  117 creeper A target_lost: 3 hits landed, one short of the kill, then it exploded.
+  78 vindicator A death: a straight trade of hits; it rushed to under 1 block and won with 6 of its 24 health left.
+  99 vindicator C death: the same trade; it rushed in and won with 9 of its 24 health left.
+
+What it means
+  - The evolved harness (v1 -> v7) took Jev from 30/50 to 43/50.
+  - Jev versus random picks among the same offered moves: 43 vs 40, within noise. As MCJev also found, most of the
+    gain came from the harness (offered moves, reflexes, aim), not from the model's choices.
+  - Creepers were never killed in the eval (0/15 across the three runs; 1 dev win with v7).
+
+Cost: 6.6M input tokens for everything (smoke, 7 dev runs, 3 evals) = $0.28. Jev errors: 0. Median Jev reply ~0.1 s.
+Body clicks: 355 in v7 + Jev, none with the mob out of reach.

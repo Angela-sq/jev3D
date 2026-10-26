@@ -1,0 +1,34 @@
+{
+  "model": null,
+  "harness": "v7",
+  "policy": "random",
+  "source": 21,
+  "started_ns": 1793003503134815360,
+  "input_tokens": 0,
+  "steps": 17,
+  "asked": 0,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793003507075384436,
+  "clicks": 3,
+  "click_log": [
+    {
+      "ticks": 27,
+      "reach": 2.55,
+      "yaw_err": -4.0,
+      "pitch_err": -7.7
+    },
+    {
+      "ticks": 47,
+      "reach": 2.58,
+      "yaw_err": -7.3,
+      "pitch_err": 6.7
+    },
+    {
+      "ticks": 63,
+      "reach": 1.46,
+      "yaw_err": 1.7,
+      "pitch_err": 30.3
+    }
+  ]
+}

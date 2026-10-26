@@ -1,0 +1,13 @@
+{
+  "model": "jev-preview",
+  "harness": "v6",
+  "source": 8,
+  "started_ns": 1793000462447222277,
+  "input_tokens": 29982,
+  "steps": 53,
+  "asked": 53,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793000473583104394,
+  "clicks": 13
+}

@@ -1,0 +1,390 @@
+09:14:49 401 zombie A win {"steps": 6, "input_tokens": 10512, "jev_errors": 0}  11s
+09:15:08 402 zombie B win {"steps": 12, "input_tokens": 21019, "jev_errors": 0}  16s
+09:15:37 403 zombie C death {"steps": 25, "input_tokens": 43785, "jev_errors": 0}  26s
+09:15:51 404 zombie A win {"steps": 6, "input_tokens": 10508, "jev_errors": 0}  11s
+09:17:30 405 zombie B timeout {"steps": 122, "input_tokens": 213712, "jev_errors": 0}  97s
+09:17:57 501 cave_spider A death {"steps": 22, "input_tokens": 38548, "jev_errors": 0}  23s
+09:18:39 502 stray A death {"steps": 36, "input_tokens": 63056, "jev_errors": 0}  39s
+09:19:30 503 pillager C death {"steps": 51, "input_tokens": 89321, "jev_errors": 0}  48s
+09:19:44 504 creeper B target_lost {"steps": 6, "input_tokens": 10517, "jev_errors": 0}  12s
+09:20:19 505 spider C win {"steps": 33, "input_tokens": 57811, "jev_errors": 0}  32s
+09:20:32 506 vindicator A death {"steps": 6, "input_tokens": 10515, "jev_errors": 0}  11s
+09:21:26 507 stray B death {"steps": 52, "input_tokens": 91116, "jev_errors": 0}  50s
+09:21:51 508 witch B death {"steps": 19, "input_tokens": 33276, "jev_errors": 0}  22s
+09:22:07 509 husk C win {"steps": 8, "input_tokens": 14007, "jev_errors": 0}  13s
+09:23:06 510 skeleton A death {"steps": 58, "input_tokens": 101605, "jev_errors": 0}  56s
+09:23:30 511 witch C death {"steps": 22, "input_tokens": 38549, "jev_errors": 0}  22s
+09:24:04 512 husk C death {"steps": 34, "input_tokens": 59568, "jev_errors": 0}  31s
+09:25:24 513 stray B death {"steps": 95, "input_tokens": 166463, "jev_errors": 0}  77s
+09:26:06 514 witch C death {"steps": 41, "input_tokens": 71867, "jev_errors": 0}  39s
+09:27:14 515 cave_spider C death {"steps": 74, "input_tokens": 129659, "jev_errors": 0}  65s
+09:27:45 516 zombie A death {"steps": 29, "input_tokens": 50792, "jev_errors": 0}  28s
+09:28:24 517 spider B win {"steps": 40, "input_tokens": 70065, "jev_errors": 0}  36s
+09:28:54 518 cave_spider B death {"steps": 24, "input_tokens": 42051, "jev_errors": 0}  27s
+09:30:34 519 spider C timeout {"steps": 111, "input_tokens": 194436, "jev_errors": 0}  97s
+09:30:47 520 creeper A target_lost {"steps": 5, "input_tokens": 8756, "jev_errors": 0}  10s
+09:31:01 521 vindicator B death {"steps": 7, "input_tokens": 12265, "jev_errors": 0}  11s
+09:31:50 522 skeleton C death {"steps": 42, "input_tokens": 73593, "jev_errors": 0}  46s
+09:32:16 523 cave_spider A death {"steps": 19, "input_tokens": 33295, "jev_errors": 0}  23s
+09:32:49 524 husk B death {"steps": 32, "input_tokens": 56046, "jev_errors": 0}  30s
+09:33:38 525 pillager A death {"steps": 44, "input_tokens": 77089, "jev_errors": 0}  47s
+09:34:32 526 skeleton A death {"steps": 50, "input_tokens": 87587, "jev_errors": 0}  50s
+09:34:52 527 vindicator C death {"steps": 15, "input_tokens": 26286, "jev_errors": 0}  17s
+09:35:17 528 witch B death {"steps": 20, "input_tokens": 35025, "jev_errors": 0}  22s
+09:35:32 529 creeper C target_lost {"steps": 6, "input_tokens": 10506, "jev_errors": 0}  11s
+09:36:22 530 skeleton B death {"steps": 54, "input_tokens": 94579, "jev_errors": 0}  47s
+09:36:51 531 zombie C death {"steps": 26, "input_tokens": 45530, "jev_errors": 0}  26s
+09:37:08 532 zombie B win {"steps": 10, "input_tokens": 17523, "jev_errors": 0}  13s
+09:37:24 533 vindicator A death {"steps": 9, "input_tokens": 15768, "jev_errors": 0}  13s
+09:38:15 534 pillager A death {"steps": 45, "input_tokens": 78823, "jev_errors": 0}  49s
+09:38:52 535 cave_spider C death {"steps": 39, "input_tokens": 68326, "jev_errors": 0}  33s
+09:39:52 536 pillager B death {"steps": 58, "input_tokens": 101610, "jev_errors": 0}  58s
+09:41:06 537 pillager C death {"steps": 84, "input_tokens": 147164, "jev_errors": 0}  71s
+09:41:24 538 zombie A win {"steps": 10, "input_tokens": 17520, "jev_errors": 0}  14s
+09:41:40 539 husk B win {"steps": 11, "input_tokens": 19267, "jev_errors": 0}  14s
+09:42:17 540 spider A target_lost {"steps": 33, "input_tokens": 57802, "jev_errors": 0}  34s
+09:42:38 541 zombie B win {"steps": 16, "input_tokens": 28031, "jev_errors": 0}  18s
+09:44:17 542 stray C timeout {"steps": 118, "input_tokens": 206721, "jev_errors": 0}  96s
+09:45:13 543 stray A death {"steps": 56, "input_tokens": 98112, "jev_errors": 0}  53s
+09:45:27 544 creeper B target_lost {"steps": 5, "input_tokens": 8755, "jev_errors": 0}  11s
+09:45:40 545 creeper A target_lost {"steps": 4, "input_tokens": 7003, "jev_errors": 0}  10s
+09:46:36 546 skeleton C death {"steps": 55, "input_tokens": 96332, "jev_errors": 0}  53s
+09:46:49 547 husk A win {"steps": 6, "input_tokens": 10512, "jev_errors": 0}  10s
+09:47:05 548 vindicator B death {"steps": 10, "input_tokens": 17522, "jev_errors": 0}  13s
+09:47:41 549 spider B death {"steps": 38, "input_tokens": 66558, "jev_errors": 0}  32s
+09:48:06 550 witch A death {"steps": 18, "input_tokens": 31540, "jev_errors": 0}  22s
+09:48:33 601 cave_spider A death {"steps": 19, "input_tokens": 33270, "jev_errors": 0}  24s
+09:49:14 602 stray A death {"steps": 38, "input_tokens": 66562, "jev_errors": 0}  38s
+09:50:16 603 pillager C death {"steps": 58, "input_tokens": 101613, "jev_errors": 0}  59s
+09:50:31 604 creeper B target_lost {"steps": 6, "input_tokens": 10511, "jev_errors": 0}  11s
+09:51:12 605 spider C win {"steps": 45, "input_tokens": 78838, "jev_errors": 0}  38s
+09:51:26 606 vindicator A win {"steps": 7, "input_tokens": 12258, "jev_errors": 0}  11s
+09:52:16 607 stray B death {"steps": 50, "input_tokens": 87595, "jev_errors": 0}  47s
+09:52:39 608 witch B death {"steps": 17, "input_tokens": 29781, "jev_errors": 0}  20s
+09:53:11 609 husk C win {"steps": 31, "input_tokens": 54302, "jev_errors": 0}  30s
+09:54:11 610 skeleton A death {"steps": 58, "input_tokens": 101597, "jev_errors": 0}  56s
+09:54:56 611 witch C death {"steps": 55, "input_tokens": 96360, "jev_errors": 0}  42s
+09:55:25 612 husk C death {"steps": 27, "input_tokens": 47303, "jev_errors": 0}  26s
+09:56:22 613 stray B death {"steps": 58, "input_tokens": 101578, "jev_errors": 0}  53s
+09:57:03 614 witch C death {"steps": 44, "input_tokens": 77093, "jev_errors": 0}  38s
+09:57:31 615 cave_spider C death {"steps": 29, "input_tokens": 50816, "jev_errors": 0}  25s
+09:57:47 616 zombie A win {"steps": 9, "input_tokens": 15766, "jev_errors": 0}  13s
+09:58:23 617 spider B death {"steps": 34, "input_tokens": 59543, "jev_errors": 0}  33s
+09:58:50 618 cave_spider B death {"steps": 26, "input_tokens": 45556, "jev_errors": 0}  24s
+10:00:29 619 spider C timeout {"steps": 110, "input_tokens": 192681, "jev_errors": 0}  96s
+10:00:42 620 creeper A death {"steps": 4, "input_tokens": 7012, "jev_errors": 0}  9s
+10:00:55 621 vindicator B death {"steps": 7, "input_tokens": 12269, "jev_errors": 0}  10s
+10:01:54 622 skeleton C death {"steps": 68, "input_tokens": 119107, "jev_errors": 0}  55s
+10:02:19 623 cave_spider A death {"steps": 21, "input_tokens": 36792, "jev_errors": 0}  23s
+10:02:36 624 husk B win {"steps": 11, "input_tokens": 19273, "jev_errors": 0}  14s
+10:03:35 625 pillager A death {"steps": 54, "input_tokens": 94616, "jev_errors": 0}  55s
+10:04:28 626 skeleton A death {"steps": 55, "input_tokens": 96359, "jev_errors": 0}  50s
+10:06:08 627 vindicator C timeout {"steps": 114, "input_tokens": 199753, "jev_errors": 0}  96s
+10:06:30 628 witch B death {"steps": 15, "input_tokens": 26282, "jev_errors": 0}  19s
+10:06:50 629 creeper C target_lost {"steps": 15, "input_tokens": 26281, "jev_errors": 0}  17s
+10:07:41 630 skeleton B death {"steps": 45, "input_tokens": 78831, "jev_errors": 0}  48s
+10:07:58 631 zombie C win {"steps": 10, "input_tokens": 17515, "jev_errors": 0}  14s
+10:08:14 632 zombie B win {"steps": 11, "input_tokens": 19287, "jev_errors": 0}  14s
+10:08:27 633 vindicator A death {"steps": 5, "input_tokens": 8752, "jev_errors": 0}  10s
+10:09:15 634 pillager A death {"steps": 42, "input_tokens": 73568, "jev_errors": 0}  45s
+10:10:08 635 cave_spider C death {"steps": 55, "input_tokens": 96339, "jev_errors": 0}  49s
+10:11:03 636 pillager B death {"steps": 52, "input_tokens": 91100, "jev_errors": 0}  52s
+10:12:31 637 pillager C death {"steps": 100, "input_tokens": 175169, "jev_errors": 0}  85s
+10:12:46 638 zombie A win {"steps": 7, "input_tokens": 12261, "jev_errors": 0}  11s
+10:13:18 639 husk B death {"steps": 32, "input_tokens": 56066, "jev_errors": 0}  29s
+10:13:52 640 spider A death {"steps": 30, "input_tokens": 52534, "jev_errors": 0}  31s
+10:14:18 641 zombie B death {"steps": 29, "input_tokens": 50799, "jev_errors": 0}  24s
+10:15:14 642 stray C death {"steps": 58, "input_tokens": 101612, "jev_errors": 0}  53s
+10:16:13 643 stray A death {"steps": 61, "input_tokens": 106846, "jev_errors": 0}  56s
+10:16:28 644 creeper B target_lost {"steps": 8, "input_tokens": 14008, "jev_errors": 0}  11s
+10:16:40 645 creeper A death {"steps": 4, "input_tokens": 7002, "jev_errors": 0}  10s
+10:18:20 646 skeleton C timeout {"steps": 117, "input_tokens": 204948, "jev_errors": 0}  97s
+10:18:36 647 husk A win {"steps": 9, "input_tokens": 15754, "jev_errors": 0}  13s
+10:18:50 648 vindicator B death {"steps": 7, "input_tokens": 12272, "jev_errors": 0}  10s
+10:19:27 649 spider B death {"steps": 37, "input_tokens": 64837, "jev_errors": 0}  34s
+10:20:01 650 witch A death {"steps": 29, "input_tokens": 50802, "jev_errors": 0}  31s
+10:20:27 701 cave_spider A death {"steps": 20, "input_tokens": 35050, "jev_errors": 0}  22s
+10:21:25 702 stray A death {"steps": 58, "input_tokens": 101613, "jev_errors": 0}  55s
+10:23:05 703 pillager C timeout {"steps": 122, "input_tokens": 213725, "jev_errors": 0}  96s
+10:23:19 704 creeper B target_lost {"steps": 7, "input_tokens": 12257, "jev_errors": 0}  12s
+10:24:04 705 spider C death {"steps": 47, "input_tokens": 82342, "jev_errors": 0}  41s
+10:24:17 706 vindicator A win {"steps": 6, "input_tokens": 10511, "jev_errors": 0}  11s
+10:25:01 707 stray B death {"steps": 44, "input_tokens": 77096, "jev_errors": 0}  41s
+10:25:27 708 witch B death {"steps": 22, "input_tokens": 38550, "jev_errors": 0}  23s
+10:26:28 709 husk C death {"steps": 74, "input_tokens": 129645, "jev_errors": 0}  58s
+10:27:27 710 skeleton A death {"steps": 58, "input_tokens": 101588, "jev_errors": 0}  56s
+10:28:03 711 witch C death {"steps": 34, "input_tokens": 59579, "jev_errors": 0}  33s
+10:28:21 712 husk C win {"steps": 10, "input_tokens": 17511, "jev_errors": 0}  14s
+10:29:17 713 stray B death {"steps": 54, "input_tokens": 94590, "jev_errors": 0}  54s
+10:29:50 714 witch C death {"steps": 33, "input_tokens": 57807, "jev_errors": 0}  29s
+10:31:30 715 cave_spider C timeout {"steps": 120, "input_tokens": 210242, "jev_errors": 0}  97s
+10:31:45 716 zombie A win {"steps": 7, "input_tokens": 12259, "jev_errors": 0}  12s
+10:32:21 717 spider B death {"steps": 34, "input_tokens": 59564, "jev_errors": 0}  34s
+10:32:49 718 cave_spider B death {"steps": 24, "input_tokens": 42044, "jev_errors": 0}  24s
+10:33:43 719 spider C death {"steps": 64, "input_tokens": 112082, "jev_errors": 0}  51s
+10:33:56 720 creeper A target_lost {"steps": 4, "input_tokens": 7007, "jev_errors": 0}  10s
+10:34:11 721 vindicator B death {"steps": 9, "input_tokens": 15768, "jev_errors": 0}  13s
+10:35:51 722 skeleton C timeout {"steps": 120, "input_tokens": 210232, "jev_errors": 0}  96s
+10:36:19 723 cave_spider A death {"steps": 21, "input_tokens": 36787, "jev_errors": 0}  25s
+10:37:58 724 husk B timeout {"steps": 155, "input_tokens": 271596, "jev_errors": 0}  96s
+10:38:42 725 pillager A death {"steps": 38, "input_tokens": 66552, "jev_errors": 0}  41s
+10:39:49 726 skeleton A death {"steps": 65, "input_tokens": 113890, "jev_errors": 0}  64s
+10:40:04 727 vindicator C death {"steps": 7, "input_tokens": 12253, "jev_errors": 0}  12s
+10:40:26 728 witch B death {"steps": 14, "input_tokens": 24525, "jev_errors": 0}  19s
+10:42:05 729 creeper C timeout {"steps": 117, "input_tokens": 204981, "jev_errors": 0}  96s
+10:43:13 730 skeleton B death {"steps": 71, "input_tokens": 124345, "jev_errors": 0}  65s
+10:43:35 731 zombie C win {"steps": 17, "input_tokens": 29758, "jev_errors": 0}  19s
+10:44:03 732 zombie B death {"steps": 25, "input_tokens": 43810, "jev_errors": 0}  25s
+10:44:20 733 vindicator A death {"steps": 10, "input_tokens": 17519, "jev_errors": 0}  14s
+10:45:12 734 pillager A death {"steps": 46, "input_tokens": 80574, "jev_errors": 0}  49s
+10:46:52 735 cave_spider C timeout {"steps": 112, "input_tokens": 196203, "jev_errors": 0}  96s
+10:47:58 736 pillager B death {"steps": 68, "input_tokens": 119092, "jev_errors": 0}  63s
+10:48:54 737 pillager C death {"steps": 53, "input_tokens": 92833, "jev_errors": 0}  54s
+10:49:13 738 zombie A win {"steps": 11, "input_tokens": 19268, "jev_errors": 0}  15s
+10:50:52 739 husk B timeout {"steps": 148, "input_tokens": 259307, "jev_errors": 0}  96s
+10:51:34 740 spider A target_lost {"steps": 36, "input_tokens": 63072, "jev_errors": 0}  39s
+10:51:51 741 zombie B win {"steps": 11, "input_tokens": 19245, "jev_errors": 0}  14s
+10:52:32 742 stray C death {"steps": 43, "input_tokens": 75349, "jev_errors": 0}  38s
+10:53:43 743 stray A death {"steps": 77, "input_tokens": 134892, "jev_errors": 0}  68s
+10:53:56 744 creeper B target_lost {"steps": 5, "input_tokens": 8758, "jev_errors": 0}  11s
+10:54:10 745 creeper A death {"steps": 5, "input_tokens": 8755, "jev_errors": 0}  10s
+10:55:23 746 skeleton C death {"steps": 77, "input_tokens": 134881, "jev_errors": 0}  71s
+10:55:37 747 husk A win {"steps": 7, "input_tokens": 12256, "jev_errors": 0}  11s
+10:55:52 748 vindicator B death {"steps": 8, "input_tokens": 14012, "jev_errors": 0}  12s
+10:56:31 749 spider B win {"steps": 42, "input_tokens": 73595, "jev_errors": 0}  36s
+10:57:03 750 witch A death {"steps": 25, "input_tokens": 43753, "jev_errors": 0}  28s
+10:57:29 801 cave_spider A death {"steps": 18, "input_tokens": 31533, "jev_errors": 0}  23s
+10:58:37 802 stray A death {"steps": 64, "input_tokens": 112108, "jev_errors": 0}  65s
+10:59:30 803 pillager C death {"steps": 51, "input_tokens": 89325, "jev_errors": 0}  50s
+10:59:44 804 creeper B target_lost {"steps": 6, "input_tokens": 10515, "jev_errors": 0}  11s
+11:00:33 805 spider C target_lost {"steps": 49, "input_tokens": 85839, "jev_errors": 0}  47s
+11:00:49 806 vindicator A win {"steps": 8, "input_tokens": 14015, "jev_errors": 0}  12s
+11:01:50 807 stray B death {"steps": 60, "input_tokens": 105112, "jev_errors": 0}  59s
+11:02:12 808 witch B death {"steps": 15, "input_tokens": 26260, "jev_errors": 0}  19s
+11:03:52 809 husk C timeout {"steps": 108, "input_tokens": 189225, "jev_errors": 0}  97s
+11:04:41 810 skeleton A death {"steps": 47, "input_tokens": 82343, "jev_errors": 0}  46s
+11:05:25 811 witch C death {"steps": 40, "input_tokens": 70076, "jev_errors": 0}  41s
+11:05:41 812 husk C win {"steps": 9, "input_tokens": 15771, "jev_errors": 0}  13s
+11:06:28 813 stray B death {"steps": 45, "input_tokens": 78798, "jev_errors": 0}  44s
+11:08:07 814 witch C timeout {"steps": 107, "input_tokens": 187435, "jev_errors": 0}  96s
+11:08:39 815 cave_spider C death {"steps": 35, "input_tokens": 61322, "jev_errors": 0}  28s
+11:08:55 816 zombie A win {"steps": 8, "input_tokens": 14016, "jev_errors": 0}  13s
+11:09:33 817 spider B death {"steps": 38, "input_tokens": 66581, "jev_errors": 0}  36s
+11:10:23 818 cave_spider B death {"steps": 58, "input_tokens": 101611, "jev_errors": 0}  46s
+11:11:01 819 spider C death {"steps": 39, "input_tokens": 68324, "jev_errors": 0}  35s
+11:11:14 820 creeper A death {"steps": 5, "input_tokens": 8762, "jev_errors": 0}  10s
+11:11:27 821 vindicator B death {"steps": 6, "input_tokens": 10512, "jev_errors": 0}  10s
+11:12:35 822 skeleton C death {"steps": 64, "input_tokens": 112098, "jev_errors": 0}  65s
+11:13:01 823 cave_spider A death {"steps": 18, "input_tokens": 31528, "jev_errors": 0}  23s
+11:14:41 824 husk B timeout {"steps": 190, "input_tokens": 332956, "jev_errors": 0}  96s
+11:15:38 825 pillager A death {"steps": 49, "input_tokens": 85828, "jev_errors": 0}  54s
+11:16:40 826 skeleton A death {"steps": 58, "input_tokens": 101600, "jev_errors": 0}  60s
+11:17:10 827 vindicator C death {"steps": 28, "input_tokens": 49041, "jev_errors": 0}  26s
+11:17:32 828 witch B death {"steps": 18, "input_tokens": 31539, "jev_errors": 0}  19s
+11:17:46 829 creeper C target_lost {"steps": 6, "input_tokens": 10511, "jev_errors": 0}  11s
+11:18:42 830 skeleton B death {"steps": 56, "input_tokens": 98070, "jev_errors": 0}  53s
+11:19:18 831 zombie C death {"steps": 34, "input_tokens": 59545, "jev_errors": 0}  33s
+11:19:34 832 zombie B win {"steps": 9, "input_tokens": 15760, "jev_errors": 0}  13s
+11:19:50 833 vindicator A death {"steps": 10, "input_tokens": 17510, "jev_errors": 0}  13s
+11:20:46 834 pillager A death {"steps": 49, "input_tokens": 85816, "jev_errors": 0}  53s
+11:21:27 835 cave_spider C death {"steps": 40, "input_tokens": 70070, "jev_errors": 0}  38s
+11:22:27 836 pillager B death {"steps": 57, "input_tokens": 99828, "jev_errors": 0}  57s
+11:23:54 837 pillager C death {"steps": 94, "input_tokens": 164649, "jev_errors": 0}  84s
+11:24:09 838 zombie A win {"steps": 8, "input_tokens": 14014, "jev_errors": 0}  12s
+11:24:26 839 husk B win {"steps": 10, "input_tokens": 17523, "jev_errors": 0}  14s
+11:25:04 840 spider A target_lost {"steps": 33, "input_tokens": 57837, "jev_errors": 0}  35s
+11:26:43 841 zombie B timeout {"steps": 163, "input_tokens": 285568, "jev_errors": 0}  96s
+11:27:45 842 stray C death {"steps": 61, "input_tokens": 106891, "jev_errors": 0}  59s
+11:28:43 843 stray A death {"steps": 55, "input_tokens": 96325, "jev_errors": 0}  55s
+11:28:57 844 creeper B target_lost {"steps": 7, "input_tokens": 12256, "jev_errors": 0}  11s
+11:29:10 845 creeper A death {"steps": 5, "input_tokens": 8759, "jev_errors": 0}  9s
+11:30:08 846 skeleton C death {"steps": 52, "input_tokens": 91067, "jev_errors": 0}  56s
+11:30:22 847 husk A win {"steps": 6, "input_tokens": 10510, "jev_errors": 0}  11s
+11:30:37 848 vindicator B death {"steps": 9, "input_tokens": 15770, "jev_errors": 0}  12s
+11:31:20 849 spider B target_lost {"steps": 46, "input_tokens": 80594, "jev_errors": 0}  40s
+11:32:01 850 witch A death {"steps": 35, "input_tokens": 61310, "jev_errors": 0}  37s
+{
+ "input_tokens": 14156452,
+ "cost_usd": 0.5946,
+ "by_group": {
+  "pilot": {
+   "fights": 5,
+   "outcomes": {
+    "win": 3,
+    "death": 1,
+    "timeout": 1
+   },
+   "wins": 3,
+   "fights_with_damage_dealt": 3,
+   "steps": 171
+  },
+  "batch": {
+   "fights": 50,
+   "outcomes": {
+    "death": 34,
+    "target_lost": 6,
+    "win": 8,
+    "timeout": 2
+   },
+   "wins": 8,
+   "fights_with_damage_dealt": 20,
+   "steps": 1706
+  },
+  "batch2": {
+   "fights": 50,
+   "outcomes": {
+    "death": 35,
+    "target_lost": 3,
+    "win": 9,
+    "timeout": 3
+   },
+   "wins": 9,
+   "fights_with_damage_dealt": 19,
+   "steps": 1833
+  },
+  "batch3": {
+   "fights": 50,
+   "outcomes": {
+    "death": 31,
+    "timeout": 7,
+    "target_lost": 4,
+    "win": 8
+   },
+   "wins": 8,
+   "fights_with_damage_dealt": 21,
+   "steps": 2285
+  },
+  "batch4": {
+   "fights": 50,
+   "outcomes": {
+    "death": 33,
+    "target_lost": 6,
+    "win": 7,
+    "timeout": 4
+   },
+   "wins": 7,
+   "fights_with_damage_dealt": 21,
+   "steps": 2086
+  }
+ },
+ "batches_all": {
+  "fights": 200,
+  "outcomes": {
+   "death": 133,
+   "target_lost": 19,
+   "win": 32,
+   "timeout": 16
+  },
+  "wins": 32,
+  "fights_with_damage_dealt": 81,
+  "steps": 7910
+ },
+ "batches_by_mob": {
+  "cave_spider": {
+   "fights": 20,
+   "outcomes": {
+    "death": 18,
+    "timeout": 2
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 0,
+   "steps": 794
+  },
+  "creeper": {
+   "fights": 20,
+   "outcomes": {
+    "target_lost": 14,
+    "death": 5,
+    "timeout": 1
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 13,
+   "steps": 230
+  },
+  "husk": {
+   "fights": 20,
+   "outcomes": {
+    "win": 11,
+    "death": 5,
+    "timeout": 4
+   },
+   "wins": 11,
+   "fights_with_damage_dealt": 16,
+   "steps": 918
+  },
+  "pillager": {
+   "fights": 20,
+   "outcomes": {
+    "death": 19,
+    "timeout": 1
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 9,
+   "steps": 1215
+  },
+  "skeleton": {
+   "fights": 20,
+   "outcomes": {
+    "death": 18,
+    "timeout": 2
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 0,
+   "steps": 1270
+  },
+  "spider": {
+   "fights": 20,
+   "outcomes": {
+    "win": 4,
+    "timeout": 2,
+    "target_lost": 5,
+    "death": 9
+   },
+   "wins": 4,
+   "fights_with_damage_dealt": 9,
+   "steps": 939
+  },
+  "stray": {
+   "fights": 20,
+   "outcomes": {
+    "death": 19,
+    "timeout": 1
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 2,
+   "steps": 1183
+  },
+  "vindicator": {
+   "fights": 20,
+   "outcomes": {
+    "death": 16,
+    "win": 3,
+    "timeout": 1
+   },
+   "wins": 3,
+   "fights_with_damage_dealt": 10,
+   "steps": 288
+  },
+  "witch": {
+   "fights": 20,
+   "outcomes": {
+    "death": 19,
+    "timeout": 1
+   },
+   "wins": 0,
+   "fights_with_damage_dealt": 4,
+   "steps": 623
+  },
+  "zombie": {
+   "fights": 20,
+   "outcomes": {
+    "death": 5,
+    "win": 14,
+    "timeout": 1
+   },
+   "wins": 14,
+   "fights_with_damage_dealt": 18,
+   "steps": 450
+  }
+ }
+}

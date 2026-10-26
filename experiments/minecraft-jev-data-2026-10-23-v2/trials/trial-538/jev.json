@@ -1,0 +1,19 @@
+{
+  "model": "jev-preview",
+  "policy": "sample",
+  "actions": {
+    "forward": "The mob is near the screen centre but small or far away (more than 3 blocks): walk toward it.",
+    "back": "The mob is very close and the player is low on health: back away.",
+    "turn_left": "No mob is visible, or the mob is in the left part of the screen: turn left.",
+    "turn_right": "The mob is in the right part of the screen: turn right.",
+    "attack": "The mob is under the crosshair AND very close, filling a large part of the screen: swing the sword.",
+    "charge": "The mob is under the crosshair and 2 to 4 blocks away: step toward it and swing.",
+    "shield": "A skeleton, stray or pillager is aiming at the player, or a creeper is flashing nearby: raise the shield."
+  },
+  "started_ns": 1792773675579494159,
+  "input_tokens": 17520,
+  "steps": 10,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1792773683991190422
+}

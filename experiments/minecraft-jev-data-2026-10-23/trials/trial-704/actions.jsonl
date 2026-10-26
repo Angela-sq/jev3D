@@ -1,0 +1,10 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792744959948350951}
+{"kind": "observation", "capture_start_ns": 1792744960248719576, "capture_end_ns": 1792744960292337583, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-704/obs-0000.png", "sha256": "ccb811e74d7ae8eb9227939448179c4fa3c35e20d81bd9a82f17876c0f78d2e8"}
+{"kind": "observation", "capture_start_ns": 1792744964797527946, "capture_end_ns": 1792744964841278989, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-704/obs-0001.png", "sha256": "44112b3a7e929e54f066b7413f6ee065e3fb0d93601a3036552af61152035cb5"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792744965663865726, "end_ns": 1792744966381503675}
+{"kind": "observation", "capture_start_ns": 1792744966381724380, "capture_end_ns": 1792744966415111871, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-704/obs-0002.png", "sha256": "cb0afc63e549fd646fec2ba04753841f5cc80a7641629d009d556ec0b37bba34"}
+{"kind": "action", "action": "charge", "primitives": [{"keys": ["w"], "ms": 250}, {"buttons": [1], "ms": 80}], "start_ns": 1792744967235037210, "end_ns": 1792744967904455000}
+{"kind": "observation", "capture_start_ns": 1792744967904650664, "capture_end_ns": 1792744967931674168, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-704/obs-0003.png", "sha256": "e656c0beaa581f5bca0182161df0036a80e8e2be32a0aa596fedbc0facdd1d91"}
+{"kind": "action", "action": "charge", "primitives": [{"keys": ["w"], "ms": 250}, {"buttons": [1], "ms": 80}], "start_ns": 1792744968422833461, "end_ns": 1792744969107973456}
+{"kind": "observation", "capture_start_ns": 1792744969108156953, "capture_end_ns": 1792744969134612257, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-704/obs-0004.png", "sha256": "29368024a096b409c1f67aac2bb06695ccb79069de94c8600f6c66ef5db382d6"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792744969490724229, "end_ns": 1792744969793801804}

@@ -1,0 +1,29 @@
+Jev data run v2 — 2026-10-23 (09:14–11:32), rerun of the first run at 60 FPS
+
+Same code, actions, rules, and fight schedule as experiments/minecraft-jev-data-2026-10-23.
+Changes: maxFps 60 for every fight, no CPU limits, chat hidden in every fight (pilot included).
+The first run is kept as is; its fights 506/507 failed after the VM was moved to low-power cores,
+and fights 510+ ran at 30 FPS.
+
+Jev (jev-preview = jev-1.14.0) chose every action from screenshots.
+205 fights: 5 zombie pilot + the 50 standard fights 4 times. 8,081 steps recorded.
+Cost: 14.2M input tokens = $0.59. Jev errors: 0. Technical failures: 0.
+Median Jev reply 0.22 s; median 1.27 decisions per second.
+
+Wins (Wilson 95%)
+  pilot (zombie, sampled)     3/5   [23–88%]
+  batch  (sampled)            8/50  [8–29%]
+  batch2 (sampled)            9/50  [10–31%]
+  batch3 (sampled)            8/50  [8–29%]
+  batch4 (top choice)         7/50  [7–26%]
+  For comparison, Fable 5.1 on the same 50 fights won 0/50.
+
+Wins by mob (all 4 batches; top-choice batch in brackets)
+  zombie 14/20 (3/5), husk 11/20 (3/5), spider 4/20 (0/5), vindicator 3/20 (1/5),
+  cave_spider, creeper, pillager, skeleton, stray, witch: 0/20 each.
+  Jev never damaged a cave spider or a skeleton.
+
+Outcomes, all 205: 134 deaths, 35 wins, 19 target_lost, 17 timeouts, 0 technical.
+
+Render distance was 16 for all fights (graphics preset "fancy" overrides the option), as in the Fable run.
+Not a pre-registered benchmark: the action rules were written after looking at 3 screenshots.

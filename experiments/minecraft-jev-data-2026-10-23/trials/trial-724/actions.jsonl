@@ -1,0 +1,36 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792745698870995599}
+{"kind": "observation", "capture_start_ns": 1792745699171885591, "capture_end_ns": 1792745699245274744, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0000.png", "sha256": "0444f346fbda0f081d37350d333bbbcbd39c8f85139d6475fb137c9c9b8ea7fc"}
+{"kind": "observation", "capture_start_ns": 1792745703769573280, "capture_end_ns": 1792745703825990852, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0001.png", "sha256": "28a9b24741bb3da6378e9430bce6197f171c6b427043e7eecea5bd92268dd7d6"}
+{"kind": "action", "action": "charge", "primitives": [{"keys": ["w"], "ms": 250}, {"buttons": [1], "ms": 80}], "start_ns": 1792745704418644526, "end_ns": 1792745705098176964}
+{"kind": "observation", "capture_start_ns": 1792745705098392501, "capture_end_ns": 1792745705138769640, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0002.png", "sha256": "c3949925dc8b3e6b21a6f867365c24b82f0c2b1d6d2eb3e743304de67ecd3a8f"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792745705595179647, "end_ns": 1792745706222445167}
+{"kind": "observation", "capture_start_ns": 1792745706222651371, "capture_end_ns": 1792745706256311119, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0003.png", "sha256": "01d893e4e6111c16050323e7b4aa0a5e64ee388ac48933b88ca073ac7c8cb310"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745706666734860, "end_ns": 1792745706875892392}
+{"kind": "observation", "capture_start_ns": 1792745706876090680, "capture_end_ns": 1792745706918071574, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0004.png", "sha256": "44a5fd06c1864c538dc538b230203d76ae7ecc4781a96f6ba6a36c4543207901"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745707565198563, "end_ns": 1792745707780177548}
+{"kind": "observation", "capture_start_ns": 1792745707780379835, "capture_end_ns": 1792745707820621894, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0005.png", "sha256": "8bfa80f7ef4efed1046dc708c1623b92dd72c1ae0ecf894c7c40bd3dc10391a4"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792745708613350915, "end_ns": 1792745708918161015}
+{"kind": "observation", "capture_start_ns": 1792745708918362927, "capture_end_ns": 1792745708966307355, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0006.png", "sha256": "5fb1c74dff2f9bffba14d85f8a6784cb01470075db47ba45d7930022e4624ff6"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792745709661892712, "end_ns": 1792745709961849503}
+{"kind": "observation", "capture_start_ns": 1792745709962061540, "capture_end_ns": 1792745710020190739, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0007.png", "sha256": "a5834abd56c30f30104ada3cad18a851216507c6bbb9681b6b6782cf3186a0f3"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792745710709919891, "end_ns": 1792745711338647782}
+{"kind": "observation", "capture_start_ns": 1792745711338853152, "capture_end_ns": 1792745711360200133, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0008.png", "sha256": "fefe257495e9ca01b76fe760597d648c88f82c5da0b5b00b20dc11bf42e1771e"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745711897953266, "end_ns": 1792745712113132159}
+{"kind": "observation", "capture_start_ns": 1792745712113330988, "capture_end_ns": 1792745712145690388, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0009.png", "sha256": "bf5fb21e7e208a6b6027ff1dae9886b007c47fbbc5b58263a49b80384f13e78f"}
+{"kind": "action", "action": "turn_left", "primitives": [{"dx": -100}], "start_ns": 1792745712806898673, "end_ns": 1792745713019003134}
+{"kind": "observation", "capture_start_ns": 1792745713019206588, "capture_end_ns": 1792745713030750371, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0010.png", "sha256": "4f8aace23493c7bb44e94b69c347f44a76044f76a0bb2004842c643a189426ae"}
+{"kind": "action", "action": "turn_left", "primitives": [{"dx": -100}], "start_ns": 1792745713434573498, "end_ns": 1792745713653876588}
+{"kind": "observation", "capture_start_ns": 1792745713654072417, "capture_end_ns": 1792745713669532113, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0011.png", "sha256": "5cffa265024d7ed36d9c16601241b250aacf53e0c57582c6b60c6ebd16ae6db2"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745713968254051, "end_ns": 1792745714189189271}
+{"kind": "observation", "capture_start_ns": 1792745714189397433, "capture_end_ns": 1792745714214902529, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0012.png", "sha256": "4ff2969a4ca61b9e5081b150009ecae53bf3d3f7deb1989b5a9100326dd9fcc5"}
+{"kind": "action", "action": "turn_left", "primitives": [{"dx": -100}], "start_ns": 1792745714903798104, "end_ns": 1792745715125722427}
+{"kind": "observation", "capture_start_ns": 1792745715125922630, "capture_end_ns": 1792745715157495798, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0013.png", "sha256": "cff37832b444126725d592cfc0fae1211dfbf115aebecc8844c27dc09c96ec07"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745715953484848, "end_ns": 1792745716168537406}
+{"kind": "observation", "capture_start_ns": 1792745716168766526, "capture_end_ns": 1792745716194942356, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0014.png", "sha256": "7efda720970470ed910edf1f718d35a10b88a44345430238f35f06e5fd53f99e"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792745717000661768, "end_ns": 1792745717296984505}
+{"kind": "observation", "capture_start_ns": 1792745717297182208, "capture_end_ns": 1792745717317731998, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0015.png", "sha256": "6f0555c6a3eba194772320a2f61bf9a95181140b8cf858106b0feef1ebc69cea"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745718049414940, "end_ns": 1792745718275652912}
+{"kind": "observation", "capture_start_ns": 1792745718275855991, "capture_end_ns": 1792745718298916516, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0016.png", "sha256": "c76e1333f475ec50e7beed04fb4e44f05c8b818a747c3875db47d83dd0f44e8e"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792745719097478539, "end_ns": 1792745719315263533}
+{"kind": "observation", "capture_start_ns": 1792745719315478362, "capture_end_ns": 1792745719332060573, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-724/obs-0017.png", "sha256": "59bdfdcbdcbaea4a6a2316dea919f2f7713f41e7d1694bf783f0bae919a46753"}
+{"kind": "action", "action": "back", "primitives": [{"keys": ["s"], "ms": 400}], "start_ns": 1792745720145666172, "end_ns": 1792745720783557957}

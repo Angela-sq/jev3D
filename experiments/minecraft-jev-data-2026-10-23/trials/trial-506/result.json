@@ -1,0 +1,7 @@
+{
+  "trial_id": 506,
+  "outcome": "technical",
+  "reason": "no terminal event within 125 wall seconds",
+  "start_observed_wall_ns": null,
+  "end_observed_wall_ns": 1792740503294009120
+}

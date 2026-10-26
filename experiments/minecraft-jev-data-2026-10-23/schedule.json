@@ -1,0 +1,2057 @@
+{
+  "pilot": [
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 401,
+      "model": "jev-preview",
+      "source": 38
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 402,
+      "model": "jev-preview",
+      "source": 41
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 403,
+      "model": "jev-preview",
+      "source": 31
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 404,
+      "model": "jev-preview",
+      "source": 38
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 405,
+      "model": "jev-preview",
+      "source": 41
+    }
+  ],
+  "batch": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 501,
+      "model": "jev-preview",
+      "source": 201,
+      "batch": 1
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 502,
+      "model": "jev-preview",
+      "source": 2,
+      "batch": 1
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 503,
+      "model": "jev-preview",
+      "source": 3,
+      "batch": 1
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 504,
+      "model": "jev-preview",
+      "source": 4,
+      "batch": 1
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 505,
+      "model": "jev-preview",
+      "source": 205,
+      "batch": 1
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 506,
+      "model": "jev-preview",
+      "source": 6,
+      "batch": 1
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 507,
+      "model": "jev-preview",
+      "source": 7,
+      "batch": 1
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 508,
+      "model": "jev-preview",
+      "source": 8,
+      "batch": 1
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 509,
+      "model": "jev-preview",
+      "source": 9,
+      "batch": 1
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 510,
+      "model": "jev-preview",
+      "source": 10,
+      "batch": 1
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 511,
+      "model": "jev-preview",
+      "source": 11,
+      "batch": 1
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 512,
+      "model": "jev-preview",
+      "source": 12,
+      "batch": 1
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 513,
+      "model": "jev-preview",
+      "source": 13,
+      "batch": 1
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 514,
+      "model": "jev-preview",
+      "source": 14,
+      "batch": 1
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 515,
+      "model": "jev-preview",
+      "source": 215,
+      "batch": 1
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 516,
+      "model": "jev-preview",
+      "source": 16,
+      "batch": 1
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 517,
+      "model": "jev-preview",
+      "source": 217,
+      "batch": 1
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 518,
+      "model": "jev-preview",
+      "source": 218,
+      "batch": 1
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 519,
+      "model": "jev-preview",
+      "source": 219,
+      "batch": 1
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 520,
+      "model": "jev-preview",
+      "source": 20,
+      "batch": 1
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 521,
+      "model": "jev-preview",
+      "source": 21,
+      "batch": 1
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 522,
+      "model": "jev-preview",
+      "source": 22,
+      "batch": 1
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 523,
+      "model": "jev-preview",
+      "source": 223,
+      "batch": 1
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 524,
+      "model": "jev-preview",
+      "source": 24,
+      "batch": 1
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 525,
+      "model": "jev-preview",
+      "source": 25,
+      "batch": 1
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 526,
+      "model": "jev-preview",
+      "source": 26,
+      "batch": 1
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 527,
+      "model": "jev-preview",
+      "source": 27,
+      "batch": 1
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 528,
+      "model": "jev-preview",
+      "source": 28,
+      "batch": 1
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 529,
+      "model": "jev-preview",
+      "source": 29,
+      "batch": 1
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 530,
+      "model": "jev-preview",
+      "source": 30,
+      "batch": 1
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 531,
+      "model": "jev-preview",
+      "source": 31,
+      "batch": 1
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 532,
+      "model": "jev-preview",
+      "source": 32,
+      "batch": 1
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 533,
+      "model": "jev-preview",
+      "source": 33,
+      "batch": 1
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 534,
+      "model": "jev-preview",
+      "source": 34,
+      "batch": 1
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 535,
+      "model": "jev-preview",
+      "source": 235,
+      "batch": 1
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 536,
+      "model": "jev-preview",
+      "source": 36,
+      "batch": 1
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 537,
+      "model": "jev-preview",
+      "source": 37,
+      "batch": 1
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 538,
+      "model": "jev-preview",
+      "source": 38,
+      "batch": 1
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 539,
+      "model": "jev-preview",
+      "source": 39,
+      "batch": 1
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 540,
+      "model": "jev-preview",
+      "source": 240,
+      "batch": 1
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 541,
+      "model": "jev-preview",
+      "source": 41,
+      "batch": 1
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 542,
+      "model": "jev-preview",
+      "source": 42,
+      "batch": 1
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 543,
+      "model": "jev-preview",
+      "source": 43,
+      "batch": 1
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 544,
+      "model": "jev-preview",
+      "source": 44,
+      "batch": 1
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 545,
+      "model": "jev-preview",
+      "source": 45,
+      "batch": 1
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 546,
+      "model": "jev-preview",
+      "source": 46,
+      "batch": 1
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 547,
+      "model": "jev-preview",
+      "source": 47,
+      "batch": 1
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 548,
+      "model": "jev-preview",
+      "source": 48,
+      "batch": 1
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 549,
+      "model": "jev-preview",
+      "source": 249,
+      "batch": 1
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 550,
+      "model": "jev-preview",
+      "source": 50,
+      "batch": 1
+    }
+  ],
+  "batch2": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 601,
+      "model": "jev-preview",
+      "source": 201,
+      "batch": 2
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 602,
+      "model": "jev-preview",
+      "source": 2,
+      "batch": 2
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 603,
+      "model": "jev-preview",
+      "source": 3,
+      "batch": 2
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 604,
+      "model": "jev-preview",
+      "source": 4,
+      "batch": 2
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 605,
+      "model": "jev-preview",
+      "source": 205,
+      "batch": 2
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 606,
+      "model": "jev-preview",
+      "source": 6,
+      "batch": 2
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 607,
+      "model": "jev-preview",
+      "source": 7,
+      "batch": 2
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 608,
+      "model": "jev-preview",
+      "source": 8,
+      "batch": 2
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 609,
+      "model": "jev-preview",
+      "source": 9,
+      "batch": 2
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 610,
+      "model": "jev-preview",
+      "source": 10,
+      "batch": 2
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 611,
+      "model": "jev-preview",
+      "source": 11,
+      "batch": 2
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 612,
+      "model": "jev-preview",
+      "source": 12,
+      "batch": 2
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 613,
+      "model": "jev-preview",
+      "source": 13,
+      "batch": 2
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 614,
+      "model": "jev-preview",
+      "source": 14,
+      "batch": 2
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 615,
+      "model": "jev-preview",
+      "source": 215,
+      "batch": 2
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 616,
+      "model": "jev-preview",
+      "source": 16,
+      "batch": 2
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 617,
+      "model": "jev-preview",
+      "source": 217,
+      "batch": 2
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 618,
+      "model": "jev-preview",
+      "source": 218,
+      "batch": 2
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 619,
+      "model": "jev-preview",
+      "source": 219,
+      "batch": 2
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 620,
+      "model": "jev-preview",
+      "source": 20,
+      "batch": 2
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 621,
+      "model": "jev-preview",
+      "source": 21,
+      "batch": 2
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 622,
+      "model": "jev-preview",
+      "source": 22,
+      "batch": 2
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 623,
+      "model": "jev-preview",
+      "source": 223,
+      "batch": 2
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 624,
+      "model": "jev-preview",
+      "source": 24,
+      "batch": 2
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 625,
+      "model": "jev-preview",
+      "source": 25,
+      "batch": 2
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 626,
+      "model": "jev-preview",
+      "source": 26,
+      "batch": 2
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 627,
+      "model": "jev-preview",
+      "source": 27,
+      "batch": 2
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 628,
+      "model": "jev-preview",
+      "source": 28,
+      "batch": 2
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 629,
+      "model": "jev-preview",
+      "source": 29,
+      "batch": 2
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 630,
+      "model": "jev-preview",
+      "source": 30,
+      "batch": 2
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 631,
+      "model": "jev-preview",
+      "source": 31,
+      "batch": 2
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 632,
+      "model": "jev-preview",
+      "source": 32,
+      "batch": 2
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 633,
+      "model": "jev-preview",
+      "source": 33,
+      "batch": 2
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 634,
+      "model": "jev-preview",
+      "source": 34,
+      "batch": 2
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 635,
+      "model": "jev-preview",
+      "source": 235,
+      "batch": 2
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 636,
+      "model": "jev-preview",
+      "source": 36,
+      "batch": 2
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 637,
+      "model": "jev-preview",
+      "source": 37,
+      "batch": 2
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 638,
+      "model": "jev-preview",
+      "source": 38,
+      "batch": 2
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 639,
+      "model": "jev-preview",
+      "source": 39,
+      "batch": 2
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 640,
+      "model": "jev-preview",
+      "source": 240,
+      "batch": 2
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 641,
+      "model": "jev-preview",
+      "source": 41,
+      "batch": 2
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 642,
+      "model": "jev-preview",
+      "source": 42,
+      "batch": 2
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 643,
+      "model": "jev-preview",
+      "source": 43,
+      "batch": 2
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 644,
+      "model": "jev-preview",
+      "source": 44,
+      "batch": 2
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 645,
+      "model": "jev-preview",
+      "source": 45,
+      "batch": 2
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 646,
+      "model": "jev-preview",
+      "source": 46,
+      "batch": 2
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 647,
+      "model": "jev-preview",
+      "source": 47,
+      "batch": 2
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 648,
+      "model": "jev-preview",
+      "source": 48,
+      "batch": 2
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 649,
+      "model": "jev-preview",
+      "source": 249,
+      "batch": 2
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 650,
+      "model": "jev-preview",
+      "source": 50,
+      "batch": 2
+    }
+  ],
+  "batch3": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 701,
+      "model": "jev-preview",
+      "source": 201,
+      "batch": 3
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 702,
+      "model": "jev-preview",
+      "source": 2,
+      "batch": 3
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 703,
+      "model": "jev-preview",
+      "source": 3,
+      "batch": 3
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 704,
+      "model": "jev-preview",
+      "source": 4,
+      "batch": 3
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 705,
+      "model": "jev-preview",
+      "source": 205,
+      "batch": 3
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 706,
+      "model": "jev-preview",
+      "source": 6,
+      "batch": 3
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 707,
+      "model": "jev-preview",
+      "source": 7,
+      "batch": 3
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 708,
+      "model": "jev-preview",
+      "source": 8,
+      "batch": 3
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 709,
+      "model": "jev-preview",
+      "source": 9,
+      "batch": 3
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 710,
+      "model": "jev-preview",
+      "source": 10,
+      "batch": 3
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 711,
+      "model": "jev-preview",
+      "source": 11,
+      "batch": 3
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 712,
+      "model": "jev-preview",
+      "source": 12,
+      "batch": 3
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 713,
+      "model": "jev-preview",
+      "source": 13,
+      "batch": 3
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 714,
+      "model": "jev-preview",
+      "source": 14,
+      "batch": 3
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 715,
+      "model": "jev-preview",
+      "source": 215,
+      "batch": 3
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 716,
+      "model": "jev-preview",
+      "source": 16,
+      "batch": 3
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 717,
+      "model": "jev-preview",
+      "source": 217,
+      "batch": 3
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 718,
+      "model": "jev-preview",
+      "source": 218,
+      "batch": 3
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 719,
+      "model": "jev-preview",
+      "source": 219,
+      "batch": 3
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 720,
+      "model": "jev-preview",
+      "source": 20,
+      "batch": 3
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 721,
+      "model": "jev-preview",
+      "source": 21,
+      "batch": 3
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 722,
+      "model": "jev-preview",
+      "source": 22,
+      "batch": 3
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 723,
+      "model": "jev-preview",
+      "source": 223,
+      "batch": 3
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 724,
+      "model": "jev-preview",
+      "source": 24,
+      "batch": 3
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 725,
+      "model": "jev-preview",
+      "source": 25,
+      "batch": 3
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 726,
+      "model": "jev-preview",
+      "source": 26,
+      "batch": 3
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 727,
+      "model": "jev-preview",
+      "source": 27,
+      "batch": 3
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 728,
+      "model": "jev-preview",
+      "source": 28,
+      "batch": 3
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 729,
+      "model": "jev-preview",
+      "source": 29,
+      "batch": 3
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 730,
+      "model": "jev-preview",
+      "source": 30,
+      "batch": 3
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 731,
+      "model": "jev-preview",
+      "source": 31,
+      "batch": 3
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 732,
+      "model": "jev-preview",
+      "source": 32,
+      "batch": 3
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 733,
+      "model": "jev-preview",
+      "source": 33,
+      "batch": 3
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 734,
+      "model": "jev-preview",
+      "source": 34,
+      "batch": 3
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 735,
+      "model": "jev-preview",
+      "source": 235,
+      "batch": 3
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 736,
+      "model": "jev-preview",
+      "source": 36,
+      "batch": 3
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 737,
+      "model": "jev-preview",
+      "source": 37,
+      "batch": 3
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 738,
+      "model": "jev-preview",
+      "source": 38,
+      "batch": 3
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 739,
+      "model": "jev-preview",
+      "source": 39,
+      "batch": 3
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 740,
+      "model": "jev-preview",
+      "source": 240,
+      "batch": 3
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 741,
+      "model": "jev-preview",
+      "source": 41,
+      "batch": 3
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 742,
+      "model": "jev-preview",
+      "source": 42,
+      "batch": 3
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 743,
+      "model": "jev-preview",
+      "source": 43,
+      "batch": 3
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 744,
+      "model": "jev-preview",
+      "source": 44,
+      "batch": 3
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 745,
+      "model": "jev-preview",
+      "source": 45,
+      "batch": 3
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 746,
+      "model": "jev-preview",
+      "source": 46,
+      "batch": 3
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 747,
+      "model": "jev-preview",
+      "source": 47,
+      "batch": 3
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 748,
+      "model": "jev-preview",
+      "source": 48,
+      "batch": 3
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 749,
+      "model": "jev-preview",
+      "source": 249,
+      "batch": 3
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 750,
+      "model": "jev-preview",
+      "source": 50,
+      "batch": 3
+    }
+  ],
+  "batch4": [
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 801,
+      "model": "jev-preview",
+      "source": 201,
+      "batch": 4
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 802,
+      "model": "jev-preview",
+      "source": 2,
+      "batch": 4
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 803,
+      "model": "jev-preview",
+      "source": 3,
+      "batch": 4
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 804,
+      "model": "jev-preview",
+      "source": 4,
+      "batch": 4
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 805,
+      "model": "jev-preview",
+      "source": 205,
+      "batch": 4
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 806,
+      "model": "jev-preview",
+      "source": 6,
+      "batch": 4
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 807,
+      "model": "jev-preview",
+      "source": 7,
+      "batch": 4
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 808,
+      "model": "jev-preview",
+      "source": 8,
+      "batch": 4
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 809,
+      "model": "jev-preview",
+      "source": 9,
+      "batch": 4
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 810,
+      "model": "jev-preview",
+      "source": 10,
+      "batch": 4
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 811,
+      "model": "jev-preview",
+      "source": 11,
+      "batch": 4
+    },
+    {
+      "mob": "husk",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 812,
+      "model": "jev-preview",
+      "source": 12,
+      "batch": 4
+    },
+    {
+      "mob": "stray",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 813,
+      "model": "jev-preview",
+      "source": 13,
+      "batch": 4
+    },
+    {
+      "mob": "witch",
+      "site": "C",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 814,
+      "model": "jev-preview",
+      "source": 14,
+      "batch": 4
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 815,
+      "model": "jev-preview",
+      "source": 215,
+      "batch": 4
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 816,
+      "model": "jev-preview",
+      "source": 16,
+      "batch": 4
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 817,
+      "model": "jev-preview",
+      "source": 217,
+      "batch": 4
+    },
+    {
+      "mob": "cave_spider",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 818,
+      "model": "jev-preview",
+      "source": 218,
+      "batch": 4
+    },
+    {
+      "mob": "spider",
+      "site": "C",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 819,
+      "model": "jev-preview",
+      "source": 219,
+      "batch": 4
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 820,
+      "model": "jev-preview",
+      "source": 20,
+      "batch": 4
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 821,
+      "model": "jev-preview",
+      "source": 21,
+      "batch": 4
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 822,
+      "model": "jev-preview",
+      "source": 22,
+      "batch": 4
+    },
+    {
+      "mob": "cave_spider",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 823,
+      "model": "jev-preview",
+      "source": 223,
+      "batch": 4
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 824,
+      "model": "jev-preview",
+      "source": 24,
+      "batch": 4
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 825,
+      "model": "jev-preview",
+      "source": 25,
+      "batch": 4
+    },
+    {
+      "mob": "skeleton",
+      "site": "A",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 826,
+      "model": "jev-preview",
+      "source": 26,
+      "batch": 4
+    },
+    {
+      "mob": "vindicator",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 827,
+      "model": "jev-preview",
+      "source": 27,
+      "batch": 4
+    },
+    {
+      "mob": "witch",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 828,
+      "model": "jev-preview",
+      "source": 28,
+      "batch": 4
+    },
+    {
+      "mob": "creeper",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 829,
+      "model": "jev-preview",
+      "source": 29,
+      "batch": 4
+    },
+    {
+      "mob": "skeleton",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 830,
+      "model": "jev-preview",
+      "source": 30,
+      "batch": 4
+    },
+    {
+      "mob": "zombie",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 831,
+      "model": "jev-preview",
+      "source": 31,
+      "batch": 4
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 832,
+      "model": "jev-preview",
+      "source": 32,
+      "batch": 4
+    },
+    {
+      "mob": "vindicator",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 833,
+      "model": "jev-preview",
+      "source": 33,
+      "batch": 4
+    },
+    {
+      "mob": "pillager",
+      "site": "A",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 834,
+      "model": "jev-preview",
+      "source": 34,
+      "batch": 4
+    },
+    {
+      "mob": "cave_spider",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 835,
+      "model": "jev-preview",
+      "source": 235,
+      "batch": 4
+    },
+    {
+      "mob": "pillager",
+      "site": "B",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 836,
+      "model": "jev-preview",
+      "source": 36,
+      "batch": 4
+    },
+    {
+      "mob": "pillager",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 837,
+      "model": "jev-preview",
+      "source": 37,
+      "batch": 4
+    },
+    {
+      "mob": "zombie",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 838,
+      "model": "jev-preview",
+      "source": 38,
+      "batch": 4
+    },
+    {
+      "mob": "husk",
+      "site": "B",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 839,
+      "model": "jev-preview",
+      "source": 39,
+      "batch": 4
+    },
+    {
+      "mob": "spider",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 840,
+      "model": "jev-preview",
+      "source": 240,
+      "batch": 4
+    },
+    {
+      "mob": "zombie",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 841,
+      "model": "jev-preview",
+      "source": 41,
+      "batch": 4
+    },
+    {
+      "mob": "stray",
+      "site": "C",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 842,
+      "model": "jev-preview",
+      "source": 42,
+      "batch": 4
+    },
+    {
+      "mob": "stray",
+      "site": "A",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 843,
+      "model": "jev-preview",
+      "source": 43,
+      "batch": 4
+    },
+    {
+      "mob": "creeper",
+      "site": "B",
+      "repeat": 5,
+      "scored": true,
+      "trial_id": 844,
+      "model": "jev-preview",
+      "source": 44,
+      "batch": 4
+    },
+    {
+      "mob": "creeper",
+      "site": "A",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 845,
+      "model": "jev-preview",
+      "source": 45,
+      "batch": 4
+    },
+    {
+      "mob": "skeleton",
+      "site": "C",
+      "repeat": 4,
+      "scored": true,
+      "trial_id": 846,
+      "model": "jev-preview",
+      "source": 46,
+      "batch": 4
+    },
+    {
+      "mob": "husk",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 847,
+      "model": "jev-preview",
+      "source": 47,
+      "batch": 4
+    },
+    {
+      "mob": "vindicator",
+      "site": "B",
+      "repeat": 2,
+      "scored": true,
+      "trial_id": 848,
+      "model": "jev-preview",
+      "source": 48,
+      "batch": 4
+    },
+    {
+      "mob": "spider",
+      "site": "B",
+      "repeat": 1,
+      "scored": true,
+      "trial_id": 849,
+      "model": "jev-preview",
+      "source": 249,
+      "batch": 4
+    },
+    {
+      "mob": "witch",
+      "site": "A",
+      "repeat": 3,
+      "scored": true,
+      "trial_id": 850,
+      "model": "jev-preview",
+      "source": 50,
+      "batch": 4
+    }
+  ]
+}

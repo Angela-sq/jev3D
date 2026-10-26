@@ -1,0 +1,20 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792775904328890708}
+{"kind": "observation", "capture_start_ns": 1792775904629350028, "capture_end_ns": 1792775904668001659, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0000.png", "sha256": "2edd21a64f9e49c784f64a619bf0adf2de58e89107ec896b12c5d86476863e33"}
+{"kind": "observation", "capture_start_ns": 1792775909242690461, "capture_end_ns": 1792775909280187360, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0001.png", "sha256": "f24b4155e4dff895480f9028731cd556d363f17e623c8154ef2c6c6108688bf4"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792775909482233495, "end_ns": 1792775910216573827}
+{"kind": "observation", "capture_start_ns": 1792775910216803840, "capture_end_ns": 1792775910254398502, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0002.png", "sha256": "800554117f97dedf8e74d65bcaf58eb0b805b670828692d2ee6584c1643048c3"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792775910512435143, "end_ns": 1792775911137808880}
+{"kind": "observation", "capture_start_ns": 1792775911137988599, "capture_end_ns": 1792775911180086569, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0003.png", "sha256": "15020dd3688cc15462a4a3c8ed6505df780accc3a760d9cb95094ea618bb2a77"}
+{"kind": "action", "action": "charge", "primitives": [{"keys": ["w"], "ms": 250}, {"buttons": [1], "ms": 80}], "start_ns": 1792775911412639486, "end_ns": 1792775912094500128}
+{"kind": "observation", "capture_start_ns": 1792775912095049536, "capture_end_ns": 1792775912134462695, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0004.png", "sha256": "0dd61d7dc9949fb949f289ec9cc14091c67169262696cf49b9349fe9b623464a"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792775912559725694, "end_ns": 1792775912871978615}
+{"kind": "observation", "capture_start_ns": 1792775912872168418, "capture_end_ns": 1792775912910758694, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0005.png", "sha256": "d3a3ab3793a4be5969231114791d17671ad8ee3063c591e6cd0adc0e9abc4bb0"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792775913160727746, "end_ns": 1792775913456876806}
+{"kind": "observation", "capture_start_ns": 1792775913457057734, "capture_end_ns": 1792775913494818298, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0006.png", "sha256": "14ba6c1ec80770aba5da554b11ff0bb3432506e9eaf6db26de0c244dec869161"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792775913677801256, "end_ns": 1792775913976495933}
+{"kind": "observation", "capture_start_ns": 1792775913976690821, "capture_end_ns": 1792775914014009763, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0007.png", "sha256": "7b3d756deb7dbf2f44e72d24fd34ccb162c41ce280eaa5deda9171e034065c3f"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792775914199057649, "end_ns": 1792775914506406488}
+{"kind": "observation", "capture_start_ns": 1792775914506599667, "capture_end_ns": 1792775914544186681, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0008.png", "sha256": "e7a623f010583c211929672a0396f836cca77db877293df639ff8a63dd50d278"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792775914801516202, "end_ns": 1792775915434833896}
+{"kind": "observation", "capture_start_ns": 1792775915435039369, "capture_end_ns": 1792775915464349289, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-647/obs-0009.png", "sha256": "a67a2cef78e4e28137c10a540a3305c2f6e1357017ca25902d0190079a12159a"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792775915742415945, "end_ns": 1792775916036194731}

@@ -1,0 +1,10 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792742533883733940}
+{"kind": "observation", "capture_start_ns": 1792742534184132734, "capture_end_ns": 1792742534222150088, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-545/obs-0000.png", "sha256": "309faba38f5b8977b59478cfcff84f04977e309188f660eb7f2ea3657639cf9f"}
+{"kind": "observation", "capture_start_ns": 1792742538778329293, "capture_end_ns": 1792742538819722263, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-545/obs-0001.png", "sha256": "f0f96f7e1087d637d1013b3f93c49507343d7c9bd74d9692bf8f1c72eadd39ec"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792742539026235278, "end_ns": 1792742539654734674}
+{"kind": "observation", "capture_start_ns": 1792742539654955465, "capture_end_ns": 1792742539696165684, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-545/obs-0002.png", "sha256": "308f5a23fee1d0909c09570dab4cbd857b8f42063f5c9e5719933f5bb77f0dca"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792742539955967853, "end_ns": 1792742540677390697}
+{"kind": "observation", "capture_start_ns": 1792742540677586780, "capture_end_ns": 1792742540709788765, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-545/obs-0003.png", "sha256": "1f6ddaf6cdd7d504bc16e474c27ebbbeebf017f4e1c0d4f19fd9f5e82d38f542"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792742540978390455, "end_ns": 1792742541701472491}
+{"kind": "observation", "capture_start_ns": 1792742541701676949, "capture_end_ns": 1792742541737738384, "path": "/home/angelaliu.guest/minecraft-lab/jev-data/trial-545/obs-0004.png", "sha256": "75cc89ece1aa897dd8cdd05b87f64ebec6b2bf4bff8f43dc563a4cf09b87f220"}
+{"kind": "action", "action": "back", "primitives": [{"keys": ["s"], "ms": 400}], "start_ns": 1792742542006017486, "end_ns": 1792742542624691948}

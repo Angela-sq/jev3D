@@ -1,0 +1,20 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1792776839963594078}
+{"kind": "observation", "capture_start_ns": 1792776840263980973, "capture_end_ns": 1792776840310879830, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0000.png", "sha256": "ef2b1991369d2d2ba12a851c19cc8a856892ef8ec3ae52e487d7188eded6c452"}
+{"kind": "observation", "capture_start_ns": 1792776844899812169, "capture_end_ns": 1792776844942639320, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0001.png", "sha256": "407a6267c893829060a307ce895bb241c2539545a54adfc5a8fb7e7f7b38a0ea"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792776845694236948, "end_ns": 1792776846418769871}
+{"kind": "observation", "capture_start_ns": 1792776846418988801, "capture_end_ns": 1792776846452056891, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0002.png", "sha256": "8b00801987f79cb47337da2547f2c036aa82733c65df100e53ccbcce0b259fd5"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792776846624634458, "end_ns": 1792776847264975013}
+{"kind": "observation", "capture_start_ns": 1792776847265178276, "capture_end_ns": 1792776847294132445, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0003.png", "sha256": "6cf8c06fe94c98379796394109b474c9c57544b8c54379f8fc09aa9cdbdcf291"}
+{"kind": "action", "action": "forward", "primitives": [{"keys": ["w"], "ms": 400}], "start_ns": 1792776847457529740, "end_ns": 1792776848084957506}
+{"kind": "observation", "capture_start_ns": 1792776848085128641, "capture_end_ns": 1792776848112163318, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0004.png", "sha256": "c66dfe954dd2eeac57291dbe193ff7cd64c2ab26430ea9c230c29ca8ad50aed0"}
+{"kind": "action", "action": "shield", "primitives": [{"buttons": [3], "ms": 500}], "start_ns": 1792776848313534096, "end_ns": 1792776849040383042}
+{"kind": "observation", "capture_start_ns": 1792776849040567678, "capture_end_ns": 1792776849065418761, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0005.png", "sha256": "690d61a68f6d147b98da3d38a83bb32c9226110dd001a7582adf8b031be0d4e2"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792776849273870609, "end_ns": 1792776849487428898}
+{"kind": "observation", "capture_start_ns": 1792776849487618576, "capture_end_ns": 1792776849523447174, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0006.png", "sha256": "e1148b2953bf75ca4bb2142a62d0c6c7a6134765bf7ac2579c18523837ff5606"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792776849680561337, "end_ns": 1792776849985757602}
+{"kind": "observation", "capture_start_ns": 1792776849985967074, "capture_end_ns": 1792776850016438547, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0007.png", "sha256": "17bd6177f376920ef3efa97fd644d85c148a7e77d6dddbca2d21c4502cdf39f3"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792776850164998725, "end_ns": 1792776850464638320}
+{"kind": "observation", "capture_start_ns": 1792776850464858292, "capture_end_ns": 1792776850514183061, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0008.png", "sha256": "cb23fc0d57e0c1c8197784cc7e18980807bf98b343dafc62284027560457432e"}
+{"kind": "action", "action": "attack", "primitives": [{"buttons": [1], "ms": 80}], "start_ns": 1792776850686202487, "end_ns": 1792776850990462243}
+{"kind": "observation", "capture_start_ns": 1792776850990640963, "capture_end_ns": 1792776851033398700, "path": "/home/angelaliu.guest/minecraft-lab/jev-data-v2/trial-721/obs-0009.png", "sha256": "56ea6a2393441a0e30c31478001d88676d3d62a7fee90deff5cf9106d19e43e6"}
+{"kind": "action", "action": "turn_right", "primitives": [{"dx": 100}], "start_ns": 1792776851332587191, "end_ns": 1792776851561508278}

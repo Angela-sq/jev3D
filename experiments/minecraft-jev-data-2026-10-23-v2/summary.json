@@ -1,0 +1,185 @@
+{
+  "input_tokens": 14156452,
+  "cost_usd": 0.5946,
+  "by_group": {
+    "pilot": {
+      "fights": 5,
+      "outcomes": {
+        "win": 3,
+        "death": 1,
+        "timeout": 1
+      },
+      "wins": 3,
+      "fights_with_damage_dealt": 3,
+      "steps": 171
+    },
+    "batch": {
+      "fights": 50,
+      "outcomes": {
+        "death": 34,
+        "target_lost": 6,
+        "win": 8,
+        "timeout": 2
+      },
+      "wins": 8,
+      "fights_with_damage_dealt": 20,
+      "steps": 1706
+    },
+    "batch2": {
+      "fights": 50,
+      "outcomes": {
+        "death": 35,
+        "target_lost": 3,
+        "win": 9,
+        "timeout": 3
+      },
+      "wins": 9,
+      "fights_with_damage_dealt": 19,
+      "steps": 1833
+    },
+    "batch3": {
+      "fights": 50,
+      "outcomes": {
+        "death": 31,
+        "timeout": 7,
+        "target_lost": 4,
+        "win": 8
+      },
+      "wins": 8,
+      "fights_with_damage_dealt": 21,
+      "steps": 2285
+    },
+    "batch4": {
+      "fights": 50,
+      "outcomes": {
+        "death": 33,
+        "target_lost": 6,
+        "win": 7,
+        "timeout": 4
+      },
+      "wins": 7,
+      "fights_with_damage_dealt": 21,
+      "steps": 2086
+    }
+  },
+  "batches_all": {
+    "fights": 200,
+    "outcomes": {
+      "death": 133,
+      "target_lost": 19,
+      "win": 32,
+      "timeout": 16
+    },
+    "wins": 32,
+    "fights_with_damage_dealt": 81,
+    "steps": 7910
+  },
+  "batches_by_mob": {
+    "cave_spider": {
+      "fights": 20,
+      "outcomes": {
+        "death": 18,
+        "timeout": 2
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 0,
+      "steps": 794
+    },
+    "creeper": {
+      "fights": 20,
+      "outcomes": {
+        "target_lost": 14,
+        "death": 5,
+        "timeout": 1
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 13,
+      "steps": 230
+    },
+    "husk": {
+      "fights": 20,
+      "outcomes": {
+        "win": 11,
+        "death": 5,
+        "timeout": 4
+      },
+      "wins": 11,
+      "fights_with_damage_dealt": 16,
+      "steps": 918
+    },
+    "pillager": {
+      "fights": 20,
+      "outcomes": {
+        "death": 19,
+        "timeout": 1
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 9,
+      "steps": 1215
+    },
+    "skeleton": {
+      "fights": 20,
+      "outcomes": {
+        "death": 18,
+        "timeout": 2
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 0,
+      "steps": 1270
+    },
+    "spider": {
+      "fights": 20,
+      "outcomes": {
+        "win": 4,
+        "timeout": 2,
+        "target_lost": 5,
+        "death": 9
+      },
+      "wins": 4,
+      "fights_with_damage_dealt": 9,
+      "steps": 939
+    },
+    "stray": {
+      "fights": 20,
+      "outcomes": {
+        "death": 19,
+        "timeout": 1
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 2,
+      "steps": 1183
+    },
+    "vindicator": {
+      "fights": 20,
+      "outcomes": {
+        "death": 16,
+        "win": 3,
+        "timeout": 1
+      },
+      "wins": 3,
+      "fights_with_damage_dealt": 10,
+      "steps": 288
+    },
+    "witch": {
+      "fights": 20,
+      "outcomes": {
+        "death": 19,
+        "timeout": 1
+      },
+      "wins": 0,
+      "fights_with_damage_dealt": 4,
+      "steps": 623
+    },
+    "zombie": {
+      "fights": 20,
+      "outcomes": {
+        "death": 5,
+        "win": 14,
+        "timeout": 1
+      },
+      "wins": 14,
+      "fights_with_damage_dealt": 18,
+      "steps": 450
+    }
+  }
+}

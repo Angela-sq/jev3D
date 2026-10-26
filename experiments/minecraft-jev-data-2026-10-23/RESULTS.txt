@@ -1,0 +1,34 @@
+Jev data run — 2026-10-23 (00:16–02:47)
+
+Superseded by ../minecraft-jev-data-2026-10-23-v2 (same run at 60 FPS, no CPU limits, 0 technical failures).
+
+Jev (jev-preview = jev-1.14.0) chose every action from screenshots in the standard PvE fights.
+205 fights: 5 zombie pilot + the 50 standard fights 4 times. 7,890 steps recorded.
+Cost: 13.8M input tokens = $0.58. Jev errors: 0. Median Jev reply 0.28 s; median 1.18 decisions per second.
+
+Wins (technical failures excluded; Wilson 95%)
+  pilot (zombie, sampled)     2/5   [12–77%]
+  batch  (sampled)            4/48  [3–20%]   (506, 507 technical; see below)
+  batch2 (sampled)            6/50  [6–24%]
+  batch3 (sampled)            7/50  [7–26%]
+  batch4 (top choice)         8/50  [8–29%]
+  For comparison, Fable 5.1 on the same 50 fights won 0/50.
+
+Wins by mob (all 4 batches; top-choice batch in brackets)
+  zombie 10/20 (3/5), husk 8/20 (3/5), vindicator 4/19 (1/5), spider 3/20 (1/5),
+  cave_spider, stray, pillager, creeper, witch, skeleton: 0/20 each (stray 0/19).
+  Jev never damaged a cave spider and damaged a skeleton once.
+
+Outcomes, all 205: 137 deaths, 27 wins, 20 timeouts, 19 target_lost (mostly creepers exploding), 2 technical.
+Every non-technical fight has exactly one evaluator end event that matches results.csv.
+
+Problems and changes during the run
+- 506 and 507 technical: the VM process was moved to low-power cores to cut heat, the game ran slower
+  than real time, and the fights never ended within 125 s. Reverted; the fights were not rerun.
+- From fight 510 on, the game was capped at 30 FPS (was 60) to reduce heat. Game time stayed equal to wall time.
+- Chat hidden on screen (chatScale 0) from batch 1 on. Both settings were restored (chatScale 1, maxFps 60) after the run.
+- Render distance was 16 for all fights (graphics preset "fancy" overrides the option). The Fable
+  benchmark ran at 16 too, although its PROTOCOL.md says 4.
+
+Not a pre-registered benchmark: the action rules were written after looking at 3 screenshots, and
+the comparison with Fable differs in decision speed, action set, and chat visibility.

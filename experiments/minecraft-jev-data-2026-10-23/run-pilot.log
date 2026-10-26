@@ -1,0 +1,28 @@
+00:17:28 401 zombie A death {"steps": 25, "input_tokens": 43794, "jev_errors": 0}  24s
+00:19:07 402 zombie B timeout {"steps": 165, "input_tokens": 289057, "jev_errors": 0}  96s
+00:20:00 403 zombie C death {"steps": 59, "input_tokens": 103329, "jev_errors": 0}  49s
+00:20:15 404 zombie A win {"steps": 8, "input_tokens": 14000, "jev_errors": 0}  12s
+00:20:51 405 zombie B win {"steps": 46, "input_tokens": 80582, "jev_errors": 0}  33s
+{
+ "input_tokens": 530762,
+ "cost_usd": 0.0223,
+ "pilot": {
+  "fights": 5,
+  "outcomes": {
+   "death": 2,
+   "timeout": 1,
+   "win": 2
+  },
+  "wins": 2,
+  "fights_with_damage_dealt": 5,
+  "steps": 303
+ },
+ "batch": {
+  "fights": 0,
+  "outcomes": {},
+  "wins": 0,
+  "fights_with_damage_dealt": 0,
+  "steps": 0
+ },
+ "batch_by_mob": {}
+}

@@ -1,0 +1,142 @@
+{
+  "model": null,
+  "harness": "v7",
+  "policy": "random",
+  "source": 11,
+  "started_ns": 1793003284877608756,
+  "input_tokens": 0,
+  "steps": 93,
+  "asked": 0,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793003304058458078,
+  "clicks": 21,
+  "click_log": [
+    {
+      "ticks": 46,
+      "reach": 2.9,
+      "yaw_err": 0.2,
+      "pitch_err": -6.5
+    },
+    {
+      "ticks": 60,
+      "reach": 1.48,
+      "yaw_err": -6.0,
+      "pitch_err": 0.4
+    },
+    {
+      "ticks": 80,
+      "reach": 2.76,
+      "yaw_err": 4.2,
+      "pitch_err": 3.8
+    },
+    {
+      "ticks": 96,
+      "reach": 1.94,
+      "yaw_err": -1.5,
+      "pitch_err": 0.8
+    },
+    {
+      "ticks": 124,
+      "reach": 2.77,
+      "yaw_err": 4.2,
+      "pitch_err": 13.4
+    },
+    {
+      "ticks": 137,
+      "reach": 2.18,
+      "yaw_err": -0.9,
+      "pitch_err": 7.9
+    },
+    {
+      "ticks": 151,
+      "reach": 1.72,
+      "yaw_err": -5.4,
+      "pitch_err": -3.3
+    },
+    {
+      "ticks": 177,
+      "reach": 2.49,
+      "yaw_err": 2.2,
+      "pitch_err": -2.5
+    },
+    {
+      "ticks": 189,
+      "reach": 1.66,
+      "yaw_err": 0.6,
+      "pitch_err": 2.9
+    },
+    {
+      "ticks": 211,
+      "reach": 2.88,
+      "yaw_err": 4.4,
+      "pitch_err": 12.2
+    },
+    {
+      "ticks": 222,
+      "reach": 2.41,
+      "yaw_err": 1.6,
+      "pitch_err": 4.3
+    },
+    {
+      "ticks": 238,
+      "reach": 2.46,
+      "yaw_err": 0.6,
+      "pitch_err": 9.3
+    },
+    {
+      "ticks": 251,
+      "reach": 2.26,
+      "yaw_err": -5.6,
+      "pitch_err": 3.3
+    },
+    {
+      "ticks": 268,
+      "reach": 1.85,
+      "yaw_err": -4.9,
+      "pitch_err": 8.3
+    },
+    {
+      "ticks": 280,
+      "reach": 1.72,
+      "yaw_err": -1.4,
+      "pitch_err": -5.5
+    },
+    {
+      "ticks": 296,
+      "reach": 2.79,
+      "yaw_err": -0.7,
+      "pitch_err": 1.7
+    },
+    {
+      "ticks": 309,
+      "reach": 0.63,
+      "yaw_err": -3.2,
+      "pitch_err": -11.0
+    },
+    {
+      "ticks": 322,
+      "reach": 2.53,
+      "yaw_err": -3.6,
+      "pitch_err": 10.2
+    },
+    {
+      "ticks": 335,
+      "reach": 2.59,
+      "yaw_err": 5.1,
+      "pitch_err": 12.4
+    },
+    {
+      "ticks": 357,
+      "reach": 2.62,
+      "yaw_err": -0.3,
+      "pitch_err": -5.3
+    },
+    {
+      "ticks": 370,
+      "reach": 2.46,
+      "yaw_err": -0.3,
+      "pitch_err": 15.9
+    }
+  ]
+}

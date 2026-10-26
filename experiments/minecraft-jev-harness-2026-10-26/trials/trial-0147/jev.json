@@ -1,0 +1,28 @@
+{
+  "model": "jev-preview",
+  "harness": "v1",
+  "policy": "jev top choice",
+  "source": 25,
+  "started_ns": 1793002299534936441,
+  "input_tokens": 110221,
+  "steps": 192,
+  "asked": 192,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793002338934921650,
+  "clicks": 2,
+  "click_log": [
+    {
+      "ticks": 28,
+      "reach": 2.09,
+      "yaw_err": -0.5,
+      "pitch_err": -2.9
+    },
+    {
+      "ticks": 52,
+      "reach": 2.28,
+      "yaw_err": -0.1,
+      "pitch_err": -1.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "model": "jev-preview",
+  "harness": "v1",
+  "policy": "jev top choice",
+  "source": 41,
+  "started_ns": 1793002858343141432,
+  "input_tokens": 17092,
+  "steps": 30,
+  "asked": 30,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793002864991903577,
+  "clicks": 5,
+  "click_log": [
+    {
+      "ticks": 60,
+      "reach": 2.34,
+      "yaw_err": 0.0,
+      "pitch_err": -5.4
+    },
+    {
+      "ticks": 80,
+      "reach": 2.66,
+      "yaw_err": 0.0,
+      "pitch_err": -7.5
+    },
+    {
+      "ticks": 94,
+      "reach": 1.2,
+      "yaw_err": 0.0,
+      "pitch_err": 19.8
+    },
+    {
+      "ticks": 106,
+      "reach": 2.54,
+      "yaw_err": 0.0,
+      "pitch_err": 9.1
+    },
+    {
+      "ticks": 120,
+      "reach": 2.55,
+      "yaw_err": 0.0,
+      "pitch_err": 22.1
+    }
+  ]
+}

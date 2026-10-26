@@ -1,0 +1,124 @@
+{
+  "model": "jev-preview",
+  "harness": "v7",
+  "policy": "jev top choice",
+  "source": 235,
+  "started_ns": 1793001355018916703,
+  "input_tokens": 53354,
+  "steps": 90,
+  "asked": 90,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793001373833872498,
+  "clicks": 18,
+  "click_log": [
+    {
+      "ticks": 103,
+      "reach": 2.81,
+      "yaw_err": -9.1,
+      "pitch_err": -0.2
+    },
+    {
+      "ticks": 118,
+      "reach": 1.07,
+      "yaw_err": -1.4,
+      "pitch_err": -9.1
+    },
+    {
+      "ticks": 131,
+      "reach": 1.89,
+      "yaw_err": 0.7,
+      "pitch_err": -4.9
+    },
+    {
+      "ticks": 145,
+      "reach": 1.43,
+      "yaw_err": 0.3,
+      "pitch_err": 5.3
+    },
+    {
+      "ticks": 160,
+      "reach": 1.65,
+      "yaw_err": -16.8,
+      "pitch_err": 11.4
+    },
+    {
+      "ticks": 173,
+      "reach": 1.58,
+      "yaw_err": 7.4,
+      "pitch_err": 3.7
+    },
+    {
+      "ticks": 193,
+      "reach": 1.32,
+      "yaw_err": 7.9,
+      "pitch_err": -3.3
+    },
+    {
+      "ticks": 208,
+      "reach": 0.81,
+      "yaw_err": -6.6,
+      "pitch_err": -6.3
+    },
+    {
+      "ticks": 223,
+      "reach": 2.45,
+      "yaw_err": 1.6,
+      "pitch_err": 12.3
+    },
+    {
+      "ticks": 236,
+      "reach": 2.37,
+      "yaw_err": -34.1,
+      "pitch_err": 4.4
+    },
+    {
+      "ticks": 249,
+      "reach": 2.67,
+      "yaw_err": -3.1,
+      "pitch_err": 2.4
+    },
+    {
+      "ticks": 263,
+      "reach": 2.43,
+      "yaw_err": 7.8,
+      "pitch_err": 10.7
+    },
+    {
+      "ticks": 278,
+      "reach": 2.4,
+      "yaw_err": -1.0,
+      "pitch_err": -3.3
+    },
+    {
+      "ticks": 291,
+      "reach": 2.36,
+      "yaw_err": -4.2,
+      "pitch_err": -0.2
+    },
+    {
+      "ticks": 304,
+      "reach": 1.29,
+      "yaw_err": 1.1,
+      "pitch_err": -8.5
+    },
+    {
+      "ticks": 320,
+      "reach": 1.36,
+      "yaw_err": -2.9,
+      "pitch_err": -4.3
+    },
+    {
+      "ticks": 348,
+      "reach": 2.3,
+      "yaw_err": 6.2,
+      "pitch_err": 3.7
+    },
+    {
+      "ticks": 363,
+      "reach": 2.45,
+      "yaw_err": 9.1,
+      "pitch_err": -4.4
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+{"kind": "input_initialization", "description": "Consume first mouse event after chat closes; not an actor decision", "dx": 1, "dy": 0, "time_ns": 1793002975832444536}
+{"kind": "observation", "capture_start_ns": 1793002976132828700, "capture_end_ns": 1793002976172331337, "path": "/home/angelaliu.guest/minecraft-lab/jev-harness/trial-0167/obs-0000.png", "sha256": "7dd804aa652eb0341ab89339738dcbb3bbde6b7b3a75546893fcd6564e65c3b4"}

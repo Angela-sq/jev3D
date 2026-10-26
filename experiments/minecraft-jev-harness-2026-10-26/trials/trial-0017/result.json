@@ -1,0 +1,16 @@
+{
+  "trial_id": 17,
+  "outcome": "target_lost",
+  "ticks": 63,
+  "game_seconds": 3.15,
+  "health_remaining": 2.59,
+  "health_readback": 2.59,
+  "kills": 0,
+  "damage_taken_stat": 174,
+  "damage_dealt_stat": 0,
+  "escaped": 0,
+  "intruders": 0,
+  "event": "[00:19:18] [Render thread/INFO]: [System] [CHAT] PVE_END|17|5|63|259|0|174|0|0|0",
+  "start_observed_wall_ns": 1792999155904686315,
+  "end_observed_wall_ns": 1792999159029739065
+}

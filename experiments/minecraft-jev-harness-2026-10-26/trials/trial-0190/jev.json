@@ -1,0 +1,28 @@
+{
+  "model": null,
+  "harness": "v7",
+  "policy": "random",
+  "source": 218,
+  "started_ns": 1793003445980967783,
+  "input_tokens": 0,
+  "steps": 16,
+  "asked": 0,
+  "jev_errors": 0,
+  "fatal": null,
+  "ended_ns": 1793003449823690248,
+  "clicks": 2,
+  "click_log": [
+    {
+      "ticks": 45,
+      "reach": 1.58,
+      "yaw_err": 1.0,
+      "pitch_err": 4.1
+    },
+    {
+      "ticks": 62,
+      "reach": 2.69,
+      "yaw_err": -0.2,
+      "pitch_err": 1.0
+    }
+  ]
+}

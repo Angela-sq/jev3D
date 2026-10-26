@@ -1,0 +1,1862 @@
+[
+ {
+  "name": "v1-smoke",
+  "harness": "v1",
+  "set": "smoke",
+  "trials": [
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 1
+   }
+  ]
+ },
+ {
+  "name": "v1-smoke2",
+  "harness": "v1",
+  "set": "smoke",
+  "trials": [
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 2
+   }
+  ]
+ },
+ {
+  "name": "v1-dev",
+  "harness": "v1",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 3
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 4
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 5
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 6
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 7
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 8
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 9
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 10
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 11
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 12
+   }
+  ]
+ },
+ {
+  "name": "v2-dev",
+  "harness": "v2",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 13
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 14
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 15
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 16
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 17
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 18
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 19
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 20
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 21
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 22
+   }
+  ]
+ },
+ {
+  "name": "v3-dev",
+  "harness": "v3",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 23
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 24
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 25
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 26
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 27
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 28
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 29
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 30
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 31
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 32
+   }
+  ]
+ },
+ {
+  "name": "v4-dev",
+  "harness": "v4",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 33
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 34
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 35
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 36
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 37
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 38
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 39
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 40
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 41
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 42
+   }
+  ]
+ },
+ {
+  "name": "v5-dev",
+  "harness": "v5",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 43
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 44
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 45
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 46
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 47
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 48
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 49
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 50
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 51
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 52
+   }
+  ]
+ },
+ {
+  "name": "v6-dev",
+  "harness": "v6",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 53
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 54
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 55
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 56
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 57
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 58
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 59
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 60
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 61
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 62
+   }
+  ]
+ },
+ {
+  "name": "v7-dev",
+  "harness": "v7",
+  "set": "dev",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 63
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 64
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 65
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 66
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 67
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 68
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 69
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 70
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 71
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 72
+   }
+  ]
+ },
+ {
+  "name": "v7-eval",
+  "harness": "v7",
+  "set": "eval",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 73
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 74
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 75
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 76
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 77
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 78
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 5,
+    "source": 7,
+    "standard_trial": 7,
+    "trial_id": 79
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 80
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 81
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 82
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 2,
+    "source": 11,
+    "standard_trial": 11,
+    "trial_id": 83
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 5,
+    "source": 12,
+    "standard_trial": 12,
+    "trial_id": 84
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 2,
+    "source": 13,
+    "standard_trial": 13,
+    "trial_id": 85
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 5,
+    "source": 14,
+    "standard_trial": 14,
+    "trial_id": 86
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 1,
+    "source": 215,
+    "standard_trial": 15,
+    "trial_id": 87
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 88
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 4,
+    "source": 217,
+    "standard_trial": 17,
+    "trial_id": 89
+   },
+   {
+    "mob": "cave_spider",
+    "site": "B",
+    "repeat": 3,
+    "source": 218,
+    "standard_trial": 18,
+    "trial_id": 90
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 2,
+    "source": 219,
+    "standard_trial": 19,
+    "trial_id": 91
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 4,
+    "source": 20,
+    "standard_trial": 20,
+    "trial_id": 92
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 5,
+    "source": 21,
+    "standard_trial": 21,
+    "trial_id": 93
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 1,
+    "source": 22,
+    "standard_trial": 22,
+    "trial_id": 94
+   },
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 5,
+    "source": 223,
+    "standard_trial": 23,
+    "trial_id": 95
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 1,
+    "source": 24,
+    "standard_trial": 24,
+    "trial_id": 96
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 5,
+    "source": 25,
+    "standard_trial": 25,
+    "trial_id": 97
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 5,
+    "source": 26,
+    "standard_trial": 26,
+    "trial_id": 98
+   },
+   {
+    "mob": "vindicator",
+    "site": "C",
+    "repeat": 3,
+    "source": 27,
+    "standard_trial": 27,
+    "trial_id": 99
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 4,
+    "source": 28,
+    "standard_trial": 28,
+    "trial_id": 100
+   },
+   {
+    "mob": "creeper",
+    "site": "C",
+    "repeat": 3,
+    "source": 29,
+    "standard_trial": 29,
+    "trial_id": 101
+   },
+   {
+    "mob": "skeleton",
+    "site": "B",
+    "repeat": 3,
+    "source": 30,
+    "standard_trial": 30,
+    "trial_id": 102
+   },
+   {
+    "mob": "zombie",
+    "site": "C",
+    "repeat": 3,
+    "source": 31,
+    "standard_trial": 31,
+    "trial_id": 103
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 5,
+    "source": 32,
+    "standard_trial": 32,
+    "trial_id": 104
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 4,
+    "source": 33,
+    "standard_trial": 33,
+    "trial_id": 105
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 2,
+    "source": 34,
+    "standard_trial": 34,
+    "trial_id": 106
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 4,
+    "source": 235,
+    "standard_trial": 35,
+    "trial_id": 107
+   },
+   {
+    "mob": "pillager",
+    "site": "B",
+    "repeat": 3,
+    "source": 36,
+    "standard_trial": 36,
+    "trial_id": 108
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 4,
+    "source": 37,
+    "standard_trial": 37,
+    "trial_id": 109
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 1,
+    "source": 38,
+    "standard_trial": 38,
+    "trial_id": 110
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 4,
+    "source": 39,
+    "standard_trial": 39,
+    "trial_id": 111
+   },
+   {
+    "mob": "spider",
+    "site": "A",
+    "repeat": 3,
+    "source": 240,
+    "standard_trial": 40,
+    "trial_id": 112
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 2,
+    "source": 41,
+    "standard_trial": 41,
+    "trial_id": 113
+   },
+   {
+    "mob": "stray",
+    "site": "C",
+    "repeat": 3,
+    "source": 42,
+    "standard_trial": 42,
+    "trial_id": 114
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 4,
+    "source": 43,
+    "standard_trial": 43,
+    "trial_id": 115
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 5,
+    "source": 44,
+    "standard_trial": 44,
+    "trial_id": 116
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 1,
+    "source": 45,
+    "standard_trial": 45,
+    "trial_id": 117
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 4,
+    "source": 46,
+    "standard_trial": 46,
+    "trial_id": 118
+   },
+   {
+    "mob": "husk",
+    "site": "A",
+    "repeat": 3,
+    "source": 47,
+    "standard_trial": 47,
+    "trial_id": 119
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 2,
+    "source": 48,
+    "standard_trial": 48,
+    "trial_id": 120
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 1,
+    "source": 249,
+    "standard_trial": 49,
+    "trial_id": 121
+   },
+   {
+    "mob": "witch",
+    "site": "A",
+    "repeat": 3,
+    "source": 50,
+    "standard_trial": 50,
+    "trial_id": 122
+   }
+  ]
+ },
+ {
+  "name": "v1-eval",
+  "harness": "v1",
+  "set": "eval",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 123
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 124
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 125
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 126
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 127
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 128
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 5,
+    "source": 7,
+    "standard_trial": 7,
+    "trial_id": 129
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 130
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 131
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 132
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 2,
+    "source": 11,
+    "standard_trial": 11,
+    "trial_id": 133
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 5,
+    "source": 12,
+    "standard_trial": 12,
+    "trial_id": 134
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 2,
+    "source": 13,
+    "standard_trial": 13,
+    "trial_id": 135
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 5,
+    "source": 14,
+    "standard_trial": 14,
+    "trial_id": 136
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 1,
+    "source": 215,
+    "standard_trial": 15,
+    "trial_id": 137
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 138
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 4,
+    "source": 217,
+    "standard_trial": 17,
+    "trial_id": 139
+   },
+   {
+    "mob": "cave_spider",
+    "site": "B",
+    "repeat": 3,
+    "source": 218,
+    "standard_trial": 18,
+    "trial_id": 140
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 2,
+    "source": 219,
+    "standard_trial": 19,
+    "trial_id": 141
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 4,
+    "source": 20,
+    "standard_trial": 20,
+    "trial_id": 142
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 5,
+    "source": 21,
+    "standard_trial": 21,
+    "trial_id": 143
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 1,
+    "source": 22,
+    "standard_trial": 22,
+    "trial_id": 144
+   },
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 5,
+    "source": 223,
+    "standard_trial": 23,
+    "trial_id": 145
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 1,
+    "source": 24,
+    "standard_trial": 24,
+    "trial_id": 146
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 5,
+    "source": 25,
+    "standard_trial": 25,
+    "trial_id": 147
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 5,
+    "source": 26,
+    "standard_trial": 26,
+    "trial_id": 148
+   },
+   {
+    "mob": "vindicator",
+    "site": "C",
+    "repeat": 3,
+    "source": 27,
+    "standard_trial": 27,
+    "trial_id": 149
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 4,
+    "source": 28,
+    "standard_trial": 28,
+    "trial_id": 150
+   },
+   {
+    "mob": "creeper",
+    "site": "C",
+    "repeat": 3,
+    "source": 29,
+    "standard_trial": 29,
+    "trial_id": 151
+   },
+   {
+    "mob": "skeleton",
+    "site": "B",
+    "repeat": 3,
+    "source": 30,
+    "standard_trial": 30,
+    "trial_id": 152
+   },
+   {
+    "mob": "zombie",
+    "site": "C",
+    "repeat": 3,
+    "source": 31,
+    "standard_trial": 31,
+    "trial_id": 153
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 5,
+    "source": 32,
+    "standard_trial": 32,
+    "trial_id": 154
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 4,
+    "source": 33,
+    "standard_trial": 33,
+    "trial_id": 155
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 2,
+    "source": 34,
+    "standard_trial": 34,
+    "trial_id": 156
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 4,
+    "source": 235,
+    "standard_trial": 35,
+    "trial_id": 157
+   },
+   {
+    "mob": "pillager",
+    "site": "B",
+    "repeat": 3,
+    "source": 36,
+    "standard_trial": 36,
+    "trial_id": 158
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 4,
+    "source": 37,
+    "standard_trial": 37,
+    "trial_id": 159
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 1,
+    "source": 38,
+    "standard_trial": 38,
+    "trial_id": 160
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 4,
+    "source": 39,
+    "standard_trial": 39,
+    "trial_id": 161
+   },
+   {
+    "mob": "spider",
+    "site": "A",
+    "repeat": 3,
+    "source": 240,
+    "standard_trial": 40,
+    "trial_id": 162
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 2,
+    "source": 41,
+    "standard_trial": 41,
+    "trial_id": 163
+   },
+   {
+    "mob": "stray",
+    "site": "C",
+    "repeat": 3,
+    "source": 42,
+    "standard_trial": 42,
+    "trial_id": 164
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 4,
+    "source": 43,
+    "standard_trial": 43,
+    "trial_id": 165
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 5,
+    "source": 44,
+    "standard_trial": 44,
+    "trial_id": 166
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 1,
+    "source": 45,
+    "standard_trial": 45,
+    "trial_id": 167
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 4,
+    "source": 46,
+    "standard_trial": 46,
+    "trial_id": 168
+   },
+   {
+    "mob": "husk",
+    "site": "A",
+    "repeat": 3,
+    "source": 47,
+    "standard_trial": 47,
+    "trial_id": 169
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 2,
+    "source": 48,
+    "standard_trial": 48,
+    "trial_id": 170
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 1,
+    "source": 249,
+    "standard_trial": 49,
+    "trial_id": 171
+   },
+   {
+    "mob": "witch",
+    "site": "A",
+    "repeat": 3,
+    "source": 50,
+    "standard_trial": 50,
+    "trial_id": 172
+   }
+  ]
+ },
+ {
+  "name": "v7-random-eval",
+  "harness": "v7+random",
+  "set": "eval",
+  "trials": [
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 2,
+    "source": 201,
+    "standard_trial": 1,
+    "trial_id": 173
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 1,
+    "source": 2,
+    "standard_trial": 2,
+    "trial_id": 174
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 1,
+    "source": 3,
+    "standard_trial": 3,
+    "trial_id": 175
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 2,
+    "source": 4,
+    "standard_trial": 4,
+    "trial_id": 176
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 5,
+    "source": 205,
+    "standard_trial": 5,
+    "trial_id": 177
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 1,
+    "source": 6,
+    "standard_trial": 6,
+    "trial_id": 178
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 5,
+    "source": 7,
+    "standard_trial": 7,
+    "trial_id": 179
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 1,
+    "source": 8,
+    "standard_trial": 8,
+    "trial_id": 180
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 2,
+    "source": 9,
+    "standard_trial": 9,
+    "trial_id": 181
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 2,
+    "source": 10,
+    "standard_trial": 10,
+    "trial_id": 182
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 2,
+    "source": 11,
+    "standard_trial": 11,
+    "trial_id": 183
+   },
+   {
+    "mob": "husk",
+    "site": "C",
+    "repeat": 5,
+    "source": 12,
+    "standard_trial": 12,
+    "trial_id": 184
+   },
+   {
+    "mob": "stray",
+    "site": "B",
+    "repeat": 2,
+    "source": 13,
+    "standard_trial": 13,
+    "trial_id": 185
+   },
+   {
+    "mob": "witch",
+    "site": "C",
+    "repeat": 5,
+    "source": 14,
+    "standard_trial": 14,
+    "trial_id": 186
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 1,
+    "source": 215,
+    "standard_trial": 15,
+    "trial_id": 187
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 4,
+    "source": 16,
+    "standard_trial": 16,
+    "trial_id": 188
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 4,
+    "source": 217,
+    "standard_trial": 17,
+    "trial_id": 189
+   },
+   {
+    "mob": "cave_spider",
+    "site": "B",
+    "repeat": 3,
+    "source": 218,
+    "standard_trial": 18,
+    "trial_id": 190
+   },
+   {
+    "mob": "spider",
+    "site": "C",
+    "repeat": 2,
+    "source": 219,
+    "standard_trial": 19,
+    "trial_id": 191
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 4,
+    "source": 20,
+    "standard_trial": 20,
+    "trial_id": 192
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 5,
+    "source": 21,
+    "standard_trial": 21,
+    "trial_id": 193
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 1,
+    "source": 22,
+    "standard_trial": 22,
+    "trial_id": 194
+   },
+   {
+    "mob": "cave_spider",
+    "site": "A",
+    "repeat": 5,
+    "source": 223,
+    "standard_trial": 23,
+    "trial_id": 195
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 1,
+    "source": 24,
+    "standard_trial": 24,
+    "trial_id": 196
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 5,
+    "source": 25,
+    "standard_trial": 25,
+    "trial_id": 197
+   },
+   {
+    "mob": "skeleton",
+    "site": "A",
+    "repeat": 5,
+    "source": 26,
+    "standard_trial": 26,
+    "trial_id": 198
+   },
+   {
+    "mob": "vindicator",
+    "site": "C",
+    "repeat": 3,
+    "source": 27,
+    "standard_trial": 27,
+    "trial_id": 199
+   },
+   {
+    "mob": "witch",
+    "site": "B",
+    "repeat": 4,
+    "source": 28,
+    "standard_trial": 28,
+    "trial_id": 200
+   },
+   {
+    "mob": "creeper",
+    "site": "C",
+    "repeat": 3,
+    "source": 29,
+    "standard_trial": 29,
+    "trial_id": 201
+   },
+   {
+    "mob": "skeleton",
+    "site": "B",
+    "repeat": 3,
+    "source": 30,
+    "standard_trial": 30,
+    "trial_id": 202
+   },
+   {
+    "mob": "zombie",
+    "site": "C",
+    "repeat": 3,
+    "source": 31,
+    "standard_trial": 31,
+    "trial_id": 203
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 5,
+    "source": 32,
+    "standard_trial": 32,
+    "trial_id": 204
+   },
+   {
+    "mob": "vindicator",
+    "site": "A",
+    "repeat": 4,
+    "source": 33,
+    "standard_trial": 33,
+    "trial_id": 205
+   },
+   {
+    "mob": "pillager",
+    "site": "A",
+    "repeat": 2,
+    "source": 34,
+    "standard_trial": 34,
+    "trial_id": 206
+   },
+   {
+    "mob": "cave_spider",
+    "site": "C",
+    "repeat": 4,
+    "source": 235,
+    "standard_trial": 35,
+    "trial_id": 207
+   },
+   {
+    "mob": "pillager",
+    "site": "B",
+    "repeat": 3,
+    "source": 36,
+    "standard_trial": 36,
+    "trial_id": 208
+   },
+   {
+    "mob": "pillager",
+    "site": "C",
+    "repeat": 4,
+    "source": 37,
+    "standard_trial": 37,
+    "trial_id": 209
+   },
+   {
+    "mob": "zombie",
+    "site": "A",
+    "repeat": 1,
+    "source": 38,
+    "standard_trial": 38,
+    "trial_id": 210
+   },
+   {
+    "mob": "husk",
+    "site": "B",
+    "repeat": 4,
+    "source": 39,
+    "standard_trial": 39,
+    "trial_id": 211
+   },
+   {
+    "mob": "spider",
+    "site": "A",
+    "repeat": 3,
+    "source": 240,
+    "standard_trial": 40,
+    "trial_id": 212
+   },
+   {
+    "mob": "zombie",
+    "site": "B",
+    "repeat": 2,
+    "source": 41,
+    "standard_trial": 41,
+    "trial_id": 213
+   },
+   {
+    "mob": "stray",
+    "site": "C",
+    "repeat": 3,
+    "source": 42,
+    "standard_trial": 42,
+    "trial_id": 214
+   },
+   {
+    "mob": "stray",
+    "site": "A",
+    "repeat": 4,
+    "source": 43,
+    "standard_trial": 43,
+    "trial_id": 215
+   },
+   {
+    "mob": "creeper",
+    "site": "B",
+    "repeat": 5,
+    "source": 44,
+    "standard_trial": 44,
+    "trial_id": 216
+   },
+   {
+    "mob": "creeper",
+    "site": "A",
+    "repeat": 1,
+    "source": 45,
+    "standard_trial": 45,
+    "trial_id": 217
+   },
+   {
+    "mob": "skeleton",
+    "site": "C",
+    "repeat": 4,
+    "source": 46,
+    "standard_trial": 46,
+    "trial_id": 218
+   },
+   {
+    "mob": "husk",
+    "site": "A",
+    "repeat": 3,
+    "source": 47,
+    "standard_trial": 47,
+    "trial_id": 219
+   },
+   {
+    "mob": "vindicator",
+    "site": "B",
+    "repeat": 2,
+    "source": 48,
+    "standard_trial": 48,
+    "trial_id": 220
+   },
+   {
+    "mob": "spider",
+    "site": "B",
+    "repeat": 1,
+    "source": 249,
+    "standard_trial": 49,
+    "trial_id": 221
+   },
+   {
+    "mob": "witch",
+    "site": "A",
+    "repeat": 3,
+    "source": 50,
+    "standard_trial": 50,
+    "trial_id": 222
+   }
+  ]
+ }
+]
